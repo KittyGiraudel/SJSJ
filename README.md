@@ -30,7 +30,7 @@ As of version 6, Babel also intends to be a platform, a suite of tools designed 
 
 ## Browserify
 
-[Browserify](http://browserify.org/) is a tool that allows you to use the [require](https://nodejs.org/api/modules.html) [Node.js](#nodejs) function while working for the browser by bundling up all the required dependencies. 
+[Browserify](http://browserify.org/) is a tool that allows you to use the [require](https://nodejs.org/api/modules.html) [Node.js](#nodejs) function while working for the browser by bundling up all the required dependencies.
 
 The idea behind Browserify is to make it possible to use existing libraries from [npm](#npm) even when writing code for the client side. To allow this, it goes through the code, request the required dependencies, then create a single file containing everything: both the dependencies and the code using them.
 
@@ -70,9 +70,17 @@ The versioning convention of ECMAScript has been the subject of hot debates. We 
 
 ## Gulp
 
-[Gulp](http://gulpjs.com/) is a task runner aiming at automating tedious and possibly complex tasks. The idea behind Gulp (and its peer [Grunt](#grunt)) is to define tasks that perform (usually file-based) actions. These tasks can then be run through the command line or as part of another build step. 
+[Gulp](http://gulpjs.com/) is a task runner aiming at automating tedious and possibly complex tasks. The idea behind Gulp (and its peer [Grunt](#grunt)) is to define tasks that perform (usually file-based) actions. These tasks can then be run through the command line or as part of another build step.
 
 Gulp also owes its success to its very large ecosystem of plugins, making it easy to perform everyday’s tasks without having to write much code.
+
+## JSLINT
+
+[JSLint](http://www.jslint.com/) is a static analysis “code quality” tool for JavaScript developed by Douglas Crockford, a well-known developer also responsible for JSON, JSMin, ADSafe and parts of YUI.
+
+The term “linting” originates from fabric lint-rollers that help remove fluff from clothing. In the same way, a code “linter” helps the developer remove fluff from their code.
+
+A similar tool, [jshint](http://jshint.com/) exists. It was forked from JSLint.
 
 ## jQuery
 
@@ -134,4 +142,4 @@ Therefore, the goal of a Yeoman generator is usually (but not necessarily) to sp
 
 ## Webpack
 
-[Webpack](https://github.com/webpack/webpack) helps you managing dependencies in your project, and also offers a friendly and fast development environment, simplifying a lot of common tasks behind a simple configuration file. It also allows you to bundle your modules into static assets for browsers. Its killer feature is the known as [hot module replacement](https://github.com/webpack/docs/wiki/hot-module-replacement-with-webpack), which lets your live code in the browser update automatically as you change files in your preferred editor without a page reload. 
+[Webpack](https://github.com/webpack/webpack) helps you managing dependencies in your project, and also offers a friendly and fast development environment, simplifying a lot of common tasks behind a simple configuration file. It also allows you to bundle your modules into static assets for browsers. Its killer feature is the known as [hot module replacement](https://github.com/webpack/docs/wiki/hot-module-replacement-with-webpack), which lets your live code in the browser update automatically as you change files in your preferred editor without a page reload.
