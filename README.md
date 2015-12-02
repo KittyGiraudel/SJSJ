@@ -114,6 +114,12 @@ Its work is hosted and supported by the [Node.js Foundation](https://nodejs.org/
 
 [React](https://facebook.github.io/react/) section to be completed.
 
+## Redux
+
+[Redux](http://redux.js.org/) is a predictable state container for JavaScript apps, which is a fancy way of saying it controls application state and state mutations. It does so by keeping state in a store, which is the single source of truth.
+
+Redux is an alternative to [Flux](#flux) and used a lot together with [React](#react), but you can use it with any other view library.
+
 ## RequireJS
 
 [RequireJS](http://requirejs.org/) section to be completed.
