@@ -26,7 +26,7 @@ As of version 6, Babel also intends to be a platform, a suite of tools designed 
 
 ## Broccoli
 
-[Broccoli](https://github.com/broccolijs/broccoli) section to be completed.
+[Broccoli](https://github.com/broccolijs/broccoli) is a fast, reliable asset pipeline, supporting constant-time rebuilds and compact build definitions. Comparable to the [Rails](http://rubyonrails.org/) asset pipeline in scope, though it runs on [Node.js](#nodejs) and is backend-agnostic.
 
 ## Browserify
 
