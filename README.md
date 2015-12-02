@@ -64,6 +64,10 @@ The versioning convention of ECMAScript has been the subject of hot debates. We 
 
 [Express](http://expressjs.com/en/index.html) is a fast, unopinionated, minimalist web framework for [Node.js](#nodejs). Express provides a thin layer of fundamental web application features, without obscuring Node.js features that developers already know and like. The myriad of HTTP utility methods and middleware provided by Express makes creating a robust API quick and easy.
 
+## Flux
+
+[Flux](https://facebook.github.io/flux/) is an application structure that is developed and used at Facebook to complement [React](#react)’s one-way data flow. With Flux, application state and logic are contained in stores.
+
 ## Grunt
 
 [Grunt](http://gruntjs.com/) is a task runner aiming at automating tedious and possibly complex tasks. The idea behind Grunt (and its peer [Gulp](#gulp)) is to define tasks that perform (usually file-based) actions. These tasks can then be run through the command line or as part of another build step.
