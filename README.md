@@ -98,7 +98,7 @@ Its work is hosted and supported by the [Node.js Foundation](https://nodejs.org/
 
 ## npm
 
-[npm](https://www.npmjs.com/) section to be completed.
+[npm](https://www.npmjs.com/) is utility to help publishing packages to, and installing from, an npm repository. The repository npmjs.com is the best known, and contains many useful community written and tested packages.
 
 ## nvm
 
