@@ -66,11 +66,11 @@ The versioning convention of ECMAScript has been the subject of hot debates. We 
 
 ## Grunt
 
-[Grunt](http://gruntjs.com/) is a task runner aiming at automating tedious and possibly complex tasks. The idea behind Grunt (and its peer [Gulp](#gulp)) is to define tasks that peform (usually file-based) actions. These tasks can then be run through the command line or as part of another build step.
+[Grunt](http://gruntjs.com/) is a task runner aiming at automating tedious and possibly complex tasks. The idea behind Grunt (and its peer [Gulp](#gulp)) is to define tasks that perform (usually file-based) actions. These tasks can then be run through the command line or as part of another build step.
 
 ## Gulp
 
-[Gulp](http://gulpjs.com/) section to be completed.
+[Gulp](http://gulpjs.com/) is a task runner aiming at automating tedious and possibly complex tasks. The idea behind Gulp (and its peer [Grunt](#grunt)) is to define tasks that perform (usually file-based) actions. These tasks can then be run through the command line or as part of another build step.
 
 ## io.js
 
