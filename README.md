@@ -1,0 +1,2 @@
+# SJSJ
+Simplified JavaScript Jargon
