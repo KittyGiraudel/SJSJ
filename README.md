@@ -10,6 +10,11 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 Angular’s data binding and dependency injection eliminate much of the code developers would otherwise have to write. And it all happens within the browser, making it an ideal partner with any server technology.
 
+
+## Angular2
+
+[Angular2](https://github.com/angular/angular/tree/master/modules/angular2) is the successor to AngularJS. It is basically a reaction to new language features, and making a framework that will neatly fit into the future web. Some examples of the large differences include replacing bespoke-module code Javascript module syntax, improving speed by using observables rather than dirty-checking, and introducing a web-component friendly templating syntax. It was also an oppourtunity to reduce the API, and as such the many explicit module types from AngularJS have been replaced with a single everything-is-a-controller component that is _decorated_ with extra functionality_. Services, models and whatever else are regular Javascript objects (classes, functions, object literals etc).
+
 ## Babel
 
 [Babel](https://babeljs.io/) (formerly *6to5*) is essentially an [ECMAScript](#ecmascript-es) 6 and beyond transpiler. It means that it is a program that translates future’s JavaScript into today’s widely understood (by browsers) JavaScript. The idea behind such a tool is to allow developers to write their code using ECMAScript new features while still making it work in current browsers (and past) browsers.
@@ -70,7 +75,7 @@ The versioning convention of ECMAScript has been the subject of hot debates. We 
 
 ## Gulp
 
-[Gulp](http://gulpjs.com/) section to be completed.
+[Gulp](http://gulpjs.com/) is a build system that is controlled using Javascript.  It is well regarded because of its simple API (4 API `src(<input>)`, `pipe(<transform>)`, `dest(<output>)`, and `task(<name of related operations>)`, speed due to streaming transformations,  and its large ecosystem of plugins.
 
 ## io.js
 
@@ -102,11 +107,11 @@ Its work is hosted and supported by the [Node.js Foundation](https://nodejs.org/
 
 ## npm
 
-[npm](https://www.npmjs.com/) section to be completed.
+[npm](https://www.npmjs.com/) is utility to help publishing packages to, and installing from, an npm repository. The repository npmjs.com is the best known, and contains many useful community written & tested packages.
 
 ## nvm
 
-[nvm](https://github.com/creationix/nvm/blob/master/README.markdown) section to be completed.
+[nvm](https://github.com/creationix/nvm/blob/master/README.markdown) is a utility to help run multiple versions of Node (and its branches) on the same machine. You can install , list, and choose versions. It is analagous to RVM (ruby version manager).
 
 ## PhoneGap
 
@@ -122,11 +127,11 @@ Its work is hosted and supported by the [Node.js Foundation](https://nodejs.org/
 
 ## TypeScript
 
-[TypeScript](http://www.typescriptlang.org/) section to be completed.
+[TypeScript](http://www.typescriptlang.org/) is a super-set of the Javascript language that introduces types (plus interfaces and new javascript features). It allows of type-checking during development time with supported editors such as [vscode](https://code.visualstudio.com/). The compiler requires information about the "shape" of a module in a _type-definition-file_.
 
 ## Yeoman
 
-[Yeoman](http://yeoman.io/) is both a generator builder and an ecosystem. A generator is basically a plugin that can be run with the `yo` command to scaffold complete projects or useful parts.
+[Yeoman](http://yeoman.io/) is both a generator builder and an ecosystem. A generator is basically a plugin which will generate files based on user input. Plugins can be run with the `yo` command to scaffold complete projects or useful parts.
 
 Therefore, the goal of a Yeoman generator is usually (but not necessarily) to speed up the setup and installation process of a project or part of a project by packaging it inside a module that can be configured through a question/reply workflow from the command line.
 
