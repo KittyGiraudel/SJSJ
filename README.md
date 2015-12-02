@@ -14,7 +14,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ## Backbone
 
-[Backbone.js](http://backbonejs.org/) section to be completed.
+[Backbone.js](http://backbonejs.org/) is a framework giving structure to web applications by providing models with key-value binding and custom events, collections with a rich API of enumerable functions, views with declarative event handling, and connects it all to existing APIs over a RESTful JSON interface.
 
 ## Bower
 
