@@ -102,7 +102,7 @@ Its work is hosted and supported by the [Node.js Foundation](https://nodejs.org/
 
 ## nvm
 
-[nvm](https://github.com/creationix/nvm/blob/master/README.markdown) section to be completed.
+[nvm](https://github.com/creationix/nvm/blob/master/README.markdown) is a utility to help run multiple versions of [Node.js](#nodejs) (and its branches) on the same machine. It can install, list, and choose versions. It is analagous to [RVM](https://rvm.io/) (Ruby Version Manager).
 
 ## PhoneGap
 
