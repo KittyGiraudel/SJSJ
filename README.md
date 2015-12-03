@@ -20,6 +20,10 @@ As of version 6, Babel also intends to be a platform, a suite of tools designed 
 
 [Backbone.js](http://backbonejs.org/) is a framework giving structure to web applications by providing models with key-value binding and custom events, collections with a rich API of enumerable functions, views with declarative event handling, and connects it all to existing APIs over a RESTful JSON interface.
 
+## Bluebird
+
+[Bluebird](https://github.com/petkaantonov/bluebird) section to be completed.
+
 ## Bower
 
 [Bower](http://bower.io/) is a package manager for front-end dependencies. It takes care of hunting, finding, downloading, saving these dependencies and keeping track of them in a manifest file called `bower.json`. Bower uses a flat dependency tree, requiring only one version for each package, reducing page load to a minimum.
@@ -30,9 +34,13 @@ As of version 6, Babel also intends to be a platform, a suite of tools designed 
 
 ## Browserify
 
-[Browserify](http://browserify.org/) is a tool that allows you to use the [require](https://nodejs.org/api/modules.html) [Node.js](#nodejs) function while working for the browser by bundling up all the required dependencies. 
+[Browserify](http://browserify.org/) is a tool that allows you to use the [require](https://nodejs.org/api/modules.html) [Node.js](#nodejs) function while working for the browser by bundling up all the required dependencies.
 
 The idea behind Browserify is to make it possible to use existing libraries from [npm](#npm) even when writing code for the client side. To allow this, it goes through the code, request the required dependencies, then create a single file containing everything: both the dependencies and the code using them.
+
+## Browsersync
+
+[Browsersync](http://www.browsersync.io/) section to be completed.
 
 ## Brunch
 
@@ -40,11 +48,23 @@ The idea behind Browserify is to make it possible to use existing libraries from
 
 Brunch is fundamentally specialized and geared towards building assets, these files that get used in the end by the runtime platform, usually a web browser. It thus comes pre-equipped with a number of behaviors and features such as concatenation, minification and watching of source files.
 
+## Chai
+
+[Chai](http://chaijs.com/) section to be completed.
+
 ## CoffeeScript
 
 [CoffeeScript](http://coffeescript.org/) is a little language that compiles into JavaScript. It is an attempt to expose the good parts of JavaScript in a simple way and friendly syntax, the golden rule being: “It’s just JavaScript”.
 
 The code compiles one-to-one into the equivalent JS, and there is no interpretation at runtime. The compiled output is readable and pretty-printed, will work in every JavaScript runtime, and tends to run as fast or faster than the equivalent handwritten JavaScript.
+
+## Compass
+
+[Compass](http://compass-style.org/) section to be completed.
+
+## CouchDB
+
+[CouchDB](http://couchdb.apache.org/) section to be completed.
 
 ## D3.js
 
@@ -64,6 +84,10 @@ The versioning convention of ECMAScript has been the subject of hot debates. We 
 
 [Express](http://expressjs.com/en/index.html) is a fast, unopinionated, minimalist web framework for [Node.js](#nodejs). Express provides a thin layer of fundamental web application features, without obscuring Node.js features that developers already know and like. The myriad of HTTP utility methods and middleware provided by Express makes creating a robust API quick and easy.
 
+## Falcor
+
+[Falcor](http://netflix.github.io/falcor/) section to be completed.
+
 ## Flux
 
 [Flux](https://facebook.github.io/flux/) is an application structure that is developed and used at Facebook to complement [React](#react)’s one-way data flow. With Flux, application state and logic are contained in stores.
@@ -74,9 +98,17 @@ The versioning convention of ECMAScript has been the subject of hot debates. We 
 
 ## Gulp
 
-[Gulp](http://gulpjs.com/) is a task runner aiming at automating tedious and possibly complex tasks. The idea behind Gulp (and its peer [Grunt](#grunt)) is to define tasks that perform (usually file-based) actions. These tasks can then be run through the command line or as part of another build step. 
+[Gulp](http://gulpjs.com/) is a task runner aiming at automating tedious and possibly complex tasks. The idea behind Gulp (and its peer [Grunt](#grunt)) is to define tasks that perform (usually file-based) actions. These tasks can then be run through the command line or as part of another build step.
 
 Gulp also owes its success to its very large ecosystem of plugins, making it easy to perform everyday’s tasks without having to write much code.
+
+## Hapi
+
+[Hapi](http://hapijs.com/) section to be completed.
+
+## Jasmine
+
+[Jasmine](http://jasmine.github.io/) section to be completed.
 
 ## jQuery
 
@@ -86,13 +118,45 @@ Gulp also owes its success to its very large ecosystem of plugins, making it eas
 
 [Knockout](http://knockoutjs.com/) (shortened as *KO*) is a JavaScript library that helps developers creating rich, responsive display and editor user interfaces with a clean underlying data model. Knockout helps implementing sections of UI that update dynamically (e.g. changes depending on user’s actions or when external data source gets updated) more simply and maintainably.
 
+## LESS
+
+[LESS](http://lesscss.org/) section to be completed.
+
+## LevelDB
+
+[LevelDB](http://leveldb.org/) section to be completed.
+
+## localForage
+
+[localForage](http://mozilla.github.io/localForage/) section to be completed.
+
+## LoDash
+
+[LoDash](https://lodash.com/) section to be completed.
+
 ## Meteor
 
 [Meteor](https://www.meteor.com/) section to be completed.
 
+## Mocha
+
+[Mocha](http://mochajs.org/) section to be completed.
+
+## Moment
+
+[Moment](http://momentjs.com/) section to be completed.
+
+## MongoDB
+
+[MongoDB](https://www.mongodb.org/) section to be completed.
+
 ## MooTools
 
 [MooTools](http://mootools.net/) section to be completed.
+
+## nib
+
+[nib](http://tj.github.io/nib/) section to be completed.
 
 ## Node.js
 
@@ -110,9 +174,25 @@ Its work is hosted and supported by the [Node.js Foundation](https://nodejs.org/
 
 [nvm](https://github.com/creationix/nvm/blob/master/README.markdown) is a utility to help run multiple versions of [Node.js](#nodejs) (and its branches) on the same machine. It can install, list, and choose versions. It is analagous to [RVM](https://rvm.io/) (Ruby Version Manager).
 
+## PhantomJS
+
+[PhantomJS](http://phantomjs.org/) section to be completed.
+
 ## PhoneGap
 
 [PhoneGap](http://phonegap.com/) section to be completed.
+
+## Polymer
+
+[Polymer](https://www.polymer-project.org) section to be completed.
+
+## PostCSS
+
+[PostCSS](https://github.com/postcss/postcss) section to be completed.
+
+## PouchDB
+
+[PouchDB](http://pouchdb.com/) section to be completed.
 
 ## React
 
@@ -136,9 +216,29 @@ Redux is an alternative to [Flux](#flux) and used a lot together with [React](#r
 
 [RequireJS](http://requirejs.org/) section to be completed.
 
+## RxJS
+
+[RxJS](http://reactivex.io/) section to be completed.
+
+## SASS
+
+[SASS](http://sass-lang.com/) section to be completed.
+
+## Spidermonkey
+
+[Spidermonkey](https://en.wikipedia.org/wiki/SpiderMonkey_(software)) section to be completed.
+
+## Stylus
+
+[Stylus](https://learnboost.github.io/stylus/) section to be completed.
+
 ## TypeScript
 
 [TypeScript](http://www.typescriptlang.org/) is a super-set of the JavaScript language that introduces types (plus interfaces and new JavaScript features). It allows type-checking during development time with supported editors such as [Visual Studio](https://code.visualstudio.com/). The compiler requires information about the “shape” of a module in a _type-definition-file_.
+
+## Underscore
+
+[Underscore](http://underscorejs.org/) section to be completed.
 
 ## Yeoman
 
@@ -150,6 +250,18 @@ Therefore, the goal of a Yeoman generator is usually (but not necessarily) to sp
 
 [V8](https://code.google.com/p/v8/) section to be completed.
 
+## Velocity
+
+[Velocity](http://julian.com/research/velocity/) section to be completed.
+
+## virtual dom
+
+[virtual-dom](https://github.com/Matt-Esch/virtual-dom) section to be completed.
+
+## Webkit
+
+[Webkit](https://webkit.org/) section to be completed.
+
 ## Webpack
 
-[Webpack](https://github.com/webpack/webpack) helps you managing dependencies in your project, and also offers a friendly and fast development environment, simplifying a lot of common tasks behind a simple configuration file. It also allows you to bundle your modules into static assets for browsers. Its killer feature is the known as [hot module replacement](https://github.com/webpack/docs/wiki/hot-module-replacement-with-webpack), which lets your live code in the browser update automatically as you change files in your preferred editor without a page reload. 
+[Webpack](https://github.com/webpack/webpack) helps you managing dependencies in your project, and also offers a friendly and fast development environment, simplifying a lot of common tasks behind a simple configuration file. It also allows you to bundle your modules into static assets for browsers. Its killer feature is the known as [hot module replacement](https://github.com/webpack/docs/wiki/hot-module-replacement-with-webpack), which lets your live code in the browser update automatically as you change files in your preferred editor without a page reload.
