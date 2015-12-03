@@ -17,11 +17,15 @@ If you are willing to contribute, open a pull request to complete, update or fil
 * [D3.js](/glossary/D3JS.md): a library for manipulating documents based on data.
 * [ECMAScript](/glossary/ECMASCRIPT.md): the standardized specification of the scripting language used by JavaScript.
 * [Ember](/glossary/EMBER.md): to be completed.
+* [ESLint](/glossary/ESLINT.md): a JavaScript code linter.
 * [Express](/glossary/EXPRESS.md): a fast, unopinionated, minimalist web framework for Node.js.
 * [Flux](/glossary/FLUX.md): an application structure focusing on improved data flow.
 * [Grunt](/glossary/GRUNT.md): a task runner aiming at automating tedious and possibly complex tasks.
 * [Gulp](/glossary/GULP.md): a task runner aiming at automating tedious and possibly complex tasks.
 * [jQuery](/glossary/JQUERY.md): a fast, small, and feature-rich client-side library.
+* [JSCS](/glossary/JSCS.md): a JavaScript code linter.
+* [JSHint](/glossary/JSHINT.md): a JavaScript code linter.
+* [JSLint](/glossary/JSLINT.md): a JavaScript code linter.
 * [Knockout](/glossary/KNOCKOUT.md): a library that helps developers creating user interfaces with a clean underlying data model.
 * [Meteor](/glossary/METEOR.md): to be completed.
 * [Mootools](/glossary/MOOTOOLS.md): to be completed.
