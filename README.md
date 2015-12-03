@@ -35,8 +35,8 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### A
 
-* [AJAX](/glossary/AJAX.md): an asynchronous JavaScript and XML.
 * [AngularJS](/glossary/ANGULARJS.md): a structural framework for dynamic web apps.
+
 ### B
 
 * [Babel](/glossary/BABEL.md): an ECMAScript 6 (and beyond) to ECMAScript 5 code translator (transpiler).
