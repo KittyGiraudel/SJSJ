@@ -136,7 +136,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### U
 
-* [Underscore](/glossary/UNDERSCORE.md): to be completed.
+* [Underscore](/glossary/UNDERSCORE.md): a swiss army knife, focussing on helper methods for most buid-in objects.
 
 ### V
 
