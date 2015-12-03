@@ -74,13 +74,23 @@ The versioning convention of ECMAScript has been the subject of hot debates. We 
 
 Gulp also owes its success to its very large ecosystem of plugins, making it easy to perform everyday’s tasks without having to write much code.
 
-## JSLINT
-
-[JSLint](http://www.jslint.com/) is a static analysis “code quality” tool for JavaScript developed by Douglas Crockford, a well-known developer also responsible for JSON, JSMin, ADSafe and parts of YUI.
+## Linting
 
 The term “linting” originates from fabric lint-rollers that help remove fluff from clothing. In the same way, a code “linter” helps the developer remove fluff from their code.
 
-A similar tool, [jshint](http://jshint.com/) exists. It was forked from JSLint.
+The important four tools explains below :
+
+### JSLint
+[JSLint](http://www.jslint.com/) is a static analysis “code quality” tool for JavaScript.The downsides are that JSLint is not configurable or extensible. You can’t disable many features at all, and some of them lack documentation.
+
+### JSHint
+[JSHint](http://jshint.com/) was created as a more configurable version of JSLint (of which it is a fork). You can configure every rule, and put them into a configuration file, which makes JSHint easy to use in bigger projects. JSHint also has good documentation for each of the rules, so you know exactly what they do.
+
+### JSCS
+[JSCS — JavaScript Code Style](http://jscs.info/) is different from the others in that it doesn’t do anything unless you give it a configuration file or tell it to use a preset. You can download configurations from their website, so it’s not a big problem, and it has a number of presets, such as the jQuery coding style preset and the Google preset.JSCS is a code style checker. This means it only catches issues related to code formatting, and not potential bugs or errors.
+
+### ESLint
+[ESLint](http://eslint.org/) is the most recent out of the four. It was designed to be easily extensible, comes with a large number of custom rules, and it’s easy to install more in the form of plugins. It gives concise output, but includes the rule name by default so you always know which rules are causing the error messages.
 
 ## jQuery
 
