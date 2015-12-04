@@ -130,6 +130,8 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### S
 
+* [Sails](/glossary/SAILS.md): Realtime MVC Framework for Node.js.
+
 ### T
 
 * [TypeScript](/glossary/TYPESCRIPT.md): a super-set of the JavaScript language that introduces types.
