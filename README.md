@@ -130,7 +130,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### S
 
-*[Sails](/glossary/Sails.md): Realtime MVC Framework for Node.js.
+* [Sails](/glossary/SAILS.md): Realtime MVC Framework for Node.js.
 
 ### T
 
