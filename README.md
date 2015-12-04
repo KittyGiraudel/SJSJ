@@ -50,7 +50,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### C
 
-* [Chai](/glossary/CHAI.md): to be completed.
+* [Chai](/glossary/CHAI.md): *to be completed.*
 * [CoffeeScript](/glossary/COFFEESCRIPT.md): a language that compiles into JavaScript.
 
 ### D
@@ -60,13 +60,13 @@ If you are willing to contribute, open a pull request to complete, update or fil
 ### E
 
 * [ECMAScript](/glossary/ECMASCRIPT.md): the standardized specification of the scripting language used by JavaScript.
-* [Ember](/glossary/EMBER.md): to be completed.
+* [Ember](/glossary/EMBER.md): *to be completed.*
 * [ESLint](/glossary/ESLINT.md): a JavaScript code linter.
 * [Express](/glossary/EXPRESS.md): a fast, unopinionated, minimalist web framework for Node.js.
 
 ### F
 
-* [Falcor](/glossary/FALCOR.md): to be completed.
+* [Falcor](/glossary/FALCOR.md): *to be completed.*
 * [Flux](/glossary/FLUX.md): an application structure focusing on improved data flow.
 
 ### G
@@ -76,15 +76,15 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### H
 
-* [Hapi](/glossary/HAPI.md): to be completed.
+* [Hapi](/glossary/HAPI.md): *to be completed.*
 
 ### I
 
-* [Isomorphic](/glossary/ISOMORPHIC.md): to be completed.
+* [Isomorphic](/glossary/ISOMORPHIC.md): *to be completed.*
 
 ### J
 
-* [Jasmine](/glossary/JASMINE.md): to be completed.
+* [Jasmine](/glossary/JASMINE.md): *to be completed.*
 * [jQuery](/glossary/JQUERY.md): a fast, small, and feature-rich client-side library.
 * [JSCS](/glossary/JSCS.md): a JavaScript code linter.
 * [JSHint](/glossary/JSHINT.md): a JavaScript code linter.
@@ -97,15 +97,15 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### L
 
-* [LocalForage](/glossary/LOCALFORAGE.md): to be completed.
-* [Lodash](/glossary/LODASH.md): to be completed.
+* [LocalForage](/glossary/LOCALFORAGE.md): *to be completed.*
+* [Lodash](/glossary/LODASH.md): *to be completed.*
 
 ### M
 
-* [Meteor](/glossary/METEOR.md): to be completed.
-* [Mocha](/glossary/MOCHA.md): to be completed.
-* [Moment.js](/glossary/MOMENTJS.md): to be completed.
-* [Mootools](/glossary/MOOTOOLS.md): to be completed.
+* [Meteor](/glossary/METEOR.md): *to be completed.*
+* [Mocha](/glossary/MOCHA.md): *to be completed.*
+* [Moment.js](/glossary/MOMENTJS.md): *to be completed.*
+* [Mootools](/glossary/MOOTOOLS.md): *to be completed.*
 
 ### N
 
@@ -117,9 +117,9 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### P
 
-* [PhantomJS](/glossary/PHANTOMJS.md): to be completed.
-* [PhoneGap](/glossary/PHONEGAP.md): to be completed.
-* [Polymer](/glossary/POLYMER.md): to be completed.
+* [PhantomJS](/glossary/PHANTOMJS.md): *to be completed.*
+* [PhoneGap](/glossary/PHONEGAP.md): *to be completed.*
+* [Polymer](/glossary/POLYMER.md): *to be completed.*
 
 ### Q
 
@@ -127,8 +127,8 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 * [React](/glossary/REACT.md): a library developed and used at Facebook for building user interfaces.
 * [Redux](/glossary/REDUX.md): a predictable state container for apps.
-* [RxJS](/glossary/RXJS.md): to be completed.
-* [Require.js](/glossary/REQUIREJS.md): to be completed.
+* [RxJS](/glossary/RXJS.md): *to be completed.*
+* [Require.js](/glossary/REQUIREJS.md): *to be completed.*
 
 ### S
 
@@ -140,12 +140,12 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### U
 
-* [Underscore](/glossary/UNDERSCORE.md): to be completed.
+* [Underscore](/glossary/UNDERSCORE.md): *to be completed.*
 
 ### V
 
-* [V8](/glossary/V8.md): to be completed.
-* [Virtual DOM](/glossary/VIRTUAL_DOM.md): to be completed.
+* [V8](/glossary/V8.md): *to be completed.*
+* [Virtual DOM](/glossary/VIRTUAL_DOM.md): *to be completed.*
 
 ### W
 
