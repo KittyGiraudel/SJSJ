@@ -80,6 +80,8 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### I
 
+* [Isomorphic](/glossary/ISOMORPHIC.md): to be completed.
+
 ### J
 
 * [Jasmine](/glossary/JASMINE.md): to be completed.
