@@ -1,6 +1,6 @@
 # Universal
 
-A universal ([isomorphic](/glossary/ISOMORPHIC.md)) application is one whose code (in this case, JavaScript) can run both in the server and the client.
+A universal (or [isomorphic](ISOMORPHIC.md)) application is one whose code (in this case, JavaScript) can run both in the server and the client.
 
 The underlying idea is to allow the server to render and handle routing of an application for non-JavaScript users, while also making it fully working in the browser for fast interactions without involving traditional page reloads.
 

@@ -35,15 +35,15 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### A
 
-* [AJAX](/glossary/AJAX.md): an asynchronous JavaScript and XML.
+* [AJAX](/glossary/AJAX.md): a technology for asynchronous HTTP requests.
 * [AMD](/glossary/AMD.md): *to be completed*.
 * [AngularJS](/glossary/ANGULARJS.md): a structural framework for dynamic web apps.
 
 ### B
 
-* [Babel](/glossary/BABEL.md): a JavaScript transformation toolkit which started as an ECMAScript 2015 / ES6 (and beyond) to ECMAScript 5 code translator (transpiler).
+* [Babel](/glossary/BABEL.md): a JavaScript transformation toolkit which started as an ECMAScript 2015 / ES6 code translator (transpiler).
 * [Backbone](/glossary/BACKBONE.md): a structural framework for dynamic web apps.
-* [Bluebird](/glossary/BLUEBIRD.md): a fully featured [`Promise`](/glossary/PROMISE.md) library with focus on innovative features and performance.
+* [Bluebird](/glossary/BLUEBIRD.md): a fully featured Promise library with focus on innovative features and performance.
 * [Bower](/glossary/BOWER.md): a package manager for front-end dependencies.
 * [Broccoli](/glossary/BROCCOLI.md): a fast and reliable asset pipeline.
 * [Browserify](/glossary/BROWSERIFY.md): a tool making possible to use the `require` function from Node.js while working for the browser.
@@ -151,6 +151,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 * [Underscore](/glossary/UNDERSCORE.md): a swiss army knife, focusing on helper methods for most built-in objects.
 * [Universal](/glossary/UNVERSAL.md): an application is said to be universal (isomorphic) when its code can run both in the client and the server.
+
 ### V
 
 * [V8](/glossary/V8.md): *to be completed.*
