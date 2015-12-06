@@ -50,7 +50,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### C
 
-* [Chai](/glossary/CHAI.md): *to be completed.*
+* [Chai](/glossary/CHAI.md): an assertion library used with a JavaScript testing framework.
 * [CoffeeScript](/glossary/COFFEESCRIPT.md): a language that compiles into JavaScript.
 
 ### D
