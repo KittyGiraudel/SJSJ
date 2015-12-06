@@ -36,6 +36,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 ### A
 
 * [AJAX](/glossary/AJAX.md): an asynchronous JavaScript and XML.
+* [AMD](/glossary/AMD.md): *to be completed*.
 * [AngularJS](/glossary/ANGULARJS.md): a structural framework for dynamic web apps.
 
 ### B
