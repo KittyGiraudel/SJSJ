@@ -139,7 +139,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 * [React](/glossary/REACT.md): a library developed and used at Facebook for building user interfaces.
 * [Redux](/glossary/REDUX.md): a predictable state container for apps.
-* [RxJS](/glossary/RXJS.md): *to be completed.*
+* [RxJS](/glossary/RXJS.md): a library for asynchronous programming using observable streams.
 * [Require.js](/glossary/REQUIREJS.md): *to be completed.*
 
 ### S
