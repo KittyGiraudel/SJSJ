@@ -51,8 +51,12 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### C
 
+* [Canvas](/glossary/CANVAS.md): *to be completed.*
 * [Chai](/glossary/CHAI.md): an assertion library used with a JavaScript testing framework.
+* [Closure](/glossary/CLOSURE.md): *to be completed.*
 * [CoffeeScript](/glossary/COFFEESCRIPT.md): a language that compiles into JavaScript.
+* [CORS](/glossary/CORS.md): *to be completed.*
+* [Currying](/glossary/CURRYING.md): *to be completed.*
 
 ### D
 
@@ -78,9 +82,11 @@ If you are willing to contribute, open a pull request to complete, update or fil
 ### H
 
 * [Hapi](/glossary/HAPI.md): *to be completed.*
+* [Hoisting](/glossary/HOISTING.md): *to be completed.*
 
 ### I
 
+* [IIFE](/glossary/IIFE.md): *to be completed.*
 * [Isomorphic](/glossary/ISOMORPHIC.md): an application is said isomorphic when its code can run both in the client and the server.
 
 ### J
@@ -122,6 +128,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 * [PhoneGap](/glossary/PHONEGAP.md): *to be completed.*
 * [Polymer](/glossary/POLYMER.md): *to be completed.*
 * [Promise](/glossary/PROMISE.md): a proxy for a value not necessarily known immediatly but that will eventually be resolved.
+* [Prototype](/glossary/PROTOTYPE.md): *to be completed.*
 
 ### Q
 
@@ -147,6 +154,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 ### V
 
 * [V8](/glossary/V8.md): *to be completed.*
+* [Vanilla](/glossary/VANILLA.md): *to be completed.*
 * [Virtual DOM](/glossary/VIRTUAL_DOM.md): *to be completed.*
 
 ### W
