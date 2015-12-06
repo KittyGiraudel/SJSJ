@@ -80,7 +80,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### I
 
-* [Isomorphic](/glossary/ISOMORPHIC.md): *to be completed.*
+* [Isomorphic](/glossary/ISOMORPHIC.md): an application is said isomorphic when its code can run both in the client and the server.
 
 ### J
 
