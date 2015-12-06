@@ -87,7 +87,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 ### I
 
 * [IIFE](/glossary/IIFE.md): *to be completed.*
-* [Isomorphic](/glossary/ISOMORPHIC.md): an application is said isomorphic when its code can run both in the client and the server.
+* [Isomorphic](/glossary/ISOMORPHIC.md): an application is said to be isomorphic (universal) when its code can run both in the client and the server.
 
 ### J
 
@@ -150,7 +150,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 ### U
 
 * [Underscore](/glossary/UNDERSCORE.md): a swiss army knife, focusing on helper methods for most built-in objects.
-
+* [Universal](/glossary/UNVERSAL.md): an application is said to be universal (isomorphic) when its code can run both in the client and the server.
 ### V
 
 * [V8](/glossary/V8.md): *to be completed.*
