@@ -114,11 +114,11 @@ If you are willing to contribute, open a pull request to complete, update or fil
 * [Mocha](/glossary/MOCHA.md): *to be completed.*
 * [Moment.js](/glossary/MOMENTJS.md): *to be completed.*
 * [Mootools](/glossary/MOOTOOLS.md): *to be completed.*
-* [Metalsmith](/glossary/METALSMITH.md): An extremely simple, pluggable static site generator.
+* [Metalsmith](/glossary/METALSMITH.md): a simple, pluggable static site generator.
 
 ### N
 
-* [Nightmare](/glossary/NIGHTMARE.md): A high-level browser automation library.
+* [Nightmare](/glossary/NIGHTMARE.md): a high-level browser automation library.
 * [Node.js](/glossary/NODEJS.md): a cross-platform runtime environment for developing server-side applications built on V8 engine.
 * [npm](/glossary/NPM.md): a utility to help publishing packages to, and installing from, an npm repository.
 * [nvm](/glossary/NVM.md): a utility to help run multiple versions of Node.js on the same machine.
