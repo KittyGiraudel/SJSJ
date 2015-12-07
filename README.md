@@ -92,7 +92,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### J
 
-* [Jasmine](/glossary/JASMINE.md): *to be completed.*
+* [Jasmine](/glossary/JASMINE.md): is a Behavior Driven Development testing framework.
 * [jQuery](/glossary/JQUERY.md): a fast, small, and feature-rich client-side library.
 * [JSCS](/glossary/JSCS.md): a JavaScript code linter.
 * [JSHint](/glossary/JSHINT.md): a JavaScript code linter.
