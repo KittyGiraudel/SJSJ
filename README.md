@@ -113,7 +113,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 * [Meteor](/glossary/METEOR.md): *to be completed.*
 * [Mocha](/glossary/MOCHA.md): *to be completed.*
-* [Moment.js](/glossary/MOMENTJS.md): *to be completed.*
+* [Moment.js](/glossary/MOMENTJS.md): a library to parse, validate, manipulate and display dates.
 * [Mootools](/glossary/MOOTOOLS.md): *to be completed.*
 * [Metalsmith](/glossary/METALSMITH.md): a simple, pluggable static site generator.
 
