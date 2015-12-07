@@ -35,15 +35,15 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### A
 
-* [AJAX](/glossary/AJAX.md): an asynchronous JavaScript and XML.
+* [AJAX](/glossary/AJAX.md): a technology for asynchronous HTTP requests.
 * [AMD](/glossary/AMD.md): *to be completed*.
 * [AngularJS](/glossary/ANGULARJS.md): a structural framework for dynamic web apps.
 
 ### B
 
-* [Babel](/glossary/BABEL.md): an ECMAScript 2015 / ES6 (and beyond) to ECMAScript 5 code translator (transpiler).
+* [Babel](/glossary/BABEL.md): a JavaScript transformation toolkit which started as an ECMAScript 2015 / ES6 code translator (transpiler).
 * [Backbone](/glossary/BACKBONE.md): a structural framework for dynamic web apps.
-* [Bluebird](/glossary/BLUEBIRD.md): a fully featured promise library with focus on innovative features and performance.
+* [Bluebird](/glossary/BLUEBIRD.md): a fully featured Promise library with focus on innovative features and performance.
 * [Bower](/glossary/BOWER.md): a package manager for front-end dependencies.
 * [Broccoli](/glossary/BROCCOLI.md): a fast and reliable asset pipeline.
 * [Browserify](/glossary/BROWSERIFY.md): a tool making possible to use the `require` function from Node.js while working for the browser.
@@ -61,6 +61,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 ### D
 
 * [D3.js](/glossary/D3JS.md): a library for manipulating documents based on data.
+* [DOM](/glossary/DOM.md): a platform- and language-neutral interface that allow programs and scripts to dynamically access and update the content, structure and style of documents.
 
 ### E
 
@@ -87,7 +88,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 ### I
 
 * [IIFE](/glossary/IIFE.md): *to be completed.*
-* [Isomorphic](/glossary/ISOMORPHIC.md): an application is said isomorphic when its code can run both in the client and the server.
+* [Isomorphic](/glossary/ISOMORPHIC.md): an application is said to be isomorphic (universal) when its code can run both in the client and the server.
 
 ### J
 
@@ -113,9 +114,11 @@ If you are willing to contribute, open a pull request to complete, update or fil
 * [Mocha](/glossary/MOCHA.md): *to be completed.*
 * [Moment.js](/glossary/MOMENTJS.md): *to be completed.*
 * [Mootools](/glossary/MOOTOOLS.md): *to be completed.*
+* [Metalsmith](/glossary/METALSMITH.md): a simple, pluggable static site generator.
 
 ### N
 
+* [Nightmare](/glossary/NIGHTMARE.md): a high-level browser automation library.
 * [Node.js](/glossary/NODEJS.md): a cross-platform runtime environment for developing server-side applications built on V8 engine.
 * [npm](/glossary/NPM.md): a utility to help publishing packages to, and installing from, an npm repository.
 * [nvm](/glossary/NVM.md): a utility to help run multiple versions of Node.js on the same machine.
@@ -136,7 +139,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 * [React](/glossary/REACT.md): a library developed and used at Facebook for building user interfaces.
 * [Redux](/glossary/REDUX.md): a predictable state container for apps.
-* [RxJS](/glossary/RXJS.md): *to be completed.*
+* [RxJS](/glossary/RXJS.md): a library for asynchronous programming using observable streams.
 * [Require.js](/glossary/REQUIREJS.md): *to be completed.*
 
 ### S
@@ -150,6 +153,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 ### U
 
 * [Underscore](/glossary/UNDERSCORE.md): a swiss army knife, focusing on helper methods for most built-in objects.
+* [Universal](/glossary/UNIVERSAL.md): an application is said to be universal (isomorphic) when its code can run both in the client and the server.
 
 ### V
 
