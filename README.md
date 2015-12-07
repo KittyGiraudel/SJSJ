@@ -55,7 +55,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 * [Chai](/glossary/CHAI.md): an assertion library used with a JavaScript testing framework.
 * [Closure](/glossary/CLOSURE.md): *to be completed.*
 * [CoffeeScript](/glossary/COFFEESCRIPT.md): a language that compiles into JavaScript.
-* [CORS](/glossary/CORS.md): *to be completed.*
+* [CORS](/glossary/CORS.md): Cross Origin Resource Sharing
 * [Currying](/glossary/CURRYING.md): *to be completed.*
 
 ### D
