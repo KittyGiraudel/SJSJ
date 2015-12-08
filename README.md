@@ -99,7 +99,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 * [JSLint](/glossary/JSLINT.md): a JavaScript code linter.
 * [JSON](/glossary/JSON.md): a JavaScript Object Notation.
 * [JSON-LD](/glossary/JSON-LD.md): JSON for Linked Data.
-* [JSX](/glossary/JSX.md): *to be completed.*
+* [JSX](/glossary/JSX.md): an XML-like syntax extension to JavaScript.
 
 ### K
 
