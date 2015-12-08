@@ -46,7 +46,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 * [Bluebird](/glossary/BLUEBIRD.md): a fully featured Promise library with focus on innovative features and performance.
 * [Bower](/glossary/BOWER.md): a package manager for front-end dependencies.
 * [Broccoli](/glossary/BROCCOLI.md): a fast and reliable asset pipeline.
-* [Browserify](/glossary/BROWSERIFY.md): a tool making possible to use the `require` function from Node.js while working for the browser.
+* [Browserify](/glossary/BROWSERIFY.md): a tool making possible to use the `require` function from Node.js within the browser.
 * [Brunch](/glossary/BRUNCH.md): a tool focusing on the production of deployment-ready files from development files.
 
 ### C
@@ -97,7 +97,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 * [JSCS](/glossary/JSCS.md): a JavaScript code linter.
 * [JSHint](/glossary/JSHINT.md): a JavaScript code linter.
 * [JSLint](/glossary/JSLINT.md): a JavaScript code linter.
-* [JSON](/glossary/JSON.md): a JavaScript Object Notation.
+* [JSON](/glossary/JSON.md): acronym for JavaScript Object Notation.
 * [JSON-LD](/glossary/JSON-LD.md): JSON for Linked Data.
 * [JSX](/glossary/JSX.md): an XML-like syntax extension to JavaScript.
 
