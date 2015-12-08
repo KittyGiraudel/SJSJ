@@ -97,7 +97,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 * [JSCS](/glossary/JSCS.md): a JavaScript code linter.
 * [JSHint](/glossary/JSHINT.md): a JavaScript code linter.
 * [JSLint](/glossary/JSLINT.md): a JavaScript code linter.
-* [JSON](/glossary/JSON.md): a JavaScript Object Notation.
+* [JSON](/glossary/JSON.md): acronym for JavaScript Object Notation.
 * [JSON-LD](/glossary/JSON-LD.md): JSON for Linked Data.
 * [JSX](/glossary/JSX.md): an XML-like syntax extension to JavaScript.
 
