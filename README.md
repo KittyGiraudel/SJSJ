@@ -51,7 +51,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### C
 
-* [Canvas](/glossary/CANVAS.md): *to be completed.*
+* [Canvas](/glossary/CANVAS.md): An HTML element useful for graphic applications in 2D or 3D.
 * [Chai](/glossary/CHAI.md): an assertion library used with a JavaScript testing framework.
 * [Closure](/glossary/CLOSURE.md): *to be completed.*
 * [CoffeeScript](/glossary/COFFEESCRIPT.md): a language that compiles into JavaScript.
