@@ -171,6 +171,8 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### X
 
+* [XHR](/glossary/XHR.md): *to be completed.*
+
 ### Y
 
 * [Yeoman](/glossary/YEOMAN.md): a generator builder to speed up the setup and installation process of a project or part of a project.
