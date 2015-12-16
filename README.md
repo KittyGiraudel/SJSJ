@@ -66,7 +66,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 ### E
 
 * [ECMAScript](/glossary/ECMASCRIPT.md): the standardized specification of the scripting language used by JavaScript.
-* [Ember](/glossary/EMBER.md): *to be completed.*
+* [Ember](/glossary/EMBER.md): an application framework based on the model-view-controller pattern.
 * [ESLint](/glossary/ESLINT.md): a JavaScript code linter.
 * [Express](/glossary/EXPRESS.md): a fast, unopinionated, minimalist web framework for Node.js.
 
