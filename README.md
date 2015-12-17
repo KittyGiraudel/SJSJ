@@ -36,7 +36,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 ### A
 
 * [AJAX](/glossary/AJAX.md): a technology for asynchronous HTTP requests.
-* [AMD](/glossary/AMD.md): *to be completed*.
+* [AMD](/glossary/AMD.md): a standard defining how to load JavaScript libraries or modules asynchronously.
 * [AngularJS](/glossary/ANGULARJS.md): a structural framework for dynamic web apps.
 
 ### B
@@ -82,7 +82,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### H
 
-* [Hapi](/glossary/HAPI.md): *to be completed.*
+* [Hapi](/glossary/HAPI.md): a Node JS framework for writing services and more.
 * [Hoisting](/glossary/HOISTING.md): an action performed by the JavaScript interpreter that moves function and variable declarations to the top of their containing scope.
 
 ### I
@@ -92,7 +92,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### J
 
-* [Jasmine](/glossary/JASMINE.md): *to be completed.*
+* [Jasmine](/glossary/JASMINE.md): A testing framework for BDD.
 * [jQuery](/glossary/JQUERY.md): a fast, small, and feature-rich client-side library.
 * [JSCS](/glossary/JSCS.md): a JavaScript code linter.
 * [JSHint](/glossary/JSHINT.md): a JavaScript code linter.
