@@ -82,7 +82,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### H
 
-* [Hapi](/glossary/HAPI.md): *to be completed.*
+* [Hapi](/glossary/HAPI.md): a Node JS framework for writing services and more.
 * [Hoisting](/glossary/HOISTING.md): an action performed by the JavaScript interpreter that moves function and variable declarations to the top of their containing scope.
 
 ### I
