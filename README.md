@@ -160,7 +160,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### V
 
-* [V8](/glossary/V8.md): *to be completed.*
+* [V8](/glossary/V8.md): Google’s open source javaScript engine. It’s what Chrome is running, but it’s also used for other projects like Node.js and MongoDB.
 * [Vanilla](/glossary/VANILLA.md): *to be completed.*
 * [Virtual DOM](/glossary/VIRTUAL_DOM.md): *to be completed.*
 
