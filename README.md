@@ -139,6 +139,8 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### Q
 
+* [QUnit](/glossary/QUNIT.md): *to be completed.*
+
 ### R
 
 * [React](/glossary/REACT.md): a library developed and used at Facebook for building user interfaces.
