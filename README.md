@@ -55,8 +55,8 @@ If you are willing to contribute, open a pull request to complete, update or fil
 * [Chai](/glossary/CHAI.md): an assertion library used with a JavaScript testing framework.
 * [Closure](/glossary/CLOSURE.md): *to be completed.*
 * [CoffeeScript](/glossary/COFFEESCRIPT.md): a language that compiles into JavaScript.
-* [CORS](/glossary/CORS.md): A way for a server to make things accessible to pages hosted on other domains.
-* [CouchDB](/glossary/COUCHDB.md): A NoSQL database with JavaScript as query language and HTTP as API.
+* [CORS](/glossary/CORS.md): a way for a server to make things accessible to pages hosted on other domains.
+* [CouchDB](/glossary/COUCHDB.md): a NoSQL database with JavaScript as query language and HTTP as API.
 * [Currying](/glossary/CURRYING.md): *to be completed.*
 
 ### D
@@ -69,7 +69,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 * [ECMAScript](/glossary/ECMASCRIPT.md): the standardized specification of the scripting language used by JavaScript.
 * [Ember](/glossary/EMBER.md): an application framework based on the model-view-controller pattern.
 * [ESLint](/glossary/ESLINT.md): a JavaScript code linter.
-* [Express](/glossary/EXPRESS.md): a fast, unopinionated, minimalist web framework for Node.js.
+* [Express](/glossary/EXPRESS.md): a fast, un-opinionated, minimalist web framework for Node.js.
 
 ### F
 
@@ -88,17 +88,17 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### I
 
-* [IIFE](/glossary/IIFE.md): an Immediately Invoked Function Expression is a function that gets called immediately after declaration.
+* [IIFE](/glossary/IIFE.md) (Immediately Invoked Function Expression): a function that gets called immediately after declaration.
 * [Isomorphic](/glossary/ISOMORPHIC.md): an application is said to be isomorphic (universal) when its code can run both in the client and the server.
 
 ### J
 
-* [Jasmine](/glossary/JASMINE.md): A testing framework for BDD.
+* [Jasmine](/glossary/JASMINE.md): a testing framework for BDD.
 * [jQuery](/glossary/JQUERY.md): a fast, small, and feature-rich client-side library.
 * [JSCS](/glossary/JSCS.md): a JavaScript code linter.
 * [JSHint](/glossary/JSHINT.md): a JavaScript code linter.
 * [JSLint](/glossary/JSLINT.md): a JavaScript code linter.
-* [JSON](/glossary/JSON.md): acronym for JavaScript Object Notation.
+* [JSON](/glossary/JSON.md) (JavaScript Object Notation): a lightweight data-interchange format.
 * [JSON-LD](/glossary/JSON-LD.md): JSON for Linked Data.
 * [JSX](/glossary/JSX.md): an XML-like syntax extension to JavaScript.
 
@@ -118,7 +118,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 * [Moment.js](/glossary/MOMENTJS.md): a library to parse, validate, manipulate and display dates.
 * [Mootools](/glossary/MOOTOOLS.md): *to be completed.*
 * [Metalsmith](/glossary/METALSMITH.md): a simple, pluggable static site generator.
-* [MEAN](/glossary/MEAN.md): the acronym MEAN refers to the technology stack MongoDB, ExpressJS, AngularJS, and Node.js.
+* [MEAN](/glossary/MEAN.md): the technology stack MongoDB, ExpressJS, AngularJS, and Node.js (MEAN).
 
 ### N
 
@@ -148,7 +148,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### S
 
-* [Sails](/glossary/SAILS.md): realtime MVC Framework for Node.js.
+* [Sails](/glossary/SAILS.md): a realtime MVC Framework for Node.js.
 
 ### T
 
