@@ -173,7 +173,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### X
 
-* [XHR](/glossary/XHR.md): *to be completed.*
+* [XHR](/glossary/XHR.md): XMLHttpRequest is an API that provides client functionality for transferring data between a client and a server.
 
 ### Y
 
