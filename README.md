@@ -56,6 +56,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 * [Closure](/glossary/CLOSURE.md): *to be completed.*
 * [CoffeeScript](/glossary/COFFEESCRIPT.md): a language that compiles into JavaScript.
 * [CORS](/glossary/CORS.md): A way for a server to make things accessible to pages hosted on other domains.
+* [CouchDB](/glossary/COUCHDB.md): A NoSQL database with JavaScript as query language and HTTP as API.
 * [Currying](/glossary/CURRYING.md): *to be completed.*
 
 ### D
