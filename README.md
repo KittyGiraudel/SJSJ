@@ -56,8 +56,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 * [Closure](/glossary/CLOSURE.md): *to be completed.*
 * [CoffeeScript](/glossary/COFFEESCRIPT.md): a language that compiles into JavaScript.
 * [CORS](/glossary/CORS.md): A way for a server to make things accessible to pages hosted on other domains.
-* [CouchDB](/glossary/COUCHDB.md): A NoSQL database with JavaScript as query language and HTTP as API.
-* [Currying](/glossary/CURRYING.md): *to be completed.*
+* [Currying](/glossary/CURRYING.md): The process to transform a function with multiple parameters into a chain of functions of one parameter.
 
 ### D
 
@@ -109,16 +108,17 @@ If you are willing to contribute, open a pull request to complete, update or fil
 ### L
 
 * [LocalForage](/glossary/LOCALFORAGE.md): *to be completed.*
-* [Lodash](/glossary/LODASH.md): *to be completed.*
+* [Lodash](/glossary/LODASH.md): an utility toolkit to extend Javascript primitive types.
 
 ### M
 
 * [Meteor](/glossary/METEOR.md): *to be completed.*
 * [Mocha](/glossary/MOCHA.md): *to be completed.*
+* [Modernizr](/glossary/MODERNIZR.md): a browser feature detection library, useful to modify page styles when a feature is not available in the browser.
 * [Moment.js](/glossary/MOMENTJS.md): a library to parse, validate, manipulate and display dates.
+* [MongoDB](/glossary/MONGODB.md): a Javascript NoSQL database.
 * [Mootools](/glossary/MOOTOOLS.md): *to be completed.*
 * [Metalsmith](/glossary/METALSMITH.md): a simple, pluggable static site generator.
-* [MEAN](/glossary/MEAN.md): the acronym MEAN refers to the technology stack MongoDB, ExpressJS, AngularJS, and Node.js.
 
 ### N
 
@@ -139,16 +139,19 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### Q
 
+* [Q](/glossary/Q.md): a useful library to create and manage promises.
+
 ### R
 
 * [React](/glossary/REACT.md): a library developed and used at Facebook for building user interfaces.
 * [Redux](/glossary/REDUX.md): a predictable state container for apps.
 * [RxJS](/glossary/RXJS.md): a library for asynchronous programming using observable streams.
-* [Require.js](/glossary/REQUIREJS.md): *to be completed.*
+* [Require.js](/glossary/REQUIREJS.md): a browser based module loader using AMD.
 
 ### S
 
 * [Sails](/glossary/SAILS.md): realtime MVC Framework for Node.js.
+* [SASS](/glossary/SASS.md): a rich langage that compiles to CSS, allowing variables, functions, inheritance and so on.
 
 ### T
 
@@ -163,7 +166,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 ### V
 
 * [V8](/glossary/V8.md): Google’s open source javaScript engine. It’s what Chrome is running, but it’s also used for other projects like Node.js and MongoDB.
-* [Vanilla](/glossary/VANILLA.md): *to be completed.*
+* [Vanilla](/glossary/VANILLA.md): appellation of the core Javascript API.
 * [Virtual DOM](/glossary/VIRTUAL_DOM.md): *to be completed.*
 
 ### W
@@ -173,10 +176,12 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### X
 
-* [XHR](/glossary/XHR.md): *to be completed.*
+* [XHR](/glossary/XHR.md): XML Http Request, alias the ability to send requests to a server without page refresh.
 
 ### Y
 
 * [Yeoman](/glossary/YEOMAN.md): a generator builder to speed up the setup and installation process of a project or part of a project.
 
 ### Z
+
+* [Zepto](/glossary/ZEPTO.md): a lightweight jQuery clone, without all the browser support.
