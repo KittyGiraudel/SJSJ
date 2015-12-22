@@ -131,7 +131,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### P
 
-* [PhantomJS](/glossary/PHANTOMJS.md): *to be completed.*
+* [PhantomJS](/glossary/PHANTOMJS.md): a browser that runs without a GUI (aka "headless").
 * [PhoneGap](/glossary/PHONEGAP.md): *to be completed.*
 * [Polymer](/glossary/POLYMER.md): *to be completed.*
 * [Promise](/glossary/PROMISE.md): a proxy for a value not necessarily known immediatly but that will eventually be resolved.
