@@ -113,7 +113,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### M
 
-* [Meteor](/glossary/METEOR.md): *to be completed.*
+* [Meteor](/glossary/METEOR.md): an ultra-simple environment for building modern web applications.
 * [Mocha](/glossary/MOCHA.md): an extensible testing framework for TDD or BDD.
 * [Moment.js](/glossary/MOMENTJS.md): a library to parse, validate, manipulate and display dates.
 * [Mootools](/glossary/MOOTOOLS.md): *to be completed.*
