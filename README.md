@@ -1,6 +1,6 @@
 # Simplified JavaScript Jargon
 
-*Simplified JavaScript Jargon* (short *SJSJ*) is a community-driven attempt at explaining the loads of buzzwords making the current JavaScript ecosystem in a few simple words. The idea is not to replace individual documentations, but to act as some kind of glossary that can be easily referrenced.
+*Simplified JavaScript Jargon* (short *SJSJ*) is a community-driven attempt at explaining the loads of buzzwords making the current JavaScript ecosystem in a few simple words. The idea is not to replace individual documentations, but to act as some kind of glossary that can be easily referenced.
 
 If you are willing to contribute, open a pull request to complete, update or fill in a section. Thank you for doing so!
 
@@ -134,7 +134,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 * [PhantomJS](/glossary/PHANTOMJS.md): *to be completed.*
 * [PhoneGap](/glossary/PHONEGAP.md): *to be completed.*
 * [Polymer](/glossary/POLYMER.md): *to be completed.*
-* [Promise](/glossary/PROMISE.md): a proxy for a value not necessarily known immediatly but that will eventually be resolved.
+* [Promise](/glossary/PROMISE.md): a proxy for a value not necessarily known immediately but that will eventually be resolved.
 * [Prototype](/glossary/PROTOTYPE.md): *to be completed.*
 
 ### Q
