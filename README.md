@@ -93,7 +93,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### J
 
-* [Jasmine](/glossary/JASMINE.md): a testing framework for BDD.
+* [Jasmine](/glossary/JASMINE.md): a testing framework for BDD (Behavior-Driven Development).
 * [jQuery](/glossary/JQUERY.md): a fast, small, and feature-rich client-side library.
 * [JSCS](/glossary/JSCS.md): a JavaScript code linter.
 * [JSHint](/glossary/JSHINT.md): a JavaScript code linter.
@@ -114,7 +114,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 ### M
 
 * [Meteor](/glossary/METEOR.md): *to be completed.*
-* [Mocha](/glossary/MOCHA.md): an extensible testing framework for TDD or BDD.
+* [Mocha](/glossary/MOCHA.md): an extensible testing framework for TDD (Test-Driven Development) or BDD (Behavior-Driven Development).
 * [Moment.js](/glossary/MOMENTJS.md): a library to parse, validate, manipulate and display dates.
 * [Mootools](/glossary/MOOTOOLS.md): *to be completed.*
 * [Metalsmith](/glossary/METALSMITH.md): a simple, pluggable static site generator.
