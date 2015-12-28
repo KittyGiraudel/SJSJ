@@ -57,7 +57,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 * [CoffeeScript](/glossary/COFFEESCRIPT.md): a language that compiles into JavaScript.
 * [CORS](/glossary/CORS.md): a way for a server to make things accessible to pages hosted on other domains.
 * [CouchDB](/glossary/COUCHDB.md): a NoSQL database with JavaScript as query language and HTTP as API.
-* [Currying](/glossary/CURRYING.md): *to be completed.*
+* [Currying](/glossary/CURRYING.md): a technnique that consists of changing a function that takes several arguments into a number of functions that each take one argument.
 
 ### D
 
