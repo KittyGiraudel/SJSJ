@@ -1,3 +1,3 @@
 # Vanilla
 
-Vanilla JS is just the use of plain old JavaScript without libraries and/or frameworks.
+A term utilized to describe the use of plain JavaScript without dependencies such as libraries and/or frameworks.
