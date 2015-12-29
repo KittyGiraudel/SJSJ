@@ -160,6 +160,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### U
 
+* [UMD](/glossary/UMD.md): a pattern of universal module definition for JavaScript modules.
 * [Underscore](/glossary/UNDERSCORE.md): a swiss army knife, focusing on helper methods for most built-in objects.
 * [Universal](/glossary/UNIVERSAL.md): an application is said to be universal (isomorphic) when its code can run both in the client and the server.
 
