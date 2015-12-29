@@ -109,7 +109,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 ### L
 
 * [LocalForage](/glossary/LOCALFORAGE.md): *to be completed.*
-* [Lodash](/glossary/LODASH.md): *to be completed.*
+* [Lodash](/glossary/LODASH.md): a toolbelt with bunch of helpers to work with array, string,... much simpler.
 
 ### M
 
