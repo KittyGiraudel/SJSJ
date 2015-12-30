@@ -167,7 +167,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 ### V
 
 * [V8](/glossary/V8.md): Google’s open source javaScript engine. It’s what Chrome is running, but it’s also used for other projects like Node.js and MongoDB.
-* [Vanilla](/glossary/VANILLA.md): *to be completed.*
+* [Vanilla](/glossary/VANILLA.md): is a term for library/framework free javascript.
 * [Virtual DOM](/glossary/VIRTUAL_DOM.md): a copy of the DOM in memory that the program can modify instead of directly interfacing with the "real" DOM to help speed up interactions
 
 ### W
