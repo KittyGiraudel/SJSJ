@@ -32,11 +32,11 @@ Examples of libraries providing AMD loading capabilities are:
 - [Cajon](https://github.com/requirejs/cajon) also made by James Burke, it's like a decorator for RequireJS that replaces the `load` method to fetch dependencies through Ajax calls.
 - [SystemJS](https://github.com/systemjs/systemjs) by [Guy Bedford](https://github.com/guybedford) who, until a couple of years ago, was one of the most active plugin developers for RequireJS. SystemJS can load AMD, CommonJS and ES6 modules seamlessly and is mostly used in combination with [jspm](http://jspm.io/), which acts as a dependency manager (not unlike [Bower](Bower.md)) leveraging in Github and NPM. 
 
-All these libraries allow for the developer to preview a project whithout any build step, requesting the dependencies asynchronously. There's usually an optional (but reccomended) build or bundling step for production deploys, in order to minify the code and minimize the number of requests in order to enhance load times. Allegedly, the coming of [HTTP2](HTTP2.md) support in browsers and webservers should eliminate the need for extra requests when loading dependencies asynchronously, thus eliminating the need of a build step.
+All these libraries allow for the developer to preview a project whithout any build step, requesting the dependencies asynchronously. There's usually an optional (but reccomended) build or bundling step for production deploys, in order to minify the code and minimize the number of requests in order to enhance load times. Allegedly, the coming of [HTTP2](https://http2.github.io/) support in browsers and webservers should eliminate the need for extra requests when loading dependencies asynchronously, thus eliminating the need of a build step.
 
 Other libraries that can't load dependencies asynchronously but can include AMD modules in their build workflow, are, for example:
 
-- [Webpack](https://webpack.github.io/docs/amd.html) 
+- [Webpack](WEBPACK.md) 
 - [Rollup](http://rollupjs.org/)
 - [StealJS](http://stealjs.com/)
 
