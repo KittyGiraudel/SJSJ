@@ -167,14 +167,14 @@ If you are willing to contribute, open a pull request to complete, update or fil
 ### V
 
 * [V8](/glossary/V8.md): Google’s open source javaScript engine. It’s what Chrome is running, but it’s also used for other projects like Node.js and MongoDB.
-* [Vanilla](/glossary/VANILLA.md): Plain JavaScript.
+* [Vanilla](/glossary/VANILLA.md): a term for library/framework free JavaScript.
 * [Virtual DOM](/glossary/VIRTUAL_DOM.md): a copy of the DOM in memory that the program can modify instead of directly interfacing with the "real" DOM to help speed up interactions
 * [VueJS](/glossary/VUEJS.md): a library for creating user interfaces based on data models.
 
 ### W
 
 * [WebGL](/glossary/WEBGL.md) (Web Graphics Library): a JavaScript API for rendering interactive 3D and 2D graphics within any compatible web browser without the use of plug-ins.
-* [webpack](/glossary/WEBPACK.md): a dependency manager with a friendly and fast development environment, simplifying a lot of common tasks.
+* [Webpack](/glossary/WEBPACK.md): a dependency manager with a friendly and fast development environment, simplifying a lot of common tasks.
 
 ### X
 
