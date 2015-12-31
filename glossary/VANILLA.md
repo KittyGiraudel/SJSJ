@@ -1,3 +1,3 @@
 # Vanilla
 
-Vanilla section to be completed.
+A term utilized to describe the use of plain JavaScript without dependencies such as libraries and/or frameworks.
