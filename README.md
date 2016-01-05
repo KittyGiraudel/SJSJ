@@ -4,6 +4,8 @@
 
 If you are willing to contribute, open a pull request to complete, update or fill in a section. Thank you for doing so!
 
+*Hank Wang has made a command-line tool for SJSJ if you want all the JavaScript goodness directly from your terminal: https://github.com/hanksudo/SJSJ-cli.*
+
 ## Glossary
 
 [A](#a) ·
