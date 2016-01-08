@@ -1,3 +1,16 @@
 # Closure
 
-A closure is a function value created from a nested function declaration or function expression (i.e. lambda expression) whose body contains one or more references to variables declared in an outer (but not global) scope. Closures are functions that refer to independent variables. Therefore private variables can be made possible with closures.
+A closure is function that closes over its environment. It has access to the state of the environment, but the variables inside the closure are private.
+
+Example:
+```js
+(function (){
+  var scopeVar="Hello";
+
+  (function closure(){
+    var closureVar=" World";
+     console.log(scopeVar+closureVar);    
+  })()
+})();
+```
+*scopeVar* is accessible inside the outer and the inner function, but *closureVar* is only accessible inside the inner function.
