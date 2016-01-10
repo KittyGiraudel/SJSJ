@@ -1,4 +1,4 @@
-![SJSJ](/images/SJSS-logo.jpg)
+![SJSJ](/images/SJSS-logo.jpg?raw=true)
 
 # Simplified JavaScript Jargon
 
