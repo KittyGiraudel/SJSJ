@@ -1,4 +1,4 @@
-![SJSJ](/SJSS-logo.svg)
+![SJSJ](/images/SJSS-logo.svg)
 
 # Simplified JavaScript Jargon
 
