@@ -64,6 +64,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 ### D
 
 * [D3.js](/glossary/D3JS.md): a library for manipulating documents based on data.
+* [Design Patterns](/glossary/DESIGN_PATTERNS.md): *to be completed*
 * [DOM](/glossary/DOM.md): a platform- and language-neutral interface that allow programs and scripts to dynamically access and update the content, structure and style of documents.
 
 ### E
@@ -75,6 +76,8 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### F
 
+* [Facade Pattern](/glossary/FACADE_PATTERN.md): *to be completed.*
+* [Factory Pattern](/glossary/FACTORY_PATTERN.md): *to be completed.*
 * [Falcor](/glossary/FALCOR.md): *to be completed.*
 * [Flux](/glossary/FLUX.md): an application structure focusing on improved data flow.
 * [Four](/glossary/FOUR.md): a framework to develop 3D content for the web.
@@ -116,8 +119,10 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### M
 
+* [Mediator Pattern](/glossary/MEDIATOR_PATTERN.md): *to be completed.*
 * [Meteor](/glossary/METEOR.md): a JavaScript web framework that allows rapid prototypic web developement.
 * [Mocha](/glossary/MOCHA.md): an extensible testing framework for TDD or BDD.
+* [Module Pattern](/glossary/MODULE_PATTERN.md): *to be completed.*
 * [Moment.js](/glossary/MOMENTJS.md): a library to parse, validate, manipulate and display dates.
 * [Mootools](/glossary/MOOTOOLS.md): *to be completed.*
 * [Metalsmith](/glossary/METALSMITH.md): a simple, pluggable static site generator.
@@ -132,6 +137,8 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### O
 
+* [Observer Pattern](/glossary/OBSERVER_PATTERN.md): *to be completed.*
+
 ### P
 
 * [PhantomJS](/glossary/PHANTOMJS.md): *to be completed.*
@@ -139,6 +146,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 * [Polymer](/glossary/POLYMER.md): *to be completed.*
 * [Promise](/glossary/PROMISE.md): a proxy for a value not necessarily known immediately but that will eventually be resolved.
 * [Prototype](/glossary/PROTOTYPE.md): *to be completed.*
+* [Prototype Pattern](/glossary/PROTOTYPE_PATTERN.md): *to be completed.*
 
 ### Q
 
@@ -149,12 +157,14 @@ If you are willing to contribute, open a pull request to complete, update or fil
 * [Ramda](/glossary/RAMDA.md): a practical functional library for Javascript programmers.
 * [React](/glossary/REACT.md): a library developed and used at Facebook for building user interfaces.
 * [Redux](/glossary/REDUX.md): a predictable state container for apps.
+* [Revealing Module Pattern](/glossary/REVEALING_MODULE_PATTERN.md): *to be completed*
 * [RxJS](/glossary/RXJS.md): a library for asynchronous programming using observable streams.
 * [Require.js](/glossary/REQUIREJS.md): *to be completed.*
 
 ### S
 
 * [Sails](/glossary/SAILS.md): a realtime MVC Framework for Node.js.
+* [Singleton Pattern](/glossary/SINGLETON_PATTERN.md): *to be completed*
 
 ### T
 
