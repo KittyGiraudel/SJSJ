@@ -64,7 +64,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 ### D
 
 * [D3.js](/glossary/D3JS.md): a library for manipulating documents based on data.
-* [Design Patterns](/glossary/DESIGN_PATTERNS.md): *to be completed*
+* [Design Patterns](/glossary/DESIGN_PATTERNS.md): *to be completed.*
 * [DOM](/glossary/DOM.md): a platform- and language-neutral interface that allow programs and scripts to dynamically access and update the content, structure and style of documents.
 
 ### E
@@ -157,14 +157,14 @@ If you are willing to contribute, open a pull request to complete, update or fil
 * [Ramda](/glossary/RAMDA.md): a practical functional library for Javascript programmers.
 * [React](/glossary/REACT.md): a library developed and used at Facebook for building user interfaces.
 * [Redux](/glossary/REDUX.md): a predictable state container for apps.
-* [Revealing Module Pattern](/glossary/REVEALING_MODULE_PATTERN.md): *to be completed*
+* [Revealing Module Pattern](/glossary/REVEALING_MODULE_PATTERN.md): *to be completed.*
 * [RxJS](/glossary/RXJS.md): a library for asynchronous programming using observable streams.
 * [Require.js](/glossary/REQUIREJS.md): *to be completed.*
 
 ### S
 
 * [Sails](/glossary/SAILS.md): a realtime MVC Framework for Node.js.
-* [Singleton Pattern](/glossary/SINGLETON_PATTERN.md): *to be completed*
+* [Singleton Pattern](/glossary/SINGLETON_PATTERN.md): *to be completed.*
 
 ### T
 
