@@ -1,7 +1,7 @@
 # Vanilla
 
-[Vanilla](http://vanilla-js.com/) (aka VanillaJS) is a name to refer to using plain JavaScript without any additional libraries like jQuery.
+[Vanilla](http://vanilla-js.com/) (aka VanillaJS) is a name to refer to using plain JavaScript without any additional libraries like jQuery. Other names are *Plain Old Javascript* or *Core Javascript*.
 
 It is sometimes ironically referred to as a library, as a joke for people who could be seen as mindlessly using different frameworks.
 
-Some people have gone so far to release this library, usually with an empty or comment-only js file.
+Some people have gone so far to release this library, usually with an empty or comment-only JS file.
