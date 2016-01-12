@@ -8,6 +8,6 @@ Ember relies upon the following [core concepts](https://guides.emberjs.com/v2.1.
 
  - **Templates**: Ember.js templates use [handlebars](http://handlebarsjs.com/) style syntax and are used to integrate data with pre-written HTML.
  - **Models**: In Ember.js models allow the objects which the web application makes use of to be persisted.
- - **Components**: Components are used to define the behaviour of the user interface in Ember.js. By combining a template and some javascript a component works to produce a representation which is useful to the web application user.
+ - **Components**: Components are used to define the behavior of the user interface in Ember.js. By combining a template and some javascript a component works to produce a representation which is useful to the web application user.
  - **Routes**: A route loads a component, a template and, optionally, some models. The resulting HTML is then rendered to the user agent.
  - **The Router**: Maps a URL to a given route.

@@ -57,9 +57,10 @@ If you are willing to contribute, open a pull request to complete, update or fil
 * [Chai](/glossary/CHAI.md): an assertion library used with a JavaScript testing framework.
 * [Closure](/glossary/CLOSURE.md): a way of referencing variables from a child function while retaining their value even if it changes in the parent function.
 * [CoffeeScript](/glossary/COFFEESCRIPT.md): a language that compiles into JavaScript.
-* [CORS](/glossary/CORS.md): a way for a server to make things accessible to pages hosted on other domains.
-* [CouchDB](/glossary/COUCHDB.md): a NoSQL database with JavaScript as query language and HTTP as API.
-* [Currying](/glossary/CURRYING.md): a technnique that consists of changing a function that takes several arguments into a number of functions that each take one argument.
+* [CommonJS](/glossary/COMMONJS.md): *to be completed.*
+* [CORS](/glossary/CORS.md): A way for a server to make things accessible to pages hosted on other domains.
+* [CouchDB](/glossary/COUCHDB.md): A NoSQL database with JavaScript as query language and HTTP as API.
+* [Currying](/glossary/CURRYING.md): the process to transform a function with multiple parameters into a chain of functions of one parameter.
 
 ### D
 
@@ -115,15 +116,17 @@ If you are willing to contribute, open a pull request to complete, update or fil
 ### L
 
 * [LocalForage](/glossary/LOCALFORAGE.md): *to be completed.*
-* [Lodash](/glossary/LODASH.md): a toolbelt with bunch of helpers to work with Javascript data types (string, object,...) in a much more simpler way.
+* [Lodash](/glossary/LODASH.md): an utility toolkit to extend Javascript primitive types.
 
 ### M
 
 * [Mediator Pattern](/glossary/MEDIATOR_PATTERN.md): *to be completed.*
-* [Meteor](/glossary/METEOR.md): a JavaScript web framework that allows rapid prototypic web developement.
+* [Meteor](/glossary/METEOR.md): a JavaScript web framework that allows rapid prototypic web development.
 * [Mocha](/glossary/MOCHA.md): an extensible testing framework for TDD or BDD.
+* [Modernizr](/glossary/MODERNIZR.md): a browser feature detection library, useful to modify page styles when a feature is not available in the browser.
 * [Module Pattern](/glossary/MODULE_PATTERN.md): *to be completed.*
 * [Moment.js](/glossary/MOMENTJS.md): a library to parse, validate, manipulate and display dates.
+* [MongoDB](/glossary/MONGODB.md): a Javascript NoSQL database.
 * [Mootools](/glossary/MOOTOOLS.md): *to be completed.*
 * [Metalsmith](/glossary/METALSMITH.md): a simple, pluggable static site generator.
 * [MEAN](/glossary/MEAN.md): the technology stack MongoDB, ExpressJS, AngularJS, and Node.js (MEAN).
@@ -151,6 +154,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 ### Q
 
 * [QUnit](/glossary/QUNIT.md): *to be completed.*
+* [Q](/glossary/Q.md): a library to create and manage promises.
 
 ### R
 
@@ -159,7 +163,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 * [Redux](/glossary/REDUX.md): a predictable state container for apps.
 * [Revealing Module Pattern](/glossary/REVEALING_MODULE_PATTERN.md): *to be completed.*
 * [RxJS](/glossary/RXJS.md): a library for asynchronous programming using observable streams.
-* [Require.js](/glossary/REQUIREJS.md): *to be completed.*
+* [Require.js](/glossary/REQUIREJS.md): a browser based module loader using AMD.
 
 ### S
 
@@ -191,10 +195,12 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### X
 
-* [XHR](/glossary/XHR.md): XMLHttpRequest is an API that provides client functionality for transferring data between a client and a server.
+* [XHR](/glossary/XHR.md): XMLHttpRequest is an API that provides client functionality for transferring data between a client and a server without page refresh.
 
 ### Y
 
 * [Yeoman](/glossary/YEOMAN.md): a generator builder to speed up the setup and installation process of a project or part of a project.
 
 ### Z
+
+* [Zepto](/glossary/ZEPTO.md): a lightweight jQuery clone, without all the browser-compatibility specific code.
