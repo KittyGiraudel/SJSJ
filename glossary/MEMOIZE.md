@@ -26,9 +26,7 @@ var fibonacci = memoizer([0, 1], function (recur, n) {
 ## References
 
 * [Faster JavaScript Memoization For Improved Application Performance](https://addyosmani.com/blog/faster-javascript-memoization/), by Addy Osmani.
-
 * [Implementing Memoization in JavaScript](http://www.sitepoint.com/implementing-memoization-in-javascript/)
-
 * [Wikipedia article](https://en.wikipedia.org/wiki/Memoization) on Memoization.
 
 
