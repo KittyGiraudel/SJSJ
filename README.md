@@ -121,6 +121,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 ### M
 
 * [Mediator Pattern](/glossary/MEDIATOR_PATTERN.md): *to be completed.*
+* [Memoize](/glossary/MEMOIZE.md): an optimization used to speed up consecutive function calls by caching the result of calls with identical input.
 * [Meteor](/glossary/METEOR.md): a JavaScript web framework that allows rapid prototypic web development.
 * [Mocha](/glossary/MOCHA.md): an extensible testing framework for TDD or BDD.
 * [Modernizr](/glossary/MODERNIZR.md): a browser feature detection library, useful to modify page styles when a feature is not available in the browser.
