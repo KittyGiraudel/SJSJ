@@ -116,7 +116,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 ### L
 
 * [LocalForage](/glossary/LOCALFORAGE.md): *to be completed.*
-* [Lodash](/glossary/LODASH.md): an utility toolkit to extend Javascript primitive types.
+* [Lodash](/glossary/LODASH.md): an utility toolkit to extend JavaScript primitive types.
 
 ### M
 
@@ -135,6 +135,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 ### N
 
 * [Nightmare](/glossary/NIGHTMARE.md): a high-level browser automation library.
+* [NightwatchJS](/glossary/NIGHTWATCHJS): a framework for browser automated testing.
 * [Node.js](/glossary/NODEJS.md): a cross-platform runtime environment for developing server-side applications built on V8 engine.
 * [npm](/glossary/NPM.md): a utility to help publishing packages to, and installing from, an npm repository.
 * [nvm](/glossary/NVM.md): a utility to help run multiple versions of Node.js on the same machine.
@@ -159,7 +160,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### R
 
-* [Ramda](/glossary/RAMDA.md): a practical functional library for Javascript programmers.
+* [Ramda](/glossary/RAMDA.md): a practical functional library for JavaScript programmers.
 * [React](/glossary/REACT.md): a library developed and used at Facebook for building user interfaces.
 * [Redux](/glossary/REDUX.md): a predictable state container for apps.
 * [Revealing Module Pattern](/glossary/REVEALING_MODULE_PATTERN.md): *to be completed.*
@@ -184,7 +185,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### V
 
-* [V8](/glossary/V8.md): Google’s open source javaScript engine. It’s what Chrome is running, but it’s also used for other projects like Node.js and MongoDB.
+* [V8](/glossary/V8.md): Google’s open source JavaScript engine. It’s what Chrome is running, but it’s also used for other projects like Node.js and MongoDB.
 * [Vanilla](/glossary/VANILLA.md): a term for library/framework free JavaScript.
 * [Virtual DOM](/glossary/VIRTUAL_DOM.md): a copy of the DOM in memory that the program can modify instead of directly interfacing with the "real" DOM to help speed up interactions
 * [VueJS](/glossary/VUEJS.md): a library for creating user interfaces based on data models.
