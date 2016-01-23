@@ -74,6 +74,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 * [Ember](/glossary/EMBER.md): an application framework based on the model-view-controller pattern.
 * [ESLint](/glossary/ESLINT.md): a JavaScript code linter.
 * [Express](/glossary/EXPRESS.md): a fast, un-opinionated, minimalist web framework for Node.js.
+* [Ext JS](/glossary/EXTJS.md): a pure JavaScript application framework for building interactive cross platform web applications.
 
 ### F
 
