@@ -146,7 +146,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### P
 
-* [PhantomJS](/glossary/PHANTOMJS.md): *to be completed.*
+* [PhantomJS](/glossary/PHANTOMJS.md): a scripted, headless browser used for automating web page interaction.
 * [PhoneGap](/glossary/PHONEGAP.md): *to be completed.*
 * [Polymer](/glossary/POLYMER.md): Google’s library for creating Web Components.
 * [Promise](/glossary/PROMISE.md): a proxy for a value not necessarily known immediately but that will eventually be resolved.
