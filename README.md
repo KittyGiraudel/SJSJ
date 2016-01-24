@@ -62,7 +62,7 @@ Andrew Romanov is translating SJSJ into Russian: https://github.com/andrew--r/SJ
 * [Chai](/glossary/CHAI.md): an assertion library used with a JavaScript testing framework.
 * [Closure](/glossary/CLOSURE.md): a way of referencing variables from a child function while retaining their value even if it changes in the parent function.
 * [CoffeeScript](/glossary/COFFEESCRIPT.md): a language that compiles into JavaScript.
-* [CommonJS](/glossary/COMMONJS.md): *to be completed.*
+* [CommonJS](/glossary/COMMONJS.md): a project with the goal of specifying an ecosystem for JavaScript outside the browser (for example, on the server or for native desktop applications).
 * [CORS](/glossary/CORS.md): A way for a server to make things accessible to pages hosted on other domains.
 * [CouchDB](/glossary/COUCHDB.md): A NoSQL database with JavaScript as query language and HTTP as API.
 * [Currying](/glossary/CURRYING.md): the process to transform a function with multiple parameters into a chain of functions of one parameter.
