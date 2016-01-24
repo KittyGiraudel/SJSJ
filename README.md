@@ -40,6 +40,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 * [AJAX](/glossary/AJAX.md): a technology for asynchronous HTTP requests.
 * [AMD](/glossary/AMD.md): a standard defining how to load JavaScript libraries or modules asynchronously.
 * [AngularJS](/glossary/ANGULARJS.md): a structural framework for dynamic web apps.
+* [Arity](/glossary/ARITY.md): the number of arguments of a function.
 
 ### B
 
