@@ -85,7 +85,7 @@ Andrew Romanov is translating SJSJ into Russian: https://github.com/andrew--r/SJ
 
 * [Facade Pattern](/glossary/FACADE_PATTERN.md): *to be completed.*
 * [Factory Pattern](/glossary/FACTORY_PATTERN.md): *to be completed.*
-* [Falcor](/glossary/FALCOR.md): *to be completed.*
+* [Falcor](/glossary/FALCOR.md): a JavaScript library for efficient data fetching.
 * [Flux](/glossary/FLUX.md): an application structure focusing on improved data flow.
 * [Four](/glossary/FOUR.md): a framework to develop 3D content for the web.
 
