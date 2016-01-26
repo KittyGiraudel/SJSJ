@@ -27,5 +27,4 @@ add3(5) // => 8
 add10(5) // => 15
 ```
 
-
-[Lodash](https://lodash.com/docs#curry), [Wu](https://fitzgen.github.io/wu.js/#curryable) and [Ramda](http://ramdajs.com/docs/#curry) are 3 of the many libraries that provide currying.
+[Lodash](LODASH.md), [Wu](https://fitzgen.github.io/wu.js/#curryable) and [Ramda](RAMDA.md) are 3 of the many libraries that provide currying.

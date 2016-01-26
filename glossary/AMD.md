@@ -7,7 +7,7 @@ The API specifies a mechanism for defining modules such that the module and its 
 AMD libraries expose a global `define` function whose footprint is
 
 ```js
-define(modulename?,[dependencyA?, dependencyB?, ...], function(objectA, objectB, ...) {
+define(modulename?,[dependencyA?, dependencyB?, ...], function (objectA, objectB, ...) {
 ...
     var myExportedObj = function() {...}
     return myExportedObj;

@@ -5,20 +5,20 @@ An optimization used to speed up consecutive function calls by caching the resul
 Here is an example of a memoizer function, taken from the book **JavaScript The Good Parts** by Douglas Crockford,
 that caches the results from a fibonacci number generator function:
 
-```javascript
-var memoizer = function (memo, formula) { 
-  var recur = function (n) { 
-    var result = memo[n]; 
-      if (typeof result !== 'number') { 
-        result = formula(recur, n); 
-        memo[n] = result; 
-      } 
+```js
+var memoizer = function (memo, formula) {
+  var recur = function (n) {
+    var result = memo[n];
+      if (typeof result !== 'number') {
+        result = formula(recur, n);
+        memo[n] = result;
+      }
       return result;
   };
   return recur;
 };
 
-var fibonacci = memoizer([0, 1], function (recur, n) { 
+var fibonacci = memoizer([0, 1], function (recur, n) {
   return recur(n − 1) + recur(n − 2);
 });
 ```
