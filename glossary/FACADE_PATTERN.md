@@ -32,16 +32,14 @@ The facade pattern is typically used when:
 
 ![Example of Facade design pattern in UML](https://upload.wikimedia.org/wikipedia/en/5/57/Example_of_Facade_design_pattern_in_UML.png)
 
-**Facade**
-&nbsp;&nbsp;&nbsp;&nbsp;The facade class abstracts Packages 1, 2, and 3 from the rest of the application.
-**Clients**
-&nbsp;&nbsp;&nbsp;&nbsp;The objects are using the Facade Pattern to access resources from the Packages.
+**Facade**: The facade class abstracts Packages 1, 2, and 3 from the rest of the application.
+**Clients**: The objects are using the Facade Pattern to access resources from the Packages.
 
 ## Example
 
-This is an abstract example of how a client ("you") interacts with a facade (the "computer") to a complex system (internal computer parts, like CPU and HardDrive).
+This is an abstract example of how a client (“you”) interacts with a facade (the “computer”) to a complex system (internal computer parts, like CPU and HardDrive).
 
-```javascript
+```js
 /* Complex parts */
 
 class CPU {
@@ -61,18 +59,18 @@ class HardDrive {
 /* Facade */
 
 class ComputerFacade {
-    constructor() {
-        this.processor = new Cput();
-        this.ram = new Memory();
-        this.hd = new HardDrive();
+  constructor() {
+    this.processor = new Cput();
+    this.ram = new Memory();
+    this.hd = new HardDrive();
 	}
 
-    start() {
-        this.processor.freeze();
-        this.ram.load(this.BOOT_ADDRESS, this.hd.read(this.BOOT_SECTOR, this.SECTOR_SIZE));
-        this.processor.jump(this.BOOT_ADDRESS);
-        this.processor.execute();
-    }
+  start() {
+    this.processor.freeze();
+    this.ram.load(this.BOOT_ADDRESS, this.hd.read(this.BOOT_SECTOR, this.SECTOR_SIZE));
+    this.processor.jump(this.BOOT_ADDRESS);
+    this.processor.execute();
+  }
 }
 
 /* Client */
