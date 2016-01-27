@@ -84,7 +84,7 @@ Andrew Romanov is translating SJSJ into Russian: https://github.com/andrew--r/SJ
 ### F
 
 * [Facade Pattern](/glossary/FACADE_PATTERN.md): a software design pattern commonly used with object-oriented programming. The name is by analogy to an architectural facade.
-* [Factory Pattern](/glossary/FACTORY_PATTERN.md): *to be completed.*
+* [Factory Pattern](/glossary/FACTORY_PATTERN.md): a creational pattern that uses factory methods to deal with the problem of creating objects without having to specify the exact class of the object that will be created.
 * [Falcor](/glossary/FALCOR.md): a JavaScript library for efficient data fetching.
 * [Flux](/glossary/FLUX.md): an application structure focusing on improved data flow.
 * [Four](/glossary/FOUR.md): a framework to develop 3D content for the web.
