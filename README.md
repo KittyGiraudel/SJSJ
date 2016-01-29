@@ -131,7 +131,7 @@ Andrew Romanov is translating SJSJ into Russian: https://github.com/andrew--r/SJ
 * [Meteor](/glossary/METEOR.md): a JavaScript web framework that allows rapid prototypic web development.
 * [Mocha](/glossary/MOCHA.md): an extensible testing framework for TDD (Test-Driven Development) or BDD (Behaviour-Driven Development).
 * [Modernizr](/glossary/MODERNIZR.md): a browser feature detection library, useful to modify page styles when a feature is not available in the browser.
-* [Module Pattern](/glossary/MODULE_PATTERN.md): *to be completed.*
+* [Module Pattern](/glossary/MODULE_PATTERN.md):  a design pattern used to implement the concept of software modules, defined by modular programming, in a programming language with incomplete direct support for the concept.
 * [Moment.js](/glossary/MOMENTJS.md): a library to parse, validate, manipulate and display dates.
 * [MongoDB](/glossary/MONGODB.md): a Javascript NoSQL database.
 * [Mootools](/glossary/MOOTOOLS.md): *to be completed.*
