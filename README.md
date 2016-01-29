@@ -126,7 +126,7 @@ Andrew Romanov is translating SJSJ into Russian: https://github.com/andrew--r/SJ
 
 ### M
 
-* [Mediator Pattern](/glossary/MEDIATOR_PATTERN.md): *to be completed.*
+* [Mediator Pattern](/glossary/MEDIATOR_PATTERN.md): an object that encapsulates how a set of objects interact.
 * [Memoize](/glossary/MEMOIZE.md): an optimization used to speed up consecutive function calls by caching the result of calls with identical input.
 * [Meteor](/glossary/METEOR.md): a JavaScript web framework that allows rapid prototypic web development.
 * [Mocha](/glossary/MOCHA.md): an extensible testing framework for TDD (Test-Driven Development) or BDD (Behaviour-Driven Development).
