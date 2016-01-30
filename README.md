@@ -156,7 +156,7 @@ Andrew Romanov is translating SJSJ into Russian: https://github.com/andrew--r/SJ
 * [PhoneGap](/glossary/PHONEGAP.md): *to be completed.*
 * [Polymer](/glossary/POLYMER.md): Google’s library for creating Web Components.
 * [Promise](/glossary/PROMISE.md): a proxy for a value not necessarily known immediately but that will eventually be resolved.
-* [Prototype](/glossary/PROTOTYPE.md): *to be completed.*
+* [Prototype](/glossary/PROTOTYPE.md): a creational design pattern in software development. It is used when the type of objects to create is determined by a prototypical instance, which is cloned to produce new objects.
 * [Prototype Pattern](/glossary/PROTOTYPE_PATTERN.md): *to be completed.*
 
 ### Q
