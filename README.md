@@ -169,7 +169,7 @@ Andrew Romanov is translating SJSJ into Russian: https://github.com/andrew--r/SJ
 * [Ramda](/glossary/RAMDA.md): a practical functional library for JavaScript programmers.
 * [React](/glossary/REACT.md): a library developed and used at Facebook for building user interfaces.
 * [Redux](/glossary/REDUX.md): a predictable state container for apps.
-* [Revealing Module Pattern](/glossary/REVEALING_MODULE_PATTERN.md): *to be completed.*
+* [Revealing Module Pattern](/glossary/REVEALING_MODULE_PATTERN.md): a design pattern conceptually based on the [Module Pattern](/glossary/MODULE_PATTERN.md). The only difference is that the *revealing module pattern* was engineered as a way to ensure that all methods and variables are kept private until they are explicitly exposed.
 * [RxJS](/glossary/RXJS.md): a library for asynchronous programming using observable streams.
 * [Require.js](/glossary/REQUIREJS.md): a browser based module loader using AMD.
 
