@@ -176,7 +176,7 @@ Andrew Romanov is translating SJSJ into Russian: https://github.com/andrew--r/SJ
 ### S
 
 * [Sails](/glossary/SAILS.md): a realtime MVC Framework for Node.js.
-* [Singleton Pattern](/glossary/SINGLETON_PATTERN.md): *to be completed.*
+* [Singleton Pattern](/glossary/SINGLETON_PATTERN.md): a design pattern that restricts the instantiation of a class to one object.
 
 ### T
 
