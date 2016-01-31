@@ -10,6 +10,8 @@ Hank Wang has made a command-line tool for SJSJ if you want all the JavaScript g
 
 Andrew Romanov is translating SJSJ into Russian: https://github.com/andrew--r/SJSJ.
 
+You can also check the  chrome extension at [https://github.com/ismnoiet/JSJargon](https://github.com/ismnoiet/JSJargon), created by [ismnoiet](https://github.com/ismnoiet).
+
 ## Glossary
 
 [A](#a) ·
