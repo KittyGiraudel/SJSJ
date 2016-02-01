@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "marked": "^0.3.5",
+    "fs-promise": "^0.4.1"
+  },
+  "scripts": {
+    "index": "node bin/indexer"
+  }
+}
