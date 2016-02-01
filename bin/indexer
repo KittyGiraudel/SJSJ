@@ -1,0 +1,34 @@
+#!/usr/bin/env node
+
+'use strict';
+
+const fs = require('fs-promise')
+const path = require('path')
+const marked = require('marked')
+
+const GLOSSARY_FOLDER = path.join(process.cwd(), 'glossary')
+const DESTINATION_FILE = process.argv[2] || 'data.json'
+
+const collect = content => {
+  const nameMatch = content.match(/^#\s*(.+)$/m)
+  const markdownMatch = content.match(/^.*\n+([\s\S]+)/)
+
+  return {
+    name: nameMatch ? nameMatch[1] : null,
+    markdown: markdownMatch ? markdownMatch[1] : null,
+    html: markdownMatch ? marked(markdownMatch[1]) : null
+  }
+}
+
+const read = file => fs.readFile(path.join(GLOSSARY_FOLDER, file), 'utf8')
+  .then(collect)
+  .then(obj => Object.assign(obj, {
+    url: `https://github.com/HugoGiraudel/SJSJ/blob/master/glossary/${file}`
+  }))
+
+fs.readdir(GLOSSARY_FOLDER)
+  .then(files => Promise.all(files.map(read)))
+  .then(entries => JSON.stringify(entries, null, 2))
+  .then(data => fs.writeFile(DESTINATION_FILE, data))
+  .then(() => console.log(`${DESTINATION_FILE} successfully generated.`))
+  .catch(error => { throw error })
