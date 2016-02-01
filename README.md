@@ -9,7 +9,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 * A Russian version of SJSJ by Andrew Romanov: https://github.com/andrew--r/SJSJ
 * A CLI tool for SJSJ by Hank Wang: https://github.com/hanksudo/SJSJ-cli
 * A Chrome extension for SJSJ by [ismnoiet](https://github.com/ismnoiet): https://github.com/ismnoiet/JSJargon
-* A data crawler for SJSJ by myself: https://github.com/HugoGiraudel/SJSJ-crawler
+* A [data crawler](#export-entries-as-json) for SJSJ by myself
 
 ## Glossary
 
@@ -213,3 +213,12 @@ If you are willing to contribute, open a pull request to complete, update or fil
 ### Z
 
 * [Zepto](/glossary/ZEPTO.md): a lightweight jQuery clone, without all the browser-compatibility specific code.
+
+## Export entries as JSON
+
+This repository includes a tiny Node.js script that exports all the entries as JSON. To use it, clone the repository and run:
+
+```sh
+npm install
+npm run index -- data.json
+```
