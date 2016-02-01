@@ -220,5 +220,5 @@ This repository includes a tiny Node.js script that exports all the entries as J
 
 ```sh
 npm install
-npm run index -- data.json
+npm run export -- data.json
 ```

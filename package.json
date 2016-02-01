@@ -4,6 +4,6 @@
     "fs-promise": "^0.4.1"
   },
   "scripts": {
-    "index": "node bin/indexer"
+    "export": "node bin/export"
   }
 }
