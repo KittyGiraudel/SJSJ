@@ -161,7 +161,7 @@ Andrew Romanov is translating SJSJ into Russian: https://github.com/andrew--r/SJ
 
 ### Q
 
-* [QUnit](/glossary/QUNIT.md): *to be completed.*
+* [QUnit](/glossary/QUNIT.md): a powerful, easy-to-use JavaScript unit testing framework.
 * [Q](/glossary/Q.md): a library to create and manage promises.
 
 ### R
