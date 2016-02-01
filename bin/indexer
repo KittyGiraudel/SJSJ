@@ -17,7 +17,7 @@ const parse = content => ({
 const collect = file => fs.readFile(path.join(GLOSSARY_FOLDER, file), 'utf8')
   .then(parse)
   .then(obj => Object.assign(obj, {
-    html: marked(obj.markdown),
+    html: marked(obj.markdown || ''),
     url: `https://github.com/HugoGiraudel/SJSJ/blob/master/glossary/${file}`
   }))
 
