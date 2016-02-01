@@ -6,11 +6,10 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ## Related projects
 
-Hank Wang has made a command-line tool for SJSJ if you want all the JavaScript goodness directly from your terminal: https://github.com/hanksudo/SJSJ-cli.
-
-Andrew Romanov is translating SJSJ into Russian: https://github.com/andrew--r/SJSJ.
-
-You can also check the  chrome extension at [https://github.com/ismnoiet/JSJargon](https://github.com/ismnoiet/JSJargon), created by [ismnoiet](https://github.com/ismnoiet).
+* A Russian version of SJSJ by Andrew Romanov: https://github.com/andrew--r/SJSJ
+* A CLI tool for SJSJ by Hank Wang: https://github.com/hanksudo/SJSJ-cli
+* A Chrome extension for SJSJ by [ismnoiet](https://github.com/ismnoiet): https://github.com/ismnoiet/JSJargon
+* A data crawler for SJSJ by myself: https://github.com/HugoGiraudel/SJSJ-crawler
 
 ## Glossary
 
