@@ -136,7 +136,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 * [Module Pattern](/glossary/MODULE_PATTERN.md):  a design pattern used to implement the concept of software modules, defined by modular programming, in a programming language with incomplete direct support for the concept.
 * [Moment.js](/glossary/MOMENTJS.md): a library to parse, validate, manipulate and display dates.
 * [MongoDB](/glossary/MONGODB.md): a Javascript NoSQL database.
-* [Mootools](/glossary/MOOTOOLS.md): *to be completed.*
+* [Mootools](/glossary/MOOTOOLS.md): a collection of JavaScript utilities designed for the intermediate to advanced JavaScript developer. It allows you to write powerful and flexible code with its elegant, well documented, and coherent APIs.
 * [Metalsmith](/glossary/METALSMITH.md): a simple, pluggable static site generator.
 * [MEAN](/glossary/MEAN.md): the technology stack MongoDB, ExpressJS, AngularJS, and Node.js (MEAN).
 
