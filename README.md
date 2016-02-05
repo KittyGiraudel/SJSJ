@@ -157,7 +157,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 * [PhantomJS](/glossary/PHANTOMJS.md): a scripted, headless browser used for automating web page interaction.
 * [Polymer](/glossary/POLYMER.md): Google’s library for creating Web Components.
 * [Promise](/glossary/PROMISE.md): a proxy for a value not necessarily known immediately but that will eventually be resolved.
-* [Prototype](/glossary/PROTOTYPE.md): *to be completed.*
+* [Prototype.js](/glossary/PROTOTYPEJS.md): a JavaScript framework that aims to ease development of dynamic web applications. It offers a familiar class-style OO framework, extensive Ajax support, higher-order programming constructs, and easy DOM manipulation.
 * [Prototype Pattern](/glossary/PROTOTYPE_PATTERN.md): a creational design pattern in software development. It is used when the type of objects to create is determined by a prototypical instance, which is cloned to produce new objects.
 
 ### Q
