@@ -72,7 +72,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 ### D
 
 * [D3.js](/glossary/D3JS.md): a library for manipulating documents based on data.
-* [Design Patterns](/glossary/DESIGN_PATTERNS.md): *to be completed.*
+* [Design Patterns](/glossary/DESIGN_PATTERNS.md): a general reusable solution to a commonly occurring problem within a given context in software design.
 * [DOM](/glossary/DOM.md): a platform- and language-neutral interface that allow programs and scripts to dynamically access and update the content, structure and style of documents.
 
 ### E
