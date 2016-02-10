@@ -224,3 +224,7 @@ This repository includes a tiny Node.js script that exports all the entries as J
 npm install
 npm run export -- data.json
 ```
+
+## Special thanks
+
+A special thanks to [Bohdan Shtepan](https://github.com/virtyaluk) and [Kostas Minaidis](https://github.com/kostasx) (amongst others) for there outstanding contributions to make this project more and more relevant every day!
