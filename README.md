@@ -89,7 +89,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 * [Facade Pattern](/glossary/FACADE_PATTERN.md): a software design pattern commonly used with object-oriented programming. The name is by analogy to an architectural facade.
 * [Factory Pattern](/glossary/FACTORY_PATTERN.md): a creational pattern that uses factory methods to deal with the problem of creating objects without having to specify the exact class of the object that will be created.
 * [Falcor](/glossary/FALCOR.md): a JavaScript library for efficient data fetching.
-* [Flow](/gloassaty/FLOW.md): a static type checker, designed to find type errors in JavaScript programs.
+* [Flow](/glossary/FLOW.md): a static type checker, designed to find type errors in JavaScript programs.
 * [Flux](/glossary/FLUX.md): an application structure focusing on improved data flow.
 * [Four](/glossary/FOUR.md): a framework to develop 3D content for the web.
 
