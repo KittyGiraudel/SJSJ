@@ -145,7 +145,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 ### N
 
 * [Nightmare](/glossary/NIGHTMARE.md): a high-level browser automation library.
-* [NightwatchJS](/glossary/NIGHTWATCHJS): a framework for browser automated testing.
+* [NightwatchJS](/glossary/NIGHTWATCHJS.md): a framework for browser automated testing.
 * [Node.js](/glossary/NODEJS.md): a cross-platform runtime environment for developing server-side applications built on V8 engine.
 * [npm](/glossary/NPM.md): a utility to help publishing packages to, and installing from, an npm repository.
 * [nvm](/glossary/NVM.md): a utility to help run multiple versions of Node.js on the same machine.
