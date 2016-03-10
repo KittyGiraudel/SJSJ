@@ -117,6 +117,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 * [JSLint](/glossary/JSLINT.md): a JavaScript code linter.
 * [JSON](/glossary/JSON.md) (JavaScript Object Notation): a lightweight data-interchange format.
 * [JSON-LD](/glossary/JSON-LD.md): JSON for Linked Data.
+* [JSPM](/glossary/JSPM.md): Javascript Package Manager: NPM with its own build system and multiple resources management.
 * [JSX](/glossary/JSX.md): an XML-like syntax extension to JavaScript.
 
 ### K
