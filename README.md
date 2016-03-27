@@ -81,6 +81,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 * [ECMAScript](/glossary/ECMASCRIPT.md): the standardized specification of the scripting language used by JavaScript.
 * [Electron](/glossary/ELECTRON.md): a framework based on Node.js lets you write cross-platform desktop applications using JS, HTML and CSS.
 * [Ember](/glossary/EMBER.md): an application framework based on the model-view-controller pattern.
+* [Enzyme](/glossary/ENZYME.md): an unopinionated JavaScript testing utiity built by airbnb for the React framework. 
 * [ESLint](/glossary/ESLINT.md): a JavaScript code linter.
 * [Express](/glossary/EXPRESS.md): a fast, un-opinionated, minimalist web framework for Node.js.
 * [Ext JS](/glossary/EXTJS.md): a pure JavaScript application framework for building interactive cross platform web applications.
@@ -161,6 +162,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 * [PhantomJS](/glossary/PHANTOMJS.md): a scripted, headless browser used for automating web page interaction.
 * [Polymer](/glossary/POLYMER.md): Google’s library for creating Web Components.
+* [PostCSS](/glossary/POSTCSS.md): a tool to transform CSS styles using JavaScript plugins. Plugins include autoprefixer, future CSS transpiling, CSS linting and media queries.
 * [Promise](/glossary/PROMISE.md): a proxy for a value not necessarily known immediately but that will eventually be resolved.
 * [Prototype.js](/glossary/PROTOTYPEJS.md): a JavaScript framework that aims to ease development of dynamic web applications. It offers a familiar class-style OO framework, extensive Ajax support, higher-order programming constructs, and easy DOM manipulation.
 * [Prototype Pattern](/glossary/PROTOTYPE_PATTERN.md): a creational design pattern in software development. It is used when the type of objects to create is determined by a prototypical instance, which is cloned to produce new objects.
