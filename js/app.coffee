@@ -47,7 +47,7 @@ do ->
   displayEntry = (key)->
 
     $entriesBox.classList.add "hide"
-    $output.querySelector('.entry').innerHTML = jargon[key]
+    $output.querySelector('.entry').innerHTML = jargon[key.toLowerCase()]
     location.href = location.href.split("#")[0] + "#" + key
 
   initializeList = ()->
@@ -59,11 +59,21 @@ do ->
   initSearch = (data)->
 
     entries = data.map (entry)->
-      jargon[entry.name] = entry.html
+      key = entry.name
+      key = key.toLowerCase()
+      key = key.replace('.','')
+      jargon[key] = entry.html
       return entry.name
 
     # Check URL #hash and load term accordingly
     if location.hash isnt "" then displayEntry location.hash.slice(1)
+
+    document.querySelector('.entry').addEventListener "click", (e)->
+      if e.target.href.match(/\.md$/)
+        e.preventDefault()
+        e.stopPropagation()
+        term = e.target.pathname.slice(1).split('.md')[0]
+        displayEntry term
 
     createEntriesSelectableList(jargon)
     createSelectableAlphabet()
@@ -91,6 +101,3 @@ do ->
     return
 
   request.send()
-
-# TODO LIST
-# + Trigger term load on URL, e.g. http://kostasx.github.io/SJSJ?term=backbone should automatically load the term Backbone

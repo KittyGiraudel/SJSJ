@@ -55,7 +55,7 @@ request = new XMLHttpRequest;
   };
   displayEntry = function(key) {
     $entriesBox.classList.add("hide");
-    $output.querySelector('.entry').innerHTML = jargon[key];
+    $output.querySelector('.entry').innerHTML = jargon[key.toLowerCase()];
     return location.href = location.href.split("#")[0] + "#" + key;
   };
   initializeList = function() {
@@ -68,12 +68,25 @@ request = new XMLHttpRequest;
   initSearch = function(data) {
     var entries, h;
     entries = data.map(function(entry) {
-      jargon[entry.name] = entry.html;
+      var key;
+      key = entry.name;
+      key = key.toLowerCase();
+      key = key.replace('.', '');
+      jargon[key] = entry.html;
       return entry.name;
     });
     if (location.hash !== "") {
       displayEntry(location.hash.slice(1));
     }
+    document.querySelector('.entry').addEventListener("click", function(e) {
+      var term;
+      if (e.target.href.match(/\.md$/)) {
+        e.preventDefault();
+        e.stopPropagation();
+        term = e.target.pathname.slice(1).split('.md')[0];
+        return displayEntry(term);
+      }
+    });
     createEntriesSelectableList(jargon);
     createSelectableAlphabet();
     initializeList();
