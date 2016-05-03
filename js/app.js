@@ -4,7 +4,7 @@ var request;
 request = new XMLHttpRequest;
 
 (function() {
-  var $$entries, $$letters, $entriesBox, $output, $searchInput, createEntriesSelectableList, createSelectableAlphabet, displayEntry, initSearch, initializeList, jargon, unhighlightLetters;
+  var $$entries, $$letters, $entriesBox, $output, $searchInput, createEntriesSelectableList, createSelectableAlphabet, displayEntry, getEntriesObject, initSearch, initializeList, jargon, unhighlightLetters;
   $searchInput = document.getElementById('search');
   $output = document.getElementById('results');
   $entriesBox = document.getElementById('entries');
@@ -65,16 +65,19 @@ request = new XMLHttpRequest;
       return displayEntry(e.target.textContent);
     });
   };
-  initSearch = function(data) {
-    var entries, h;
-    entries = data.map(function(entry) {
+  getEntriesObject = function(data) {
+    return data.map(function(entry) {
       var key;
       key = entry.name;
       key = key.toLowerCase();
-      key = key.replace('.', '');
+      key = key.replace('.', '').replace(' ', '').replace('(', '').replace(')', '');
       jargon[key] = entry.html;
       return entry.name;
     });
+  };
+  initSearch = function(data) {
+    var entries, h;
+    entries = getEntriesObject(data);
     if (location.hash !== "") {
       displayEntry(location.hash.slice(1));
     }

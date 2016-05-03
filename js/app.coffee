@@ -56,14 +56,23 @@ do ->
       e.stopPropagation()
       displayEntry(e.target.textContent)
 
-  initSearch = (data)->
+  getEntriesObject = (data)->
 
-    entries = data.map (entry)->
+    return data.map (entry)->
       key = entry.name
       key = key.toLowerCase()
-      key = key.replace('.','')
+      key = key
+      .replace('.','')
+      .replace(' ','')
+      .replace('(','')
+      .replace(')','')
       jargon[key] = entry.html
       return entry.name
+
+  initSearch = (data)->
+
+    # Create object that will hold entry names and HTML
+    entries = getEntriesObject(data)
 
     # Check URL #hash and load term accordingly
     if location.hash isnt "" then displayEntry location.hash.slice(1)
