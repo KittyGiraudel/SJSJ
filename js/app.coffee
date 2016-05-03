@@ -66,6 +66,7 @@ do ->
       .replace(' ','')
       .replace('(','')
       .replace(')','')
+      .replace('-','')
       jargon[key] = entry.html
       return entry.name
 

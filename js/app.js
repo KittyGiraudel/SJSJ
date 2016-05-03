@@ -70,7 +70,7 @@ request = new XMLHttpRequest;
       var key;
       key = entry.name;
       key = key.toLowerCase();
-      key = key.replace('.', '').replace(' ', '').replace('(', '').replace(')', '');
+      key = key.replace('.', '').replace(' ', '').replace('(', '').replace(')', '').replace('-', '');
       jargon[key] = entry.html;
       return entry.name;
     });
