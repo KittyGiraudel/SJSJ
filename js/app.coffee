@@ -44,10 +44,22 @@ do ->
         else 
           li.classList.remove 'selected'
 
+  cleanKey = (key)->
+    return key
+    .toLowerCase()
+    .replace('.','')
+    .replace(' ','')
+    .replace('(','')
+    .replace(')','')
+    .replace('-','')
+    .replace('_','')
+
+
   displayEntry = (key)->
 
+    key = cleanKey(key)
     $entriesBox.classList.add "hide"
-    $output.querySelector('.entry').innerHTML = jargon[key.toLowerCase()]
+    $output.querySelector('.entry').innerHTML = jargon[key]
     location.href = location.href.split("#")[0] + "#" + key
 
   initializeList = ()->
@@ -60,13 +72,7 @@ do ->
 
     return data.map (entry)->
       key = entry.name
-      key = key.toLowerCase()
-      key = key
-      .replace('.','')
-      .replace(' ','')
-      .replace('(','')
-      .replace(')','')
-      .replace('-','')
+      key = cleanKey(key)
       jargon[key] = entry.html
       return entry.name
 
@@ -82,7 +88,8 @@ do ->
       if e.target.href.match(/\.md$/)
         e.preventDefault()
         e.stopPropagation()
-        term = e.target.pathname.slice(1).split('.md')[0]
+        term = e.target.pathname.split('/')
+        term = term.slice(-1)[0].split('.md')[0]
         displayEntry term
 
     createEntriesSelectableList(jargon)

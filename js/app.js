@@ -4,7 +4,7 @@ var request;
 request = new XMLHttpRequest;
 
 (function() {
-  var $$entries, $$letters, $entriesBox, $output, $searchInput, createEntriesSelectableList, createSelectableAlphabet, displayEntry, getEntriesObject, initSearch, initializeList, jargon, unhighlightLetters;
+  var $$entries, $$letters, $entriesBox, $output, $searchInput, cleanKey, createEntriesSelectableList, createSelectableAlphabet, displayEntry, getEntriesObject, initSearch, initializeList, jargon, unhighlightLetters;
   $searchInput = document.getElementById('search');
   $output = document.getElementById('results');
   $entriesBox = document.getElementById('entries');
@@ -53,9 +53,13 @@ request = new XMLHttpRequest;
       });
     });
   };
+  cleanKey = function(key) {
+    return key.toLowerCase().replace('.', '').replace(' ', '').replace('(', '').replace(')', '').replace('-', '').replace('_', '');
+  };
   displayEntry = function(key) {
+    key = cleanKey(key);
     $entriesBox.classList.add("hide");
-    $output.querySelector('.entry').innerHTML = jargon[key.toLowerCase()];
+    $output.querySelector('.entry').innerHTML = jargon[key];
     return location.href = location.href.split("#")[0] + "#" + key;
   };
   initializeList = function() {
@@ -69,8 +73,7 @@ request = new XMLHttpRequest;
     return data.map(function(entry) {
       var key;
       key = entry.name;
-      key = key.toLowerCase();
-      key = key.replace('.', '').replace(' ', '').replace('(', '').replace(')', '').replace('-', '');
+      key = cleanKey(key);
       jargon[key] = entry.html;
       return entry.name;
     });
@@ -86,7 +89,8 @@ request = new XMLHttpRequest;
       if (e.target.href.match(/\.md$/)) {
         e.preventDefault();
         e.stopPropagation();
-        term = e.target.pathname.slice(1).split('.md')[0];
+        term = e.target.pathname.split('/');
+        term = term.slice(-1)[0].split('.md')[0];
         return displayEntry(term);
       }
     });
