@@ -27,7 +27,7 @@ request = new XMLHttpRequest;
     });
     return $searchInput.addEventListener('horsey-filter', function(e) {});
   };
-  request.open('GET', '/js/entries.json', true);
+  request.open('GET', 'js/entries.json', true);
   request.onload = function() {
     var data;
     if (request.status >= 200 && request.status < 400) {

@@ -24,7 +24,7 @@ do ->
 
     $searchInput.addEventListener 'horsey-filter', (e)->
 
-  request.open 'GET', '/js/entries.json', true
+  request.open 'GET', 'js/entries.json', true
 
   request.onload = ->
     if request.status >= 200 and request.status < 400 
