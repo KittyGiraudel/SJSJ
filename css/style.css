@@ -71,3 +71,57 @@ h1,h2,h3,h4,h5,h6{
   max-height: 70vh;
   overflow: scroll;
 }
+
+.alphabet {
+  text-align: center;
+  padding: 10px;
+  border: 3px solid black;
+  margin-top: 10px;  
+}
+
+.alphabet ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.alphabet ul li {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.alphabet ul li a {
+  color: black;
+  transition: all 300ms ease;
+  text-decoration: none;
+}
+
+.alphabet ul li a:hover {
+  color: #EB5424;
+}
+
+ul#entries {
+  margin-top: 10px;
+}
+
+ul#entries.fold li {
+  display: none;
+}
+
+ul#entries.fold li.selected {
+  display: list-item !important;
+}
+
+.alphabet ul li a.highlighted {
+  color: #EB5424;
+}
+
+.info {
+  margin-top: 20px;
+  opacity: 0.4;
+  transition: opacity 600ms ease;
+}
+
+.info:hover {
+  opacity: 1;
+}
