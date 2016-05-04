@@ -1,11 +1,8 @@
 ---
-layout: default
 ---
 
-<div class="box">
-  <ul class="index-list">
-  {% for entry in site.glossary %}
-    <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
-  {% endfor %}
-  </ul>
-</div>
+<ul class="index-list">
+{% for entry in site.glossary %}
+  <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+{% endfor %}
+</ul>
