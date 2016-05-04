@@ -14,9 +14,9 @@ title: MooTools
 
 ## History
 
-Valerio Proietti first authored the framework and released it in September 2006 taking as his inspiration [Prototype](/glossary/PROTOTYPE.md) and Dean Edward's [base2](http://code.google.com/p/base2/). MooTools originated from [Moo.fx](https://en.wikipedia.org/wiki/Moo.fx), a popular plug-in Proietti produced for Prototype in October 2005, which is still maintained and used.
+Valerio Proietti first authored the framework and released it in September 2006 taking as his inspiration [Prototype](/_glossary/PROTOTYPE.md) and Dean Edward's [base2](http://code.google.com/p/base2/). MooTools originated from [Moo.fx](https://en.wikipedia.org/wiki/Moo.fx), a popular plug-in Proietti produced for Prototype in October 2005, which is still maintained and used.
 
-Whereas Prototype extended—prototyped—many of JavaScript's native String, Array, and Function objects with additional methods, Proietti desired a framework that (at the time) further extended the native Element object as well to offer greater control of the [Document Object Model](/glossary/DOM.md) (DOM).
+Whereas Prototype extended—prototyped—many of JavaScript's native String, Array, and Function objects with additional methods, Proietti desired a framework that (at the time) further extended the native Element object as well to offer greater control of the [Document Object Model](/_glossary/DOM.md) (DOM).
 
 ## Components
 
@@ -28,7 +28,7 @@ MooTools includes a number of components, but not all need to be loaded for each
 - **Natives**: A collection of JavaScript Native Object enhancements. The Natives add functionality, compatibility, and new methods that simplify coding.
 - **Element**: Contains a large number of enhancements and compatibility standardization to the HTML Element object.
 - **Fx**: An advanced effects-API to animate page elements.
-- **Request**: Includes [XHR](/glossary/XHR.md) interface, Cookie, [JSON](/glossary/JSON.md), and HTML retrieval-specific tools for developers to exploit.
+- **Request**: Includes [XHR](/_glossary/XHR.md) interface, Cookie, [JSON](/_glossary/JSON.md), and HTML retrieval-specific tools for developers to exploit.
 - **Window**: Provides a cross-browser interface to client-specific information, such as the dimensions of the window.
 
 ## Browser compatibility

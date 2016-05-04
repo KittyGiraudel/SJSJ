@@ -10,7 +10,7 @@ title: LocalForage
 
 localForage includes a localStorage-backed fallback store for browsers with no IndexedDB or WebSQL support. Asynchronous storage is available in the current versions of all major browsers: Chrome, Firefox, IE, and Safari (including Safari Mobile).
 
-**localForage offers a callback API as well as support for the** [ES6 Promises API](/glossary/PROMISE.md), so you can use whichever you prefer.
+**localForage offers a callback API as well as support for the** [ES6 Promises API](/_glossary/PROMISE.md), so you can use whichever you prefer.
 
 ## Installation
 
@@ -100,7 +100,7 @@ localforage.setItem('key', 'value').then(function(value) {
 });
 ```
 
-localForage relies on native [ES6 Promises](/glossary/PROMISE.md), but [ships with an awesome polyfill](https://github.com/jakearchibald/es6-promise) for browsers that don't support ES6 Promises yet.
+localForage relies on native [ES6 Promises](/_glossary/PROMISE.md), but [ships with an awesome polyfill](https://github.com/jakearchibald/es6-promise) for browsers that don't support ES6 Promises yet.
 
 ### Storing Blobs, TypedArrays, and other JS objects
 
@@ -147,7 +147,7 @@ otherStore.setItem("key", "value2");
 
 ### RequireJS
 
-You can use localForage with [RequireJS](/glossary/REQUIREJS.md):
+You can use localForage with [RequireJS](/_glossary/REQUIREJS.md):
 
 ```js
 define(['localforage'], function(localforage) {

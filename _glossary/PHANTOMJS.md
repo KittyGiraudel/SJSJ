@@ -8,8 +8,8 @@ title: PhantomJS
 
 ## Use Cases
 
-- **Headless web testing**. Lightning-fast testing without the browser is now possible! Various [test frameworks](http://phantomjs.org/headless-testing.html) such as [Jasmine](/glossary/JASMINE.md), Capybara, [QUnit](/glossary/QUNIT.md), [Mocha](/glossary/MOCHA.md), WebDriver, YUI Test, BusterJS, FuncUnit, Robot Framework, and many others are supported.
-- **Page automation.** [Access and manipulate](http://phantomjs.org/page-automation.html) web pages with the standard DOM API, or with usual libraries like [jQuery](/glossary/JQUERY.md).
+- **Headless web testing**. Lightning-fast testing without the browser is now possible! Various [test frameworks](http://phantomjs.org/headless-testing.html) such as [Jasmine](/_glossary/JASMINE.md), Capybara, [QUnit](/_glossary/QUNIT.md), [Mocha](/_glossary/MOCHA.md), WebDriver, YUI Test, BusterJS, FuncUnit, Robot Framework, and many others are supported.
+- **Page automation.** [Access and manipulate](http://phantomjs.org/page-automation.html) web pages with the standard DOM API, or with usual libraries like [jQuery](/_glossary/JQUERY.md).
 - **Screen capture.** Programmatically [capture web contents](http://phantomjs.org/screen-capture.html), including CSS, SVG and Canvas. Build server-side web graphics apps, from a screenshot service to a vector chart rasterizer.
 - **Network monitoring.** Automate performance analysis, track [page loading](http://phantomjs.org/network-monitoring.html) and export as standard HAR format.
 

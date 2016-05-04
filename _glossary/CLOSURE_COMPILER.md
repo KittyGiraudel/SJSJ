@@ -10,7 +10,7 @@ The [Closure Compiler](https://developers.google.com/closure/compiler/) is a too
 
 *Closure-compiler requires java to be installed and in the path.*
 
-The compiler package now includes build tool plugins for [Grunt](/glossary/GRUNT.md) and [Gulp](/glossary/GULP.md).
+The compiler package now includes build tool plugins for [Grunt](/_glossary/GRUNT.md) and [Gulp](/_glossary/GULP.md).
 
 ### Installation
 

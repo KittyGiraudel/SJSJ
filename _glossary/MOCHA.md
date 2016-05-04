@@ -4,7 +4,7 @@ title: Mocha
 
 # Mocha
 
-[Mocha](https://mochajs.org/) is an extensible, open-source Javascript testing framework that runs in [Node.js](/glossary/NODEJS.md) or the browser. It supports both test-driven development (TDD) and behavior-driven development (BDD) by allowing you to use any assertion library, such as [expect.js](https://github.com/Automattic/expect.js), [should.js](https://github.com/shouldjs/should.js), and [chai](/glossary/CHAI.md).
+[Mocha](https://mochajs.org/) is an extensible, open-source Javascript testing framework that runs in [Node.js](/_glossary/NODEJS.md) or the browser. It supports both test-driven development (TDD) and behavior-driven development (BDD) by allowing you to use any assertion library, such as [expect.js](https://github.com/Automattic/expect.js), [should.js](https://github.com/shouldjs/should.js), and [chai](/_glossary/CHAI.md).
 
 Mocha supports spies, stubs and mocks through libraries, such as [Sinon](https://github.com/sinonjs/sinon).
 

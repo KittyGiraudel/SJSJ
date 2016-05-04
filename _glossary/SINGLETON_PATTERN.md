@@ -14,8 +14,8 @@ Singletons reduce the need for global variables which is particularly important 
 
 ## Common uses
 
-- The [Abstract Factory](https://en.wikipedia.org/wiki/Abstract_factory_pattern), [Builder](https://en.wikipedia.org/wiki/Builder_pattern), and [Prototype](/glossary/PROTOTYPE_PATTERN.md) patterns can use Singletons in their implementation.
-- [Facade](/glossary/FACADE_PATTERN.md) objects are often singletons because only one Facade object is required.
+- The [Abstract Factory](https://en.wikipedia.org/wiki/Abstract_factory_pattern), [Builder](https://en.wikipedia.org/wiki/Builder_pattern), and [Prototype](/_glossary/PROTOTYPE_PATTERN.md) patterns can use Singletons in their implementation.
+- [Facade](/_glossary/FACADE_PATTERN.md) objects are often singletons because only one Facade object is required.
 - [State](https://en.wikipedia.org/wiki/State_pattern) objects are often singletons.
 Singletons are often preferred to global variables because:
  - They do not pollute the global namespace (or, in languages with namespaces, their containing namespace) with unnecessary variables.
@@ -33,7 +33,7 @@ The objects participating in this pattern are:
 
 ## Example
 
-The Singleton object is implemented as an [immediate anonymous function](/glossary/IIFE.md). The function executes immediately by wrapping it in brackets followed by two additional brackets. It is called anonymous because it doesn't have a name.
+The Singleton object is implemented as an [immediate anonymous function](/_glossary/IIFE.md). The function executes immediately by wrapping it in brackets followed by two additional brackets. It is called anonymous because it doesn't have a name.
 
 #### Example 1
 

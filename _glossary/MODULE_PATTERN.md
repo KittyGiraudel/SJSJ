@@ -34,11 +34,11 @@ In order to consider that a Singleton or any group of related code implements th
 
 JavaScript does not have built-in support for modules, but the community has created impressive work-arounds. The two most popular standards are:
 
-- [CommonJS Modules](/glossary/COMMONJS.md): The dominant implementation of this standard is in Node.js ([Node.js](/glossary/NODEJS.md) modules have a few features that go beyond CommonJS). Characteristics:
+- [CommonJS Modules](/_glossary/COMMONJS.md): The dominant implementation of this standard is in Node.js ([Node.js](/_glossary/NODEJS.md) modules have a few features that go beyond CommonJS). Characteristics:
  - Compact syntax
  - Designed for synchronous loading
  - Main use: server
-- [Asynchronous Module Definition (AMD)](/glossary/AMD.md): The most popular implementation of this standard is [RequireJS](/glossary/REQUIREJS.md). Characteristics:
+- [Asynchronous Module Definition (AMD)](/_glossary/AMD.md): The most popular implementation of this standard is [RequireJS](/_glossary/REQUIREJS.md). Characteristics:
  - Slightly more complicated syntax, enabling AMD to work without eval() (or a compilation step).
  - Designed for asynchronous loading
  - Main use: browsers

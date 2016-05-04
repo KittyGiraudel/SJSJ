@@ -4,7 +4,7 @@ title: Node.js
 
 # Node.js
 
-[Node.js](https://nodejs.org/en/) is an open-source, cross-platform runtime environment for developing server-side web applications built on Chrome’s [V8](/glossary/V8.md) JavaScript engine. These applications are written in JavaScript and can be run within the Node.js runtime.
+[Node.js](https://nodejs.org/en/) is an open-source, cross-platform runtime environment for developing server-side web applications built on Chrome’s [V8](/_glossary/V8.md) JavaScript engine. These applications are written in JavaScript and can be run within the Node.js runtime.
 
 Node.js uses an event-driven, non-blocking I/O (input/output) model that makes it lightweight and efficient as well as optimized for real-time web applications’ throughput and scalability.
 

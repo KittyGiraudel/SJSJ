@@ -4,7 +4,7 @@ title: MEAN
 
 # MEAN
 
-[MEAN](https://en.wikipedia.org/wiki/MEAN_(software_bundle)) is a software technology stack based on JavaScript for building web sites and web applications, and comprised of the following components: [MongoDB](/glossary/MONGODB.md), [ExpressJS](/glossary/EXPRESS.md), [Node.js](/glossary/NODEJS.md), and [AngularJS](/glossary/ANGULARJS.md).
+[MEAN](https://en.wikipedia.org/wiki/MEAN_(software_bundle)) is a software technology stack based on JavaScript for building web sites and web applications, and comprised of the following components: [MongoDB](/_glossary/MONGODB.md), [ExpressJS](/_glossary/EXPRESS.md), [Node.js](/_glossary/NODEJS.md), and [AngularJS](/_glossary/ANGULARJS.md).
 
 ## Notable MEAN frameworks
 

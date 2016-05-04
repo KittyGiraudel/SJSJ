@@ -8,7 +8,7 @@ title: Falcor
 
 ### One Model Everywhere
 
-Falcor lets you represent all your remote data sources as a single domain model via a virtual [JSON](/glossary/JSON.md) graph. You code the same way no matter where the data is, whether in memory on the client or over the network on the server.
+Falcor lets you represent all your remote data sources as a single domain model via a virtual [JSON](/_glossary/JSON.md) graph. You code the same way no matter where the data is, whether in memory on the client or over the network on the server.
 
 ### The Data is the API
 

@@ -4,11 +4,11 @@ title: Prototype
 
 # Prototype
 
-The [Prototype](http://prototypejs.org/) JavaScript Framework is a JavaScript framework created by Sam Stephenson in February 2005 as part of the foundation for [Ajax](/glossary/AJAX.md) support in Ruby on Rails. It is implemented as a single file of JavaScript code, usually named prototype.js. Prototype is distributed standalone, but also as part of larger projects, such as Ruby on Rails, script.aculo.us and Rico.
+The [Prototype](http://prototypejs.org/) JavaScript Framework is a JavaScript framework created by Sam Stephenson in February 2005 as part of the foundation for [Ajax](/_glossary/AJAX.md) support in Ruby on Rails. It is implemented as a single file of JavaScript code, usually named prototype.js. Prototype is distributed standalone, but also as part of larger projects, such as Ruby on Rails, script.aculo.us and Rico.
 
 ## Features
 
-Prototype provides various functions for developing JavaScript applications. The features range from programming shortcuts to major functions for dealing with [XMLHttpRequest](/glossary/XHR.md).
+Prototype provides various functions for developing JavaScript applications. The features range from programming shortcuts to major functions for dealing with [XMLHttpRequest](/_glossary/XHR.md).
 
 Prototype also provides library functions to support classes and class-based objects, something the JavaScript language lacks. In JavaScript, object creation is prototype-based instead: an object creating function can have a prototype property, and any object assigned to that property will be used as a prototype for the objects created with that function. The Prototype framework is not to be confused with this language feature.
 
@@ -16,7 +16,7 @@ Prototype also provides library functions to support classes and class-based obj
 
 #### The $() function
 
-The **dollar function**, `$()`, can be used as shorthand for the `getElementById` function. To refer to an element in the [Document Object Model](/glossary/DOM.md) (DOM) of an HTML page, the usual function identifying an element is:
+The **dollar function**, `$()`, can be used as shorthand for the `getElementById` function. To refer to an element in the [Document Object Model](/_glossary/DOM.md) (DOM) of an HTML page, the usual function identifying an element is:
 
 ```js
 document.getElementById("id_of_element").style.color = "#ffffff";

@@ -8,7 +8,7 @@ title: CommonJS
 
 Server side JavaScript has been around for a long time, and potentially offers some unique and interesting advantages over other languages because the same language is spoken by both client and server.
 
-Unfortunately, though, server side JavaScript is very fragmented. A script that accesses files can’t be used without modification on both rhino and [V8](/glossary/V8.md). Spidermonkey and JavaScriptCore can’t both load in additional modules in the same way. A JavaScript web framework is very much tied to its interpreter and is often forced to create a bunch of APIs that Python, Ruby and Java programmers take for granted.
+Unfortunately, though, server side JavaScript is very fragmented. A script that accesses files can’t be used without modification on both rhino and [V8](/_glossary/V8.md). Spidermonkey and JavaScriptCore can’t both load in additional modules in the same way. A JavaScript web framework is very much tied to its interpreter and is often forced to create a bunch of APIs that Python, Ruby and Java programmers take for granted.
 
 The goal for this project is to create a standard library that will ultimately allow web developers to choose among any number of web frameworks and tools and run that code on the platform that makes the most sense for their application.
 
@@ -19,9 +19,9 @@ The project was started by Mozilla engineer Kevin Dangoor in January 2009 and in
 > What I’m describing here is not a technical problem. It’s a matter of people getting together and making a decision to step forward and start building up something bigger and cooler together.
 > — Kevin Dangoor
 
-In August 2009, the project was renamed **CommonJS** to show the broader applicability of the APIs. Specifications are created and approved in an open process. A specification is only considered final after it has been finished by multiple implementations. **CommonJS** is not affiliated with the [ECMA](/glossary/ECMASCRIPT.md) International group TC39 working on ECMAScript, but some members of TC39 participate in the project.
+In August 2009, the project was renamed **CommonJS** to show the broader applicability of the APIs. Specifications are created and approved in an open process. A specification is only considered final after it has been finished by multiple implementations. **CommonJS** is not affiliated with the [ECMA](/_glossary/ECMASCRIPT.md) International group TC39 working on ECMAScript, but some members of TC39 participate in the project.
 
-In May 2013, Isaac Z. Schlueter, the author of [npm](/glossary/NPM.md), the package manager for [Node.js](/glossary/NODEJS.md), said **CommonJS** is being made obsolete by Node.js, and is avoided by the core Node.js developers.
+In May 2013, Isaac Z. Schlueter, the author of [npm](/_glossary/NPM.md), the package manager for [Node.js](/_glossary/NODEJS.md), said **CommonJS** is being made obsolete by Node.js, and is avoided by the core Node.js developers.
 
 ## Example usage
 

@@ -58,13 +58,13 @@ Design patterns were originally grouped into the categories: *creational pattern
 | --- | --- |
 | [Abstract factory](https://en.wikipedia.org/wiki/Abstract_factory_pattern) | Provide an interface for creating families of related or dependent objects without specifying their concrete classes. |
 | [Builder](https://en.wikipedia.org/wiki/Builder_pattern) | Separate the construction of a complex object from its representation, allowing the same construction process to create various representations. |
-| [Factory method](/glossary/FACTORY_PATTERN.md) | Define an interface for creating a single object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses (dependency injection). |
+| [Factory method](/_glossary/FACTORY_PATTERN.md) | Define an interface for creating a single object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses (dependency injection). |
 | [Lazy initialization](https://en.wikipedia.org/wiki/Lazy_initialization) | Tactic of delaying the creation of an object, the calculation of a value, or some other expensive process until the first time it is needed. This pattern appears in the GoF catalog as "virtual proxy", an implementation strategy for the Proxy pattern. |
 | [Multiton](https://en.wikipedia.org/wiki/Multiton_pattern) | Ensure a class has only named instances, and provide a global point of access to them. |
 | [Object pool](https://en.wikipedia.org/wiki/Object_pool_pattern) | Avoid expensive acquisition and release of resources by recycling objects that are no longer in use. Can be considered a generalisation of connection pool and thread pool patterns. |
-| [Prototype](/glossary/PROTOTYPE_PATTERN.md) | Specify the kinds of objects to create using a prototypical instance, and create new objects by copying this prototype. |
+| [Prototype](/_glossary/PROTOTYPE_PATTERN.md) | Specify the kinds of objects to create using a prototypical instance, and create new objects by copying this prototype. |
 | [Resource acquisition is initialization](https://en.wikipedia.org/wiki/Resource_Acquisition_Is_Initialization) | Ensure that resources are properly released by tying them to the lifespan of suitable objects. |
-| [Singleton](/glossary/SINGLETON_PATTERN.md) | Ensure a class has only one instance, and provide a global point of access to it. |
+| [Singleton](/_glossary/SINGLETON_PATTERN.md) | Ensure a class has only one instance, and provide a global point of access to it. |
 
 ### Structural patterns
 
@@ -74,11 +74,11 @@ Design patterns were originally grouped into the categories: *creational pattern
 | [Bridge](https://en.wikipedia.org/wiki/Bridge_pattern) | Decouple an abstraction from its implementation allowing the two to vary independently. |
 | [Composite](https://en.wikipedia.org/wiki/Composite_pattern) | 	Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly. |
 | [Decorator](https://en.wikipedia.org/wiki/Decorator_pattern) | 	Attach additional responsibilities to an object dynamically keeping the same interface. Decorators provide a flexible alternative to subclassing for extending functionality. |
-| [Facade](/glossary/FACADE_PATTERN.md) | Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use. |
+| [Facade](/_glossary/FACADE_PATTERN.md) | Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use. |
 | [Flyweight](https://en.wikipedia.org/wiki/Flyweight_pattern) | Use sharing to support large numbers of similar objects efficiently. |
 | [Front controller](https://en.wikipedia.org/wiki/Front_controller) | The pattern relates to the design of Web applications. It provides a centralized entry point for handling requests. |
 | [Marker](https://en.wikipedia.org/wiki/Marker_interface_pattern) | Empty interface to associate metadata with a class. |
-| [Module](/glossary/MODULE_PATTERN.md) | 	Group several related elements, such as classes, singletons, methods, globally used, into a single conceptual entity. |
+| [Module](/_glossary/MODULE_PATTERN.md) | 	Group several related elements, such as classes, singletons, methods, globally used, into a single conceptual entity. |
 | [Proxy](https://en.wikipedia.org/wiki/Proxy_pattern) | Provide a surrogate or placeholder for another object to control access to it. |
 | [Twin](https://en.wikipedia.org/wiki/Twin_pattern) | Twin allows modeling of multiple inheritance in programming languages that do not support this feature. |
 
@@ -91,10 +91,10 @@ Design patterns were originally grouped into the categories: *creational pattern
 | [Command](https://en.wikipedia.org/wiki/Command_pattern) | Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations. |
 | [Interpreter](https://en.wikipedia.org/wiki/Interpreter_pattern) | Given a language, define a representation for its grammar along with an interpreter that uses the representation to interpret sentences in the language. |
 | [Iterator](https://en.wikipedia.org/wiki/Iterator_pattern) | Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation. |
-| [Mediator](/glossary/MEDIATOR_PATTERN.md) | Define an object that encapsulates how a set of objects interact. Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and it lets you vary their interaction independently. |
+| [Mediator](/_glossary/MEDIATOR_PATTERN.md) | Define an object that encapsulates how a set of objects interact. Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and it lets you vary their interaction independently. |
 | [Memento](https://en.wikipedia.org/wiki/Memento_pattern) | Without violating encapsulation, capture and externalize an object's internal state allowing the object to be restored to this state later. |
 | [Null object](https://en.wikipedia.org/wiki/Null_Object_pattern) | Avoid null references by providing a default object. |
-| [Observer](/glossary/OBSERVER_PATTERN.md) or [Publish/subscribe](https://en.wikipedia.org/wiki/Publish/subscribe) | Define a one-to-many dependency between objects where a state change in one object results in all its dependents being notified and updated automatically. |
+| [Observer](/_glossary/OBSERVER_PATTERN.md) or [Publish/subscribe](https://en.wikipedia.org/wiki/Publish/subscribe) | Define a one-to-many dependency between objects where a state change in one object results in all its dependents being notified and updated automatically. |
 | [Servant](https://en.wikipedia.org/wiki/Design_pattern_Servant) | Define common functionality for a group of classes. |
 | [Specification](https://en.wikipedia.org/wiki/Specification_pattern) | Recombinable business logic in a Boolean fashion. |
 | [State](https://en.wikipedia.org/wiki/State_pattern) | Allow an object to alter its behavior when its internal state changes. The object will appear to change its class. |

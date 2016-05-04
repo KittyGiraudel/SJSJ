@@ -25,4 +25,4 @@ _.chain(myArray)
   // returns the sum of myArray after multiplying all elements by 3 and rejecting the odd numbers
 ```
 
-It may be seen as alternative of [Underscore](/glossary/UNDERSCORE.md).
+It may be seen as alternative of [Underscore](/_glossary/UNDERSCORE.md).

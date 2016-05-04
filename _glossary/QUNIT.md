@@ -4,9 +4,9 @@ title: QUnit
 
 # QUnit
 
-[QUnit](https://qunitjs.com/) is a JavaScript unit testing framework. While heavily used by the jQuery Project for testing [jQuery](/glossary/JQUERY.md), [jQuery UI](http://jqueryui.com/) and [jQuery Mobile](http://jquerymobile.com/), it is a generic framework to test any JavaScript code. It supports server-side (e.g. [node.js](/glossary/NODEJS.md)) and client-side environments.
+[QUnit](https://qunitjs.com/) is a JavaScript unit testing framework. While heavily used by the jQuery Project for testing [jQuery](/_glossary/JQUERY.md), [jQuery UI](http://jqueryui.com/) and [jQuery Mobile](http://jquerymobile.com/), it is a generic framework to test any JavaScript code. It supports server-side (e.g. [node.js](/_glossary/NODEJS.md)) and client-side environments.
 
-QUnit's assertion methods follow the [CommonJS](/glossary/COMMONJS.md) unit testing specification, which itself was influenced to some degree by QUnit.
+QUnit's assertion methods follow the [CommonJS](/_glossary/COMMONJS.md) unit testing specification, which itself was influenced to some degree by QUnit.
 
 ## History
 

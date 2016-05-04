@@ -4,4 +4,4 @@ title: Bluebird
 
 # Bluebird
 
-[Bluebird](http://bluebirdjs.com/docs/getting-started.html) is a fully featured [promise](/glossary/PROMISE.md) library with focus on innovative features and performance. It means that it is a tool that completes and reinforces the behavior of JavaScript promises.
+[Bluebird](http://bluebirdjs.com/docs/getting-started.html) is a fully featured [promise](/_glossary/PROMISE.md) library with focus on innovative features and performance. It means that it is a tool that completes and reinforces the behavior of JavaScript promises.

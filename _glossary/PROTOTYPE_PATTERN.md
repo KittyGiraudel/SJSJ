@@ -4,14 +4,14 @@ title: Prototype Pattern
 
 # Prototype Pattern
 
-The [prototype pattern](https://en.wikipedia.org/wiki/Prototype_pattern) is a creational design pattern in software development. It is used when the type of objects to create is determined by a [prototypical](/glossary/PROTOTYPE.md) instance, which is cloned to produce new objects. This pattern is used to:
+The [prototype pattern](https://en.wikipedia.org/wiki/Prototype_pattern) is a creational design pattern in software development. It is used when the type of objects to create is determined by a [prototypical](/_glossary/PROTOTYPE.md) instance, which is cloned to produce new objects. This pattern is used to:
 
 - avoid subclasses of an object creator in the client application, like the abstract factory pattern does.
 - avoid the inherent cost of creating a new object in the standard way (e.g., using the `new` keyword) when it is prohibitively expensive for a given application.
 
 To implement the pattern, declare an abstract base class that specifies a pure virtual `clone()` method. Any class that needs a "polymorphic constructor" capability derives itself from the abstract base class, and implements the clone() operation.
 
-The client, instead of writing code that invokes the "new" operator on a hard-coded class name, calls the `clone()` method on the prototype, calls a [factory method](/glossary/FACTORY_PATTERN.md) with a parameter designating the particular concrete derived class desired, or invokes the `clone()` method through some mechanism provided by another design pattern.
+The client, instead of writing code that invokes the "new" operator on a hard-coded class name, calls the `clone()` method on the prototype, calls a [factory method](/_glossary/FACTORY_PATTERN.md) with a parameter designating the particular concrete derived class desired, or invokes the `clone()` method through some mechanism provided by another design pattern.
 
 ## Structure
 
@@ -30,7 +30,7 @@ The objects participating in this pattern are:
 
 In the sample code we have a `CustomerPrototype` object that clones objects given a prototype object. Its constructor function accepts a prototype of type `Customer`. Calling the clone method will generate a new `Customer` object with its property values initialized with the prototype values.
 
-This is the classical implementation of the Prototype pattern, but JavaScript can do this far more effectively using its built-in [prototype facility](/glossary/PROTOTYPE.md).
+This is the classical implementation of the Prototype pattern, but JavaScript can do this far more effectively using its built-in [prototype facility](/_glossary/PROTOTYPE.md).
 
 ```js
 function CustomerPrototype(proto) {

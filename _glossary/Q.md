@@ -4,7 +4,7 @@ title: Q
 
 # Q
 
-[Q](http://documentup.com/kriskowal/q/) is a [promise](/glossary/PROMISE.md) library providing many more utilities than the native Promise implementation.
+[Q](http://documentup.com/kriskowal/q/) is a [promise](/_glossary/PROMISE.md) library providing many more utilities than the native Promise implementation.
 
 List of features:
 
@@ -18,7 +18,7 @@ List of features:
 - Support notify functions
 - Support chaining and tapping
 
-Real world example from a [Node.js](/glossary/NODEJS.md) application:
+Real world example from a [Node.js](/_glossary/NODEJS.md) application:
 
 ```js
 // Traditional implementation

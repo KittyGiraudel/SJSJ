@@ -4,7 +4,7 @@ title: Revealing Module Pattern
 
 # Revealing Module Pattern
 
-This pattern is the same concept as the [module pattern](/glossary/MODULE_PATTERN.md) in that it focuses on public & private methods. The only difference is that the revealing module pattern was engineered as a way to ensure that all methods and variables are kept private until they are explicitly exposed; usually through an object literal returned by the closure from which it's defined. Personally, I like this approach for vanilla JavaScript as it puts a clear emphasis on both the intent of the developer and the module itself.
+This pattern is the same concept as the [module pattern](/_glossary/MODULE_PATTERN.md) in that it focuses on public & private methods. The only difference is that the revealing module pattern was engineered as a way to ensure that all methods and variables are kept private until they are explicitly exposed; usually through an object literal returned by the closure from which it's defined. Personally, I like this approach for vanilla JavaScript as it puts a clear emphasis on both the intent of the developer and the module itself.
 
 ## Advantages
 

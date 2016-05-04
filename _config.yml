@@ -24,7 +24,7 @@ kramdown:
 collections:
   glossary:
     output: true
-    permalink: /glossary/:path.md
+    permalink: /_glossary/:path.md
     output_ext: md
   alphabet:
     output: true
