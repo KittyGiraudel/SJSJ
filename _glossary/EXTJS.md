@@ -1,5 +1,6 @@
 ---
 title: Ext JS
+description: a pure JavaScript application framework for building interactive cross platform web applications
 ---
 
 # Ext JS

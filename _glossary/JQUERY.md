@@ -1,5 +1,6 @@
 ---
 title: jQuery
+description: a fast, small, and feature-rich client-side library
 ---
 
 # jQuery

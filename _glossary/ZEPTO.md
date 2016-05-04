@@ -1,5 +1,6 @@
 ---
 title: Zepto
+description: a lightweight jQuery clone, without all the browser-compatibility specific code
 ---
 
 # Zepto

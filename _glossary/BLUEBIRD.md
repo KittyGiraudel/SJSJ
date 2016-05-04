@@ -1,5 +1,6 @@
 ---
 title: Bluebird
+description: a fully featured Promise library with focus on innovative features and performance
 ---
 
 # Bluebird

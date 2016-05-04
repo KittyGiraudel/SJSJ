@@ -1,5 +1,6 @@
 ---
 title: Bower
+description: a package manager for front-end dependencies
 ---
 
 # Bower

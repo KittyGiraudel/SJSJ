@@ -1,5 +1,6 @@
 ---
 title: Knockout
+description: a library that helps developers creating user interfaces with a clean underlying data model
 ---
 
 # Knockout

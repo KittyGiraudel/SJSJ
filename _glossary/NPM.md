@@ -1,5 +1,6 @@
 ---
 title: npm
+description: a utility to help publishing packages to, and installing from, an npm repository
 ---
 
 # npm

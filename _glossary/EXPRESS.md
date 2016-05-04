@@ -1,5 +1,6 @@
 ---
 title: Express
+description: a fast, un-opinionated, minimalist web framework for Node.js
 ---
 
 # Express

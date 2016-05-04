@@ -1,5 +1,6 @@
 ---
 title: Gulp
+description: a task runner aiming at automating tedious and possibly complex tasks
 ---
 
 # Gulp

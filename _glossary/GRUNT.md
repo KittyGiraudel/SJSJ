@@ -1,5 +1,6 @@
 ---
 title: Grunt
+description: a task runner aiming at automating tedious and possibly complex tasks
 ---
 
 # Grunt

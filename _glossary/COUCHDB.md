@@ -1,5 +1,6 @@
 ---
 title: CouchDB
+description: a NoSQL database with JavaScript as query language and HTTP as API
 ---
 
 # CouchDB

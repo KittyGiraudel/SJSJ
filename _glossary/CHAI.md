@@ -1,5 +1,6 @@
 ---
 title: Chai
+description: an assertion library used with a JavaScript testing framework
 ---
 
 # Chai

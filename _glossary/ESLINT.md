@@ -1,5 +1,6 @@
 ---
 title: ESLint
+description: a JavaScript code linter
 ---
 
 # ESLint

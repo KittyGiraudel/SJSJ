@@ -1,5 +1,6 @@
 ---
 title: ECMAScript (ES)
+description: the standardized specification of the scripting language used by JavaScript
 ---
 
 # ECMAScript (ES)

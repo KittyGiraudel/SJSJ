@@ -1,5 +1,6 @@
 ---
 title: Metalsmith
+description: a simple, pluggable static site generator
 ---
 
 # Metalsmith

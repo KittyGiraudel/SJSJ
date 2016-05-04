@@ -1,5 +1,6 @@
 ---
 title: Universal
+description: an application is said to be universal (isomorphic) when its code can run both in the client and the server
 ---
 
 # Universal

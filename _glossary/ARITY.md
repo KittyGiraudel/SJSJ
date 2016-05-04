@@ -1,5 +1,6 @@
 ---
 title: Arity
+description: the number of arguments of a function
 ---
 
 # Arity

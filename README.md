@@ -141,7 +141,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 * [Meteor](/_glossary/METEOR.md): a JavaScript web framework that allows rapid prototypic web development.
 * [Mocha](/_glossary/MOCHA.md): an extensible testing framework for TDD (Test-Driven Development) or BDD (Behaviour-Driven Development).
 * [Modernizr](/_glossary/MODERNIZR.md): a browser feature detection library, useful to modify page styles when a feature is not available in the browser.
-* [Module Pattern](/_glossary/MODULE_PATTERN.md):  a design pattern used to implement the concept of software modules, defined by modular programming, in a programming language with incomplete direct support for the concept.
+* [Module Pattern](/_glossary/MODULE_PATTERN.md): a design pattern used to implement the concept of software modules, defined by modular programming, in a programming language with incomplete direct support for the concept.
 * [Moment.js](/_glossary/MOMENTJS.md): a library to parse, validate, manipulate and display dates.
 * [MongoDB](/_glossary/MONGODB.md): a Javascript NoSQL database.
 * [Mootools](/_glossary/MOOTOOLS.md): a collection of JavaScript utilities designed for the intermediate to advanced JavaScript developer. It allows you to write powerful and flexible code with its elegant, well documented, and coherent APIs.

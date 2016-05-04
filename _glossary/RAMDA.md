@@ -1,5 +1,6 @@
 ---
 title: Ramda
+description: a practical functional library for JavaScript programmers
 ---
 
 # Ramda

@@ -1,5 +1,6 @@
 ---
 title: Lodash
+description: an utility toolkit to extend JavaScript primitive types
 ---
 
 # Lodash

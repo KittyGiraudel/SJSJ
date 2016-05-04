@@ -1,5 +1,6 @@
 ---
 title: BEM
+description: a methodology and libraries developed and used at Yandex for building user interfaces
 ---
 
 # BEM

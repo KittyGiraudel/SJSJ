@@ -1,5 +1,6 @@
 ---
 title: Three.js
+description: a lightweight 3D library to create and display animated 3D computer graphics on a Web browser
 ---
 
 # Three.js

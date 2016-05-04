@@ -1,5 +1,6 @@
 ---
 title: Q
+description: a library to create and manage promises
 ---
 
 # Q

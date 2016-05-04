@@ -1,5 +1,6 @@
 ---
 title: Meteor
+description: a JavaScript web framework that allows rapid prototypic web development
 ---
 
 # Meteor

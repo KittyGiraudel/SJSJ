@@ -1,5 +1,6 @@
 ---
 title: Node.js
+description: a cross-platform runtime environment for developing server-side applications built on V8 engine
 ---
 
 # Node.js

@@ -1,5 +1,6 @@
 ---
 title: Revealing Module Pattern
+description: a design pattern conceptually based on the Module Pattern. The only difference is that the *revealing module pattern* was engineered as a way to ensure that all methods and variables are kept private until they are explicitly exposed
 ---
 
 # Revealing Module Pattern

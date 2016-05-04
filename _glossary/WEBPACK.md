@@ -1,5 +1,6 @@
 ---
 title: Webpack
+description: a dependency manager with a friendly and fast development environment, simplifying a lot of common tasks
 ---
 
 # Webpack

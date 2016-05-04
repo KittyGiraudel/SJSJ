@@ -1,5 +1,6 @@
 ---
 title: D3.js
+description: a library for manipulating documents based on data
 ---
 
 # D3.js

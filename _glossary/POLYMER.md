@@ -1,5 +1,6 @@
 ---
 title: Polymer
+description: Google’s library for creating Web Components
 ---
 
 # Polymer

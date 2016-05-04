@@ -1,5 +1,6 @@
 ---
 title: Hoisting
+description: an action performed by the JavaScript interpreter that moves function and variable declarations to the top of their containing scope
 ---
 
 # Hoisting

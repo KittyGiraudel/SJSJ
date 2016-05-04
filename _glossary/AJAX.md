@@ -1,5 +1,6 @@
 ---
 title: AJAX
+description: a technology for asynchronous HTTP requests
 ---
 
 # AJAX

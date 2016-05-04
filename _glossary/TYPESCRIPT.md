@@ -1,5 +1,6 @@
 ---
 title: TypeScript
+description: a super-set of the JavaScript language that introduces types
 ---
 
 # TypeScript

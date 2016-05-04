@@ -1,5 +1,6 @@
 ---
 title: JSCS
+description: a JavaScript code linter
 ---
 
 # JSCS

@@ -1,5 +1,6 @@
 ---
 title: Sails
+description: a realtime MVC Framework for Node.js
 ---
 
 # Sails

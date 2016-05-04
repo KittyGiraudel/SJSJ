@@ -1,5 +1,6 @@
 ---
 title: Ember
+description: an application framework based on the model-view-controller pattern
 ---
 
 # Ember

@@ -1,5 +1,6 @@
 ---
 title: AngularJS
+description: a structural framework for dynamic web apps
 ---
 
 # AngularJS

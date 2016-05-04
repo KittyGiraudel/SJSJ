@@ -1,5 +1,6 @@
 ---
 title: VueJS
+description: a library for creating user interfaces based on data models
 ---
 
 # VueJS

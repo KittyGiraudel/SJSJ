@@ -1,5 +1,6 @@
 ---
 title: Browserify
+description: a tool making possible to use the `require` function from Node.js within the browser
 ---
 
 # Browserify

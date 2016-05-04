@@ -1,5 +1,6 @@
 ---
 title: JSLint
+description: a JavaScript code linter
 ---
 
 # JSLint

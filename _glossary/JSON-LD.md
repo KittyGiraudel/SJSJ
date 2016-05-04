@@ -1,5 +1,6 @@
 ---
 title: JSON-LD
+description: JSON for Linked Data
 ---
 
 # JSON-LD 

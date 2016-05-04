@@ -1,5 +1,6 @@
 ---
 title: PhantomJS
+description: a scripted, headless browser used for automating web page interaction
 ---
 
 # PhantomJS

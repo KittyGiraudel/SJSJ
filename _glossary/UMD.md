@@ -1,5 +1,6 @@
 ---
 title: UMD
+description: a pattern of universal module definition for JavaScript modules
 ---
 
 # UMD

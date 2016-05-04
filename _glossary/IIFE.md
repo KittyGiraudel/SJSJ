@@ -1,5 +1,6 @@
 ---
 title: IIFE
+description: a function that gets called immediately after declaration
 ---
 
 # IIFE
