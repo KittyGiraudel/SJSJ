@@ -95,6 +95,8 @@ request = new XMLHttpRequest;
         term = e.target.pathname.split('/');
         term = term.slice(-1)[0].split('.md')[0];
         return displayEntry(term);
+      } else {
+        return e.target.setAttribute("target", "_blank");
       }
     });
     createEntriesSelectableList(jargon);

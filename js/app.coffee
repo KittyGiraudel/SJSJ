@@ -90,6 +90,8 @@ do ->
         term = e.target.pathname.split('/')
         term = term.slice(-1)[0].split('.md')[0]
         displayEntry term
+      else
+        e.target.setAttribute "target", "_blank"
 
     createEntriesSelectableList(jargon)
     createSelectableAlphabet()
