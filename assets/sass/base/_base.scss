@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font: 125% / 1.4 'Helvetica', 'Arial', sans-serif;
+  background-color: #ebe7df;
+}
+
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0 0 20px;
+}
+
+pre {
+  background-color: #ebe7df;
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  overflow: auto;
+}

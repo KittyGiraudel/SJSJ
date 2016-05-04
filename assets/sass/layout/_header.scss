@@ -1,0 +1,25 @@
+.header {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.header__link {
+  display: block;
+}
+
+.header__link img {
+  border: 0;
+  animation: subtle-move 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes subtle-move {
+  from {
+    transform: translateY(0px);
+  }
+
+  to {
+    transform: translateY(-6px);
+  }
+}

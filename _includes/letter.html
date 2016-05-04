@@ -1,0 +1,10 @@
+<div class="box">
+  <ul class="index-list">
+  {% for entry in site.glossary %}
+    {% assign first_char = entry.title|split:''|first|downcase %}
+    {% if first_char == page.letter %}
+      <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+</div>

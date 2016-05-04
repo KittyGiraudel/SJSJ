@@ -1,0 +1,7 @@
+<div class="box box--transparent">
+  <ul class="alphabet">
+    {% for letter in site.alphabet %}
+      <li><a href="{{ letter.url }}">{{ letter.letter|upcase }}</a></li>
+    {% endfor %}
+  </ul>
+</div>

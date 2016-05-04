@@ -1,0 +1,21 @@
+.search {
+  display: flex;
+}
+
+.search__input {
+  display: inline-block;
+  padding: 10px;
+  font: inherit;
+  border-radius: 0;
+  width: 100%;
+  border: 0;
+}
+
+.search__button {
+  font: inherit;
+  background-color: #eb5424;
+  color: white;
+  display: inline-block;
+  border: 0;
+  padding: 0 18px;
+}

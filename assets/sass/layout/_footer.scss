@@ -1,0 +1,10 @@
+.footer {
+  font-size: 80%;
+  opacity: 0.5;
+  transition: 0.6s;
+}
+
+.footer:hover,
+.footer:active {
+  opacity: 1;
+}
