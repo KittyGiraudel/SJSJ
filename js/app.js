@@ -23,7 +23,7 @@ request = new XMLHttpRequest;
       value = jargon[key];
       anchor = document.createElement("a");
       anchor.href = "?term=" + key;
-      anchor.textContent = key;
+      anchor.textContent = jargon[key]["public"];
       li = document.createElement("li");
       li.setAttribute("class", key.slice(0, 1).toLowerCase());
       li.appendChild(anchor);
@@ -59,7 +59,7 @@ request = new XMLHttpRequest;
   displayEntry = function(key) {
     key = cleanKey(key);
     $entriesBox.classList.add("hide");
-    $output.querySelector('.entry').innerHTML = jargon[key];
+    $output.querySelector('.entry').innerHTML = jargon[key].html;
     return location.href = location.href.split("#")[0] + "#" + key;
   };
   initializeList = function() {
@@ -74,7 +74,10 @@ request = new XMLHttpRequest;
       var key;
       key = entry.name;
       key = cleanKey(key);
-      jargon[key] = entry.html;
+      jargon[key] = {
+        html: entry.html,
+        "public": entry.name
+      };
       return entry.name;
     });
   };

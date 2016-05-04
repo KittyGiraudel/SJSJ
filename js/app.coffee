@@ -18,7 +18,7 @@ do ->
     for key, value of jargon
       anchor = document.createElement "a"
       anchor.href = "?term=#{key}"
-      anchor.textContent = key
+      anchor.textContent = jargon[key].public
       li = document.createElement "li" 
       li.setAttribute "class", key.slice(0,1).toLowerCase()
       li.appendChild anchor
@@ -54,12 +54,11 @@ do ->
     .replace('-','')
     .replace('_','')
 
-
   displayEntry = (key)->
 
     key = cleanKey(key)
     $entriesBox.classList.add "hide"
-    $output.querySelector('.entry').innerHTML = jargon[key]
+    $output.querySelector('.entry').innerHTML = jargon[key].html
     location.href = location.href.split("#")[0] + "#" + key
 
   initializeList = ()->
@@ -73,7 +72,7 @@ do ->
     return data.map (entry)->
       key = entry.name
       key = cleanKey(key)
-      jargon[key] = entry.html
+      jargon[key] = { html: entry.html, public: entry.name }
       return entry.name
 
   initSearch = (data)->
