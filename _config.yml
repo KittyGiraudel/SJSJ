@@ -28,7 +28,7 @@ collections:
     output_ext: md
   alphabet:
     output: true
-    permalink: /alphabet/:path/
+    permalink: /_glossary/:path/
 
 sass:
   sass_dir: assets/sass
