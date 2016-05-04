@@ -52,6 +52,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 * [Babel](/glossary/BABEL.md): a JavaScript transformation toolkit which started as an ECMAScript 2015 / ES6 code translator (transpiler).
 * [Backbone](/glossary/BACKBONE.md): a structural framework for dynamic web apps.
+* [BEM](/glossary/BEM.md): a methodology and libraries developed and used at Yandex for building user interfaces.
 * [Bluebird](/glossary/BLUEBIRD.md): a fully featured Promise library with focus on innovative features and performance.
 * [Bower](/glossary/BOWER.md): a package manager for front-end dependencies.
 * [Broccoli](/glossary/BROCCOLI.md): a fast and reliable asset pipeline.
@@ -66,8 +67,8 @@ If you are willing to contribute, open a pull request to complete, update or fil
 * [Closure Compiler](/glossary/CLOSURE_COMPILER.md): a JavaScript checker and optimizer.
 * [CoffeeScript](/glossary/COFFEESCRIPT.md): a language that compiles into JavaScript.
 * [CommonJS](/glossary/COMMONJS.md): a project with the goal of specifying an ecosystem for JavaScript outside the browser (for example, on the server or for native desktop applications).
-* [CORS](/glossary/CORS.md): A way for a server to make things accessible to pages hosted on other domains.
-* [CouchDB](/glossary/COUCHDB.md): A NoSQL database with JavaScript as query language and HTTP as API.
+* [CORS](/glossary/CORS.md): a way for a server to make things accessible to pages hosted on other domains.
+* [CouchDB](/glossary/COUCHDB.md): a NoSQL database with JavaScript as query language and HTTP as API.
 * [Currying](/glossary/CURRYING.md): the process to transform a function with multiple parameters into a chain of functions of one parameter.
 
 ### D
@@ -108,7 +109,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 ### I
 
 * [IIFE](/glossary/IIFE.md) (Immediately Invoked Function Expression): a function that gets called immediately after declaration.
-* [Ionic](/glossary/IONIC.md): A HTML5 mobile framework to build beautiful hybrid native mobile applications using AngularJS and Cordova.
+* [Ionic](/glossary/IONIC.md): a HTML5 mobile framework to build beautiful hybrid native mobile applications using AngularJS and Cordova.
 * [Isomorphic](/glossary/ISOMORPHIC.md): an application is said to be isomorphic (universal) when its code can run both in the client and the server.
 
 ### J
@@ -134,8 +135,10 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### M
 
+* [MEAN](/glossary/MEAN.md): the technology stack MongoDB, ExpressJS, AngularJS, and Node.js (MEAN).
 * [Mediator Pattern](/glossary/MEDIATOR_PATTERN.md): an object that encapsulates how a set of objects interact.
 * [Memoize](/glossary/MEMOIZE.md): an optimization used to speed up consecutive function calls by caching the result of calls with identical input.
+* [Metalsmith](/glossary/METALSMITH.md): a simple, pluggable static site generator.
 * [Meteor](/glossary/METEOR.md): a JavaScript web framework that allows rapid prototypic web development.
 * [Mocha](/glossary/MOCHA.md): an extensible testing framework for TDD (Test-Driven Development) or BDD (Behaviour-Driven Development).
 * [Modernizr](/glossary/MODERNIZR.md): a browser feature detection library, useful to modify page styles when a feature is not available in the browser.
@@ -143,8 +146,6 @@ If you are willing to contribute, open a pull request to complete, update or fil
 * [Moment.js](/glossary/MOMENTJS.md): a library to parse, validate, manipulate and display dates.
 * [MongoDB](/glossary/MONGODB.md): a Javascript NoSQL database.
 * [Mootools](/glossary/MOOTOOLS.md): a collection of JavaScript utilities designed for the intermediate to advanced JavaScript developer. It allows you to write powerful and flexible code with its elegant, well documented, and coherent APIs.
-* [Metalsmith](/glossary/METALSMITH.md): a simple, pluggable static site generator.
-* [MEAN](/glossary/MEAN.md): the technology stack MongoDB, ExpressJS, AngularJS, and Node.js (MEAN).
 
 ### N
 
@@ -156,7 +157,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### O
 
-* [Observer Pattern](/glossary/OBSERVER_PATTERN.md):  a software design pattern in which an object, called the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods.
+* [Observer Pattern](/glossary/OBSERVER_PATTERN.md): a software design pattern in which an object, called the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods.
 
 ### P
 
@@ -169,17 +170,17 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### Q
 
-* [QUnit](/glossary/QUNIT.md): a powerful, easy-to-use JavaScript unit testing framework.
 * [Q](/glossary/Q.md): a library to create and manage promises.
+* [QUnit](/glossary/QUNIT.md): a powerful, easy-to-use JavaScript unit testing framework.
 
 ### R
 
 * [Ramda](/glossary/RAMDA.md): a practical functional library for JavaScript programmers.
 * [React](/glossary/REACT.md): a library developed and used at Facebook for building user interfaces.
 * [Redux](/glossary/REDUX.md): a predictable state container for apps.
+* [Require.js](/glossary/REQUIREJS.md): a browser based module loader using AMD.
 * [Revealing Module Pattern](/glossary/REVEALING_MODULE_PATTERN.md): a design pattern conceptually based on the [Module Pattern](/glossary/MODULE_PATTERN.md). The only difference is that the *revealing module pattern* was engineered as a way to ensure that all methods and variables are kept private until they are explicitly exposed.
 * [RxJS](/glossary/RXJS.md): a library for asynchronous programming using observable streams.
-* [Require.js](/glossary/REQUIREJS.md): a browser based module loader using AMD.
 
 ### S
 
