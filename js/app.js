@@ -202,6 +202,9 @@ initParticles = function() {
     }
     document.querySelector('.entry').addEventListener("click", function(e) {
       var term;
+      if (!e.target.href) {
+        return;
+      }
       if (e.target.href.match(/\.md$/)) {
         e.preventDefault();
         e.stopPropagation();

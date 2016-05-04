@@ -133,3 +133,18 @@ ul#entries.fold li.selected {
   width: 100%;
   height: 100%;
 }
+
+.animatable {
+  animation: subtle-move 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}  
+
+@keyframes subtle-move {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-6px);
+  }
+}

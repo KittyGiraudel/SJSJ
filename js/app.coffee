@@ -166,6 +166,7 @@ do ->
     if location.hash isnt "" then displayEntry location.hash.slice(1)
 
     document.querySelector('.entry').addEventListener "click", (e)->
+      return unless e.target.href 
       if e.target.href.match(/\.md$/)
         e.preventDefault()
         e.stopPropagation()
