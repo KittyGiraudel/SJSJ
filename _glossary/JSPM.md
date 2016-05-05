@@ -1,6 +1,6 @@
 ---
 title: JSPM
-description: Javascript Package Manager: NPM with its own build system and multiple resources management
+description: "like npm with its own build system and multiple resources management"
 ---
 
 # JSPM
