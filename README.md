@@ -1,4 +1,4 @@
-![Logo SJSJ](/images/logo.jpg)
+![Logo SJSJ](/assets/images/logo.png)
 
 *Simplified JavaScript Jargon* (short *SJSJ*) is a community-driven attempt at explaining the loads of buzzwords making the current JavaScript ecosystem in a few simple words. The idea is not to replace individual documentations, but to act as some kind of glossary that can be easily referenced.
 
