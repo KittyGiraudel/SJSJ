@@ -1,0 +1,13 @@
+<div class="box box--accent box--collapse" id="search-container" style="display: none;">
+  <form class="search" id="search-form">
+    <input type="search" placeholder="What would you want to learn…" class="search__input" list="entries" id="search-field" autofocus="" />
+    <button class="search__button" type="submit">
+      <span>🔍</span>
+    </button>
+  </form>
+  <datalist id="entries">
+    {% for entry in site.glossary %}
+    <option value="{{ entry.title }}" />
+    {% endfor %}
+  </datalist>
+</div>

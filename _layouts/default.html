@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+
+  <body>
+    <div id="particles-js" class="particles" aria-hidden="true"></div>
+
+    {% include header.html %}
+    
+    <main class="main container">
+      {% include search.html %}
+      {% include alphabet.html %}
+
+      <div class="box">
+        {{ content }}
+      </div>
+    </main>
+
+    {% include footer.html %}
+    {% include scripts.html %}
+  </body>
+</html>

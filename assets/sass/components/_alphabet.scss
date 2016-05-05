@@ -1,0 +1,16 @@
+.alphabet {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 80%;
+}
+
+.alphabet li {
+  display: inline-block;
+  padding: 0 4px;
+}
+
+.alphabet a {
+  color: inherit;
+}
