@@ -12,8 +12,8 @@ description: > # this means to ignore newlines until "baseurl:"
   at explaining the loads of buzzwords making the current JavaScript ecosystem
   in a few simple words. The idea is not to replace individual documentations,
   but to act as some kind of glossary that can be easily referenced.
-baseurl: "/SJSJ" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://jargon.js.org" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
