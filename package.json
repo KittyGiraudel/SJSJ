@@ -4,6 +4,7 @@
     "fs-promise": "^0.4.1"
   },
   "scripts": {
-    "export": "node bin/export"
+    "export": "node bin/export",
+    "css": "cp _site/assets/css/main.css _includes"
   }
 }
