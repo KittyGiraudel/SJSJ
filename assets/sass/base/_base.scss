@@ -17,6 +17,15 @@ a {
   text-decoration: none;
 }
 
+a[href^="http"]::after {
+  content: ' ↗';
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  transform: scale(0.6);
+}
+
+
 a:hover,
 a:active {
   text-decoration: underline;
