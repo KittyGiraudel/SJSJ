@@ -4,11 +4,13 @@
 
 If you are willing to contribute, open a pull request to complete, update or fill in a section. Thank you for doing so!
 
+**Note: while this project is fully readable from this GitHub repository, you can also enjoy the dedicated website featuring a shiny design and a search engine: [jargon.js.org](http://jargon.js.org).**
+
 ## Related projects
 
 * A Russian version of SJSJ by Andrew Romanov: https://github.com/andrew--r/SJSJ
 * A CLI tool for SJSJ by Hank Wang: https://github.com/hanksudo/SJSJ-cli
-* A Chrome extension for SJSJ by [ismnoiet](https://github.com/ismnoiet): https://github.com/ismnoiet/JSJargon
+* A Chrome extension for SJSJ by ismnoiet: https://github.com/ismnoiet/JSJargon
 * A [data crawler](#export-entries-as-json) for SJSJ by myself
 
 ## Glossary
