@@ -3,6 +3,6 @@
 
 <ul class="index-list">
 {% for entry in site.glossary %}
-  <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+  <li><a href="{{ entry.url | prepend: site.baseurl }}">{{ entry.title }}</a></li>
 {% endfor %}
 </ul>

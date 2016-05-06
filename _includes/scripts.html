@@ -1,9 +1,9 @@
 <script>
 window.router = {
   {% for entry in site.glossary %}
-  '{{ entry.title }}': '{{ entry.url }}',
+  '{{ entry.title }}': '{{ entry.url | prepend: site.baseurl }}',
   {% endfor %}
 };
 </script>
 <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-<script src="{{ "/assets/js/main.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
