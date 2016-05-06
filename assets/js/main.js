@@ -125,16 +125,6 @@
       if (route) window.location.href = route
     })
 
-    // Temporary fix, waiting for TLD
-    var links = document.querySelectorAll('h1 ~ p a')
-    Array.prototype.forEach.call(links, function (link) {
-      var href = link.href
-
-      if (href.slice(-3) === '.md') {
-        link.href = href.replace(window.location.origin, window.location.origin + '/SJSJ')
-      }
-    })
-    
     setTimeout(function() {
       window.particlesJS && window.particlesJS('particles-js', particlesOptions)
     }, 500)
