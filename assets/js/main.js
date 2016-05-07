@@ -1,6 +1,4 @@
 (function () {
-  document.addEventListener('DOMContentLoaded', init)
-
   var particlesOptions = {
     'particles': {
       'number': {
@@ -138,4 +136,6 @@
       window.particlesJS('particles-js', particlesOptions)
     })
   }
+
+  init()
 }())
