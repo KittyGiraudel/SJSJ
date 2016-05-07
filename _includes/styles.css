@@ -32,13 +32,17 @@ a:active {
   text-decoration: underline;
 }
 
+section:not(:last-of-type) {
+  margin-bottom: 2em;
+}
+
 img {
   display: block;
   height: auto;
   max-width: 100%;
 }
 
-h1 {
+h1, .as-h1 {
   font-size: 2em;
   margin: 0 0 20px;
 }
@@ -88,7 +92,24 @@ pre {
 }
 
 .index-list {
-  margin: 0;
+  margin: 10px;
+  list-style: none;
+  padding-left: 0;
+}
+
+.index-list li {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.index-list li::before {
+  color: #000;
+  content: '→ ';
+  display: inline-block;
+  margin-right: 0.25em;
+  margin-right: 1ch;
+  font-family: monospace;
+  transform: translateY(-3px) scale(1.2);
 }
 
 .alphabet {
