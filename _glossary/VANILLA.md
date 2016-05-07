@@ -1,6 +1,6 @@
 ---
 title: Vanilla
-description: a term for library/framework free JavaScript
+excerpt: a term for library/framework free JavaScript
 ---
 
 # Vanilla

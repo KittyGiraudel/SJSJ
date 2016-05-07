@@ -1,6 +1,6 @@
 ---
 title: Backbone
-description: a structural framework for dynamic web apps
+excerpt: a structural framework for dynamic web apps
 ---
 
 # Backbone

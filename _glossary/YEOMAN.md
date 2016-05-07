@@ -1,6 +1,6 @@
 ---
 title: Yeoman
-description: a generator builder to speed up the setup and installation process of a project or part of a project
+excerpt: a generator builder to speed up the setup and installation process of a project or part of a project
 ---
 
 # Yeoman

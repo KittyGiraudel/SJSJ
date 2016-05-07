@@ -1,6 +1,6 @@
 ---
 title: Jasmine
-description: a testing framework for BDD (Behaviour-Driven Development)
+excerpt: a testing framework for BDD (Behaviour-Driven Development)
 ---
 
 # Jasmine

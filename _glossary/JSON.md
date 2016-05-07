@@ -1,6 +1,6 @@
 ---
 title: JSON
-description: a lightweight data-interchange format
+excerpt: a lightweight data-interchange format
 ---
 
 # JSON

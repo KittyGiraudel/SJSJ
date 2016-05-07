@@ -1,6 +1,6 @@
 ---
 title: Underscore
-description: a swiss army knife, focusing on helper methods for most built-in objects
+excerpt: a swiss army knife, focusing on helper methods for most built-in objects
 ---
 
 # Underscore

@@ -1,6 +1,6 @@
 ---
 title: Mocha
-description: an extensible testing framework for TDD (Test-Driven Development) or BDD (Behaviour-Driven Development)
+excerpt: an extensible testing framework for TDD (Test-Driven Development) or BDD (Behaviour-Driven Development)
 ---
 
 # Mocha

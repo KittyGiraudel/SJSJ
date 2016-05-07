@@ -1,6 +1,6 @@
 ---
 title: Closure
-description: a way of referencing variables from a child function while retaining their value even if it changes in the parent function
+excerpt: a way of referencing variables from a child function while retaining their value even if it changes in the parent function
 ---
 
 # Closure

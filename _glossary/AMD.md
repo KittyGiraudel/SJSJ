@@ -1,6 +1,6 @@
 ---
 title: AMD
-description: a standard defining how to load JavaScript libraries or modules asynchronously
+excerpt: a standard defining how to load JavaScript libraries or modules asynchronously
 ---
 
 # AMD

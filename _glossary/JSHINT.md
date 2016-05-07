@@ -1,6 +1,6 @@
 ---
 title: JSHint
-description: a JavaScript code linter
+excerpt: a JavaScript code linter
 ---
 
 # JSHint

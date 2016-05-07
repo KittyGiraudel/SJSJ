@@ -1,6 +1,6 @@
 ---
 title: JSPM
-description: "like npm with its own build system and multiple resources management"
+excerpt: "like npm with its own build system and multiple resources management"
 ---
 
 # JSPM

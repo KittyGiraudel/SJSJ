@@ -1,6 +1,6 @@
 ---
 title: Singleton Pattern
-description: a design pattern that restricts the instantiation of a class to one object
+excerpt: a design pattern that restricts the instantiation of a class to one object
 ---
 
 # Singleton Pattern

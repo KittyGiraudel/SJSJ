@@ -1,6 +1,6 @@
 ---
 title: MEAN
-description: the technology stack MongoDB, ExpressJS, AngularJS, and Node.js (MEAN)
+excerpt: the technology stack MongoDB, ExpressJS, AngularJS, and Node.js (MEAN)
 ---
 
 # MEAN

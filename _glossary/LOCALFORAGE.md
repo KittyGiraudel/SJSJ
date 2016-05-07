@@ -1,6 +1,6 @@
 ---
 title: LocalForage
-description: a fast and simple storage library for JavaScript
+excerpt: a fast and simple storage library for JavaScript
 ---
 
 # localForage

@@ -1,6 +1,6 @@
 ---
 title: Module Pattern
-description: a design pattern used to implement the concept of software modules, defined by modular programming, in a programming language with incomplete direct support for the concept
+excerpt: a design pattern used to implement the concept of software modules, defined by modular programming, in a programming language with incomplete direct support for the concept
 ---
 
 # Module Pattern

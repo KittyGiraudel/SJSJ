@@ -1,6 +1,6 @@
 ---
 title: JSX
-description: an XML-like syntax extension to JavaScript
+excerpt: an XML-like syntax extension to JavaScript
 ---
 
 # JSX

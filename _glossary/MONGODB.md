@@ -1,6 +1,6 @@
 ---
 title: MongoDB
-description: a Javascript NoSQL database
+excerpt: a Javascript NoSQL database
 ---
 
 # MongoDB

@@ -1,6 +1,6 @@
 ---
 title: Canvas
-description: an HTML element for graphic applications in 2D or 3D
+excerpt: an HTML element for graphic applications in 2D or 3D
 ---
 
 # Canvas

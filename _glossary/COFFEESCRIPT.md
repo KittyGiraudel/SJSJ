@@ -1,6 +1,6 @@
 ---
 title: Coffeescript
-description: a language that compiles into JavaScript
+excerpt: a language that compiles into JavaScript
 ---
 
 # CoffeeScript

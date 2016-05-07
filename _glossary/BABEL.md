@@ -1,6 +1,6 @@
 ---
 title: Babel
-description: a JavaScript transformation toolkit which started as an ECMAScript 2015 / ES6 code translator (transpiler)
+excerpt: a JavaScript transformation toolkit which started as an ECMAScript 2015 / ES6 code translator (transpiler)
 ---
 
 # Babel

@@ -1,6 +1,6 @@
 ---
 title: React
-description: a library developed and used at Facebook for building user interfaces
+excerpt: a library developed and used at Facebook for building user interfaces
 ---
 
 # React

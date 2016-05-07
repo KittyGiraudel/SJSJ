@@ -1,6 +1,6 @@
 ---
 title: Memoize
-description: an optimization used to speed up consecutive function calls by caching the result of calls with identical input
+excerpt: an optimization used to speed up consecutive function calls by caching the result of calls with identical input
 ---
 
 # Memoize

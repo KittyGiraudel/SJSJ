@@ -1,6 +1,6 @@
 ---
 title: Brunch
-description: a tool focusing on the production of deployment-ready files from development files
+excerpt: a tool focusing on the production of deployment-ready files from development files
 ---
 
 # Brunch

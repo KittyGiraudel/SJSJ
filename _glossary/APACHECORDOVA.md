@@ -1,6 +1,6 @@
 ---
 title: Apache Cordova
-description: a popular mobile application development framework originally created by Nitobi
+excerpt: a popular mobile application development framework originally created by Nitobi
 ---
 
 # PhoneGap

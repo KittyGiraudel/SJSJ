@@ -1,6 +1,6 @@
 ---
 title: CORS
-description: a way for a server to make things accessible to pages hosted on other domains
+excerpt: a way for a server to make things accessible to pages hosted on other domains
 ---
 
 # CORS

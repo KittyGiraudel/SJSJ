@@ -1,6 +1,6 @@
 ---
 title: Virtual DOM
-description: a copy of the DOM in memory that the program can modify instead of directly interfacing with the "real" DOM to help speed up interactions
+excerpt: a copy of the DOM in memory that the program can modify instead of directly interfacing with the "real" DOM to help speed up interactions
 ---
 
 # Virtual DOM

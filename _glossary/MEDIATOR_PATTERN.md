@@ -1,6 +1,6 @@
 ---
 title: Mediator Pattern
-description: an object that encapsulates how a set of objects interact
+excerpt: an object that encapsulates how a set of objects interact
 ---
 
 # Mediator Pattern

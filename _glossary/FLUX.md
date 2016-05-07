@@ -1,6 +1,6 @@
 ---
 title: Flux
-description: an application structure focusing on improved data flow
+excerpt: an application structure focusing on improved data flow
 ---
 
 # Flux

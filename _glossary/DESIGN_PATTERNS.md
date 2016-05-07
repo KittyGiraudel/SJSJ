@@ -1,6 +1,6 @@
 ---
 title: Design Patterns
-description: a general reusable solution to a commonly occurring problem within a given context in software design
+excerpt: a general reusable solution to a commonly occurring problem within a given context in software design
 ---
 
 # Design Patterns

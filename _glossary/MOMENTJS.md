@@ -1,6 +1,6 @@
 ---
 title: Moment.js
-description: a library to parse, validate, manipulate and display dates
+excerpt: a library to parse, validate, manipulate and display dates
 ---
 
 # Moment.js

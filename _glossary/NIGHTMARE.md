@@ -1,6 +1,6 @@
 ---
 title: Nightmare
-description: a high-level browser automation library
+excerpt: a high-level browser automation library
 ---
 
 # Nightmare

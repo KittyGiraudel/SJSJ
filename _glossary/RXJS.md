@@ -1,6 +1,6 @@
 ---
 title: RxJS
-description: a library for asynchronous programming using observable streams
+excerpt: a library for asynchronous programming using observable streams
 ---
 
 # RxJS

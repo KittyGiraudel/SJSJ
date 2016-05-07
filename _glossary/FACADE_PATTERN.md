@@ -1,6 +1,6 @@
 ---
 title: Facade Pattern
-description: a software design pattern commonly used with object-oriented programming. The name is by analogy to an architectural facade
+excerpt: a software design pattern commonly used with object-oriented programming. The name is by analogy to an architectural facade
 ---
 
 # Facade Pattern

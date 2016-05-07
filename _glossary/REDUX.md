@@ -1,6 +1,6 @@
 ---
 title: Redux
-description: a predictable state container for apps
+excerpt: a predictable state container for apps
 ---
 
 # Redux

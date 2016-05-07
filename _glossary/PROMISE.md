@@ -1,6 +1,6 @@
 ---
 title: Promise
-description: a proxy for a value not necessarily known immediately but that will eventually be resolved
+excerpt: a proxy for a value not necessarily known immediately but that will eventually be resolved
 ---
 
 # Promise

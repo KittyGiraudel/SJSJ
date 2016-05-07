@@ -1,6 +1,6 @@
 ---
 title: Electron
-description: a framework based on Node.js lets you write cross-platform desktop applications using JS, HTML and CSS
+excerpt: a framework based on Node.js lets you write cross-platform desktop applications using JS, HTML and CSS
 ---
 
 # Electron

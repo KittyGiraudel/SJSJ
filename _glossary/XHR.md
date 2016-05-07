@@ -1,6 +1,6 @@
 ---
 title: XHR
-description: XMLHttpRequest is an API that provides client functionality for transferring data between a client and a server without page refresh
+excerpt: XMLHttpRequest is an API that provides client functionality for transferring data between a client and a server without page refresh
 ---
 
 # XHR

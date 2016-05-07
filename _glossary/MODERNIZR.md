@@ -1,6 +1,6 @@
 ---
 title: Modernizr
-description: a browser feature detection library, useful to modify page styles when a feature is not available in the browser
+excerpt: a browser feature detection library, useful to modify page styles when a feature is not available in the browser
 ---
 
 # Modernizr

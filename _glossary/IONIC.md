@@ -1,6 +1,6 @@
 ---
 title: Ionic
-description: a HTML5 mobile framework to build beautiful hybrid native mobile applications using AngularJS and Cordova
+excerpt: a HTML5 mobile framework to build beautiful hybrid native mobile applications using AngularJS and Cordova
 ---
 
 # Ionic

@@ -1,6 +1,6 @@
 ---
 title: Flow
-description: a static type checker, designed to find type errors in JavaScript programs
+excerpt: a static type checker, designed to find type errors in JavaScript programs
 ---
 
 # Flow

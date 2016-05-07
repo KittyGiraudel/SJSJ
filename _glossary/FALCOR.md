@@ -1,6 +1,6 @@
 ---
 title: Falcor
-description: a JavaScript library for efficient data fetching
+excerpt: a JavaScript library for efficient data fetching
 ---
 
 # Falcor

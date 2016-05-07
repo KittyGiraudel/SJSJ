@@ -1,6 +1,6 @@
 ---
 title: Hapi
-description: a Node JS framework for writing services and more
+excerpt: a Node JS framework for writing services and more
 ---
 
 # Hapi

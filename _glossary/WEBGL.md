@@ -1,6 +1,6 @@
 ---
 title: WebGL
-description: a JavaScript API for rendering interactive 3D and 2D graphics within any compatible web browser without the use of plug-ins
+excerpt: a JavaScript API for rendering interactive 3D and 2D graphics within any compatible web browser without the use of plug-ins
 ---
 
 # WebGL

@@ -1,6 +1,6 @@
 ---
 title: Broccoli
-description: a fast and reliable asset pipeline
+excerpt: a fast and reliable asset pipeline
 ---
 
 # Broccoli

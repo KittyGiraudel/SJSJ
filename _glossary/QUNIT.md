@@ -1,6 +1,6 @@
 ---
 title: QUnit
-description: a powerful, easy-to-use JavaScript unit testing framework
+excerpt: a powerful, easy-to-use JavaScript unit testing framework
 ---
 
 # QUnit

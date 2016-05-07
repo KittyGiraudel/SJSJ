@@ -1,6 +1,6 @@
 ---
 title: Currying
-description: the process to transform a function with multiple parameters into a chain of functions of one parameter
+excerpt: the process to transform a function with multiple parameters into a chain of functions of one parameter
 ---
 
 # Currying

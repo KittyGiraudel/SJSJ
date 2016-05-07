@@ -1,6 +1,6 @@
 ---
 title: RequireJS
-description: a browser based module loader using AMD
+excerpt: a browser based module loader using AMD
 ---
 
 # RequireJS

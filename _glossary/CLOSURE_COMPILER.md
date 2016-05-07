@@ -1,6 +1,6 @@
 ---
 title: Closure Compiler
-description: a JavaScript checker and optimizer
+excerpt: a JavaScript checker and optimizer
 ---
 
 # Closure Compiler

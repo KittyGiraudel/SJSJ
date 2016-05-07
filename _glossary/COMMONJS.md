@@ -1,6 +1,6 @@
 ---
 title: CommonJS
-description: a project with the goal of specifying an ecosystem for JavaScript outside the browser (for example, on the server or for native desktop applications)
+excerpt: a project with the goal of specifying an ecosystem for JavaScript outside the browser (for example, on the server or for native desktop applications)
 ---
 
 # CommonJS

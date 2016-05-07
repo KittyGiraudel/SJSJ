@@ -1,6 +1,6 @@
 ---
 title: nvm
-description: a utility to help run multiple versions of Node.js on the same machine
+excerpt: a utility to help run multiple versions of Node.js on the same machine
 ---
 
 # nvm

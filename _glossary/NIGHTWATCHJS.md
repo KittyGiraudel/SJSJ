@@ -1,6 +1,6 @@
 ---
 title: NightwatchJS
-description: a framework for browser automated testing
+excerpt: a framework for browser automated testing
 ---
 
 # NightwatchJS

@@ -1,6 +1,6 @@
 ---
 title: Factory Pattern
-description: a creational pattern that uses factory methods to deal with the problem of creating objects without having to specify the exact class of the object that will be created
+excerpt: a creational pattern that uses factory methods to deal with the problem of creating objects without having to specify the exact class of the object that will be created
 ---
 
 # Factory Pattern
