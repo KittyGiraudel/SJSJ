@@ -26,7 +26,7 @@ Real world example from a [Node.js](/_glossary/NODEJS.md) application:
 function authenticate (req, res, next) {
   User.findOne({ id: req.id }, function (err, user) {
     if (err) {
-      return next('not found')
+      return next('not found');
     }
 
     user.save(function (err, response) {

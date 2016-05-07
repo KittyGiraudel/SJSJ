@@ -48,17 +48,17 @@ This is an abstract example of how a client (“you”) interacts with a facade 
 /* Complex parts */
 
 class CPU {
-    freeze() { /* code here */ }
-    jump(position) { /* code here */ }
-    execute() { /* code here */ }
+  freeze() { /* code here */ }
+  jump(position) { /* code here */ }
+  execute() { /* code here */ }
 }
 
 class Memory {
-    load(position, data) { /* code here */ }
+  load(position, data) { /* code here */ }
 }
 
 class HardDrive {
-    read(lba, size) { /* code here */ }
+  read(lba, size) { /* code here */ }
 }
 
 /* Facade */
@@ -68,7 +68,7 @@ class ComputerFacade {
     this.processor = new Cput();
     this.ram = new Memory();
     this.hd = new HardDrive();
-	}
+  }
 
   start() {
     this.processor.freeze();
@@ -82,7 +82,6 @@ class ComputerFacade {
 
 let computer = new ComputerFacade();
 computer.start();
-
 ```
 
 *Source: [Facade pattern](https://en.wikipedia.org/wiki/Facade_pattern). Wikipedia®*

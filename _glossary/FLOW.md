@@ -7,9 +7,9 @@ excerpt: a static type checker, designed to find type errors in JavaScript progr
 
 [Flow](http://flowtype.org/) is a static type checker for JavaScript. It can be used to catch common bugs in JavaScript programs - such as silent type conversions, null dereferences and so on - often without requiring any changes to your code. It also adds type syntax to JavaScript, so that developers can express invariants about their code and have them maintained automatically.
 
-Flow's type checking is **opt-in**: files are not type checked unless you ask it to. This means that you can gradually convert your JavaScript codebase to Flow while reaping incremental benefits. When you do opt-in a file, Flow tries to type check the code automatically by performing type inference, reporting errors without further manual guidance. This simple workflow is usually sufficient when your codebase is broken down into small files, each defining a module that exports a well-defined interface. However, for some files (e.g., monolithic libraries), the analysis Flow performs might turn out to be too imprecise, causing lots of spurious errors to be reported. In such cases, the developer can either try to manually guide Flow with type annotations, or switch to a [weaker mode](http://flowtype.org/docs/existing.html#weak-mode) with limited type inference to reduce noise.
+Flow’s type checking is **opt-in**: files are not type checked unless you ask it to. This means that you can gradually convert your JavaScript codebase to Flow while reaping incremental benefits. When you do opt-in a file, Flow tries to type check the code automatically by performing type inference, reporting errors without further manual guidance. This simple workflow is usually sufficient when your codebase is broken down into small files, each defining a module that exports a well-defined interface. However, for some files (e.g., monolithic libraries), the analysis Flow performs might turn out to be too imprecise, causing lots of spurious errors to be reported. In such cases, the developer can either try to manually guide Flow with type annotations, or switch to a [weaker mode](http://flowtype.org/docs/existing.html#weak-mode) with limited type inference to reduce noise.
 
-Flow's type checking is **online**: it performs an initial analysis of all files in a code base, and then monitors those files for subsequent changes, type checking them and other dependencies piecemeal and proactively in the background. For the developer, this means that there are no perceptible compile-time delays; saving a bunch of files in an editor or rebasing a set of files in a repository automatically triggers type checking, storing the results in a persistent server, so that they are available instantaneously when queried.
+Flow’s type checking is **online**: it performs an initial analysis of all files in a code base, and then monitors those files for subsequent changes, type checking them and other dependencies piecemeal and proactively in the background. For the developer, this means that there are no perceptible compile-time delays; saving a bunch of files in an editor or rebasing a set of files in a repository automatically triggers type checking, storing the results in a persistent server, so that they are available instantaneously when queried.
 
 ## How does it work?
 
@@ -20,8 +20,8 @@ Flow designed to find type errors in JavaScript programs:
 function foo(x) {
   return x * 10;
 }
-foo('Hello, world!');
 
+foo('Hello, world!');
 ```
 
 ```sh
@@ -39,6 +39,7 @@ Flow also lets you gradually evolve JavaScript code into typed code:
 function foo(x: string, y: number): string {
   return x.length * y;
 }
+
 foo('Hello', 42);
 ```
 

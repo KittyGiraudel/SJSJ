@@ -5,7 +5,7 @@ excerpt: a design pattern conceptually based on the Module Pattern. The only dif
 
 # Revealing Module Pattern
 
-This pattern is the same concept as the [module pattern](/_glossary/MODULE_PATTERN.md) in that it focuses on public & private methods. The only difference is that the revealing module pattern was engineered as a way to ensure that all methods and variables are kept private until they are explicitly exposed; usually through an object literal returned by the closure from which it's defined. Personally, I like this approach for vanilla JavaScript as it puts a clear emphasis on both the intent of the developer and the module itself.
+This pattern is the same concept as the [module pattern](/_glossary/MODULE_PATTERN.md) in that it focuses on public & private methods. The only difference is that the revealing module pattern was engineered as a way to ensure that all methods and variables are kept private until they are explicitly exposed; usually through an object literal returned by the closure from which it’s defined. Personally, I like this approach for vanilla JavaScript as it puts a clear emphasis on both the intent of the developer and the module itself.
 
 ## Advantages
 
@@ -20,25 +20,25 @@ This pattern is the same concept as the [module pattern](/_glossary/MODULE_PATTE
 
 - Private methods are unaccessible.
 - Private methods and functions lose extendability since they are unaccessible (see my comment in the previous bullet point).
-- It's harder to patch public methods and variables that are referred to by something private.
+- It’s harder to patch public methods and variables that are referred to by something private.
 
 ## Example
 
 ```js
 var MyModule = (function(window, undefined) {
-    function myMethod() {
-        console.log('my method');
-    }
+  function myMethod() {
+    console.log('my method');
+  }
 
-    function myOtherMethod() {
-        console.log('my other method');
-    }
+  function myOtherMethod() {
+    console.log('my other method');
+  }
 
-    // explicitly return public methods when this object is instantiated
-    return {
-        someMethod: myMethod,
-        someOtherMethod: myOtherMethod
-    };
+  // explicitly return public methods when this object is instantiated
+  return {
+    someMethod: myMethod,
+    someOtherMethod: myOtherMethod
+  };
 })(window);
 
 //  example usage
@@ -52,20 +52,20 @@ This pattern can also be implemented using a privately shared cache:
 
 ```js
 var MyModule = (function(window,undefined) {
-    // this object is used to store private variables and methods across multiple instantiations
-    var privates = {};
+  // this object is used to store private variables and methods across multiple instantiations
+  var privates = {};
 
-    function MyModule() {
-        this.myMethod = function myMethod() {
-            console.log('my method');
-        };
+  function MyModule() {
+    this.myMethod = function myMethod() {
+      console.log('my method');
+    };
 
-        this.myOtherMethod = function myOtherMethod() {
-            console.log('my other method');
-        };
-    }
+    this.myOtherMethod = function myOtherMethod() {
+      console.log('my other method');
+    };
+  }
 
-    return MyModule;
+  return MyModule;
 })(window);
 
 // example usage

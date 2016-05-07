@@ -11,12 +11,12 @@ Example:
 
 ```js
 (function (){
-  var scopeVar="Hello";
+  var scopeVar = 'Hello';
 
   (function closure(){
-    var closureVar=" World";
-     console.log(scopeVar+closureVar);    
-  })()
+    var closureVar = ' World';
+    console.log(scopeVar + closureVar);    
+  })();
 })();
 ```
 

@@ -5,7 +5,7 @@ excerpt: a JavaScript checker and optimizer
 
 # Closure Compiler
 
-The [Closure Compiler](https://developers.google.com/closure/compiler/) is a tool for making JavaScript download and run faster. It is a true compiler for JavaScript. Instead of compiling from a source language to machine code, it compiles from JavaScript to better JavaScript. It parses your JavaScript, analyzes it, removes dead code and rewrites and minimizes what's left. It also checks syntax, variable references, and types, and warns about common JavaScript pitfalls.
+The [Closure Compiler](https://developers.google.com/closure/compiler/) is a tool for making JavaScript download and run faster. It is a true compiler for JavaScript. Instead of compiling from a source language to machine code, it compiles from JavaScript to better JavaScript. It parses your JavaScript, analyzes it, removes dead code and rewrites and minimizes what’s left. It also checks syntax, variable references, and types, and warns about common JavaScript pitfalls.
 
 ## Usage
 
@@ -29,7 +29,7 @@ java -jar compiler.jar --help
 
 ### Specifying Options
 
-Both the grunt and gulp tasks take options objects. The option parameters map directly to the compiler flags without the leading '--' characters.
+Both the grunt and gulp tasks take options objects. The option parameters map directly to the compiler flags without the leading `--` characters.
 
 Values are either strings or booleans. Options which have multiple values can be arrays.
 
@@ -42,7 +42,7 @@ Values are either strings or booleans. Options which have multiple values can be
 }
 ```
 
-For advanced usages, the options may be specified as an array of strings. These values include the "--" characters and are directly passed to the compiler in the order specified:
+For advanced usages, the options may be specified as an array of strings. These values include the `--` characters and are directly passed to the compiler in the order specified:
 
 ```js
 [
@@ -73,7 +73,7 @@ Include the plugin in your `Gruntfile.js`:
 
 ```js
 require('google-closure-compiler').grunt(grunt);
-// The load-grunt-tasks plugin won't automatically load closure-compiler
+// The load-grunt-tasks plugin won’t automatically load closure-compiler
 ```
  
 Task targets, files and options may be specified according to the grunt [Configuring tasks](http://gruntjs.com/configuring-tasks) guide.
@@ -105,7 +105,7 @@ grunt.initConfig({
 
 The gulp plugin supports piping multiple files through the compiler.
 
-Options are a direct match to the compiler flags without the leading "--".
+Options are a direct match to the compiler flags without the leading `--`.
 
 ### Basic Configuration Example:
 
@@ -113,16 +113,16 @@ Options are a direct match to the compiler flags without the leading "--".
 var closureCompiler = require('google-closure-compiler').gulp();
  
 gulp.task('js-compile', function () {
-  return gulp.src('./src/js/**/*.js', {base: './'})
-      .pipe(closureCompiler({
-          compilation_level: 'SIMPLE',
-          warning_level: 'VERBOSE',
-          language_in: 'ECMASCRIPT6_STRICT',
-          language_out: 'ECMASCRIPT5_STRICT',
-          output_wrapper: '(function(){\n%output%\n}).call(this)',
-          js_output_file: 'output.min.js'
-        }))
-      .pipe(gulp.dest('./dist/js'));
+  return gulp.src('./src/js/**/*.js', { base: './' })
+    .pipe(closureCompiler({
+      compilation_level: 'SIMPLE',
+      warning_level: 'VERBOSE',
+      language_in: 'ECMASCRIPT6_STRICT',
+      language_out: 'ECMASCRIPT5_STRICT',
+      output_wrapper: '(function(){\n%output%\n}).call(this)',
+      js_output_file: 'output.min.js'
+    }))
+    .pipe(gulp.dest('./dist/js'));
 });
 ```
 

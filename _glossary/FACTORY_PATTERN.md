@@ -12,7 +12,7 @@ In class-based programming, the **factory method pattern** is a creational patte
 > Define an interface for creating an object, but let subclasses decide which class to instantiate. The Factory method lets a class defer instantiation it uses to subclasses.
 > — [Gang Of Four](https://en.wikipedia.org/wiki/Gang_of_Four_(software))
 
-Creating an object often requires complex processes not appropriate to include within a composing object. The object's creation may lead to a significant duplication of code, may require information not accessible to the composing object, may not provide a sufficient level of abstraction, or may otherwise not be part of the composing object's concerns. The factory method design pattern handles these problems by defining a separate method for creating the objects, which subclasses can then override to specify the derived type of product that will be created.
+Creating an object often requires complex processes not appropriate to include within a composing object. The object’s creation may lead to a significant duplication of code, may require information not accessible to the composing object, may not provide a sufficient level of abstraction, or may otherwise not be part of the composing object’s concerns. The factory method design pattern handles these problems by defining a separate method for creating the objects, which subclasses can then override to specify the derived type of product that will be created.
 
 The factory method pattern may rely on inheritance, as object creation is delegated to subclasses that implement the factory method to create objects.
 
@@ -25,7 +25,7 @@ The factory method pattern may rely on inheritance, as object creation is delega
 - **ConcreteProduct**
  - implements the `Product`;
 - **Creator**
- - Ii declares the factory method that returns an object of type `Product`. It may also include the implementation of this method as "*default*";
+ - Ii declares the factory method that returns an object of type `Product`. It may also include the implementation of this method as “*default*”;
  - it can cause a factory method to create an object of type `Product`;
 - **ConcreteCreator**
  - it overrides the factory method so that he created and returns an object of class `ConcreteProduct`.
@@ -34,39 +34,39 @@ The factory method pattern may rely on inheritance, as object creation is delega
 
 ```js
 class Product() {
-    getName() {
-        return null;
-    }
+  getName() {
+    return null;
+  }
 }
 
 class ConcreteProductA extends Product {
-    getName() {
-        return "ConcreteProductA";
-    }
+  getName() {
+    return 'ConcreteProductA';
+  }
 }
 
 class ConcreteProductB extends Product {
-    getName() {
-        return "ConcreteProductB";
-    }
+  getName() {
+    return 'ConcreteProductB';
+  }
 }
 
 class Creator() {
-    factoryMethod() {
-        return null;
-    }
+  factoryMethod() {
+    return null;
+  }
 }
 
 class ConcreteCreatorA extends Creator {
-    factoryMethod() {
-        return new ConcreteProductA();
-    }
+  factoryMethod() {
+    return new ConcreteProductA();
+  }
 }
 
 class ConcreteCreatorB extends Creator {
-    factoryMethod() {
-        return new ConcreteProductB();
-    }
+  factoryMethod() {
+    return new ConcreteProductB();
+  }
 }
 
 // An array of creators
@@ -74,8 +74,8 @@ let creators = [new ConcreteCreatorA(), new ConcreteCreatorB()];
 
 // Iterate over creators and create products
 for (let i = 0; i < creators.length; i++) {
-    let product = creators[i].factoryMethod();
-    console.log(product.getName());
+  let product = creators[i].factoryMethod();
+  console.log(product.getName());
 }
 ```
 

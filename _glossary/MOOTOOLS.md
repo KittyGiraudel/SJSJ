@@ -15,9 +15,9 @@ excerpt: a collection of JavaScript utilities designed for the intermediate to a
 
 ## History
 
-Valerio Proietti first authored the framework and released it in September 2006 taking as his inspiration [Prototype](/_glossary/PROTOTYPE.md) and Dean Edward's [base2](http://code.google.com/p/base2/). MooTools originated from [Moo.fx](https://en.wikipedia.org/wiki/Moo.fx), a popular plug-in Proietti produced for Prototype in October 2005, which is still maintained and used.
+Valerio Proietti first authored the framework and released it in September 2006 taking as his inspiration [Prototype](/_glossary/PROTOTYPE.md) and Dean Edward’s [base2](http://code.google.com/p/base2/). MooTools originated from [Moo.fx](https://en.wikipedia.org/wiki/Moo.fx), a popular plug-in Proietti produced for Prototype in October 2005, which is still maintained and used.
 
-Whereas Prototype extended—prototyped—many of JavaScript's native String, Array, and Function objects with additional methods, Proietti desired a framework that (at the time) further extended the native Element object as well to offer greater control of the [Document Object Model](/_glossary/DOM.md) (DOM).
+Whereas Prototype extended—prototyped—many of JavaScript’s native String, Array, and Function objects with additional methods, Proietti desired a framework that (at the time) further extended the native Element object as well to offer greater control of the [DOM](/_glossary/DOM.md).
 
 ## Components
 
@@ -51,54 +51,49 @@ MooTools provides the user with a number of advantages over native JavaScript. T
 - An advanced effects component, with optimized transitions such as easing equations used by many Flash developers.
 - Enhancements to the DOM, enabling developers to easily add, modify, select, and delete DOM elements. Storing and retrieving information with Element storage is also supported.
 
-The framework includes built-in functions for manipulation of CSS, DOM elements, native JavaScript objects, Ajax requests, DOM effects, and more. MooTools also provides a detailed, coherent application programming interface (API) as well as a custom downloads module allowing developers to download only the modules and dependencies they need for a particular app.
+The framework includes built-in functions for manipulation of CSS, DOM elements, native JavaScript objects, Ajax requests, DOM effects, and more. MooTools also provides a detailed, coherent API as well as a custom downloads module allowing developers to download only the modules and dependencies they need for a particular app.
 
 ## Emphasis on modularity and reusability
 
-Every JavaScript framework has its philosophy, and MooTools is interested in taking full advantage of the flexibility and power of JavaScript in a way that emphasizes greater modularity and code reuse. MooTools accomplishes these goals in a way that is intuitive to a developer coming from a class-based inheritance language like Java with the MooTools **Class **object.
+Every JavaScript framework has its philosophy, and MooTools is interested in taking full advantage of the flexibility and power of JavaScript in a way that emphasizes greater modularity and code reuse. MooTools accomplishes these goals in a way that is intuitive to a developer coming from a class-based inheritance language like Java with the MooTools **Class** object.
 
-**Class** is an object of key/value pairs that can contain either properties or methods (functions). **Class** is effortlessly mixed and extended with other Class instantiations allowing for the greatest focus of MooTools: Code reuse achieved through maximizing the power of JavaScript's prototypical inheritance, but in a **Class** object syntax more familiar to classical inheritance models.
+**Class** is an object of key/value pairs that can contain either properties or methods (functions). **Class** is effortlessly mixed and extended with other Class instantiations allowing for the greatest focus of MooTools: Code reuse achieved through maximizing the power of JavaScript’s prototypical inheritance, but in a **Class** object syntax more familiar to classical inheritance models.
 
 ## Object-oriented programming
 
-MooTools contains a robust Class creation and inheritance system that resembles most classically based Object-oriented programming languages. For example, the following is MooTools' equivalent of the examples in Wikipedia's polymorphism page:
+MooTools contains a robust Class creation and inheritance system that resembles most classically based Object-oriented programming languages. For example, the following is MooTools’ equivalent of the examples in Wikipedia’s polymorphism page:
 
 ```js
 var Animal = new Class({
-
-    initialize: function(name) {
-        this.name = name;
-    }
-
+  initialize: function(name) {
+    this.name = name;
+  }
 });
 
 var Cat = new Class({
-    Extends: Animal,
+  Extends: Animal,
 
-    talk: function() {
-        return 'Meow!';
-    }
-
+  talk: function() {
+    return 'Meow!';
+  }
 });
 
 var Dog = new Class({
+  Extends: Animal,
 
-    Extends: Animal,
-
-    talk: function() {
-        return 'Arf! Arf';
-    }
-
+  talk: function() {
+    return 'Arf! Arf';
+  }
 });
 
 var animals = {
-    a: new Cat('Missy'),
-    b: new Cat('Mr. Bojangles'),
-    c: new Dog('Lassie')
+  a: new Cat('Missy'),
+  b: new Cat('Mr. Bojangles'),
+  c: new Dog('Lassie')
 };
 
 Object.each(animals, function(animal) {
-    alert(animal.name + ': ' + animal.talk());
+  alert(animal.name + ': ' + animal.talk());
 });
  
 // alerts the following:
@@ -109,6 +104,7 @@ Object.each(animals, function(animal) {
 ```
 
 ----------
+
 *Source:*
 
 - [MooTools](https://en.wikipedia.org/wiki/MooTools)*. From Wikipedia, the free encyclopedia*

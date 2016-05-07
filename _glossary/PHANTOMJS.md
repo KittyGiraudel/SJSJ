@@ -29,6 +29,7 @@ The PhantomJS JavaScript API can be used to open web pages, take screenshots, ex
 console.log('Loading a web page');
 var page = require('webpage').create();
 var url = 'http://en.wikipedia.org/';
+
 page.open(url, function (status) {
   console.log('Page loaded');
   page.render('wikipedia.org.png');
@@ -36,6 +37,6 @@ page.open(url, function (status) {
 });
 ```
 
-<hr>
+---
 
 **PhantomJS** is created and maintained by [Ariya Hidayat](http://ariya.ofilabs.com/about) (Twitter: [@ariyahidayat](http://twitter.com/ariyahidayat)), with the help of [many contributors](https://github.com/ariya/phantomjs/contributors). Follow the official Twitter stream [@PhantomJS](http://twitter.com/PhantomJS) to get the frequent development updates.

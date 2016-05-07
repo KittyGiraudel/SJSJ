@@ -10,9 +10,9 @@ The [prototype pattern](https://en.wikipedia.org/wiki/Prototype_pattern) is a cr
 - avoid subclasses of an object creator in the client application, like the abstract factory pattern does.
 - avoid the inherent cost of creating a new object in the standard way (e.g., using the `new` keyword) when it is prohibitively expensive for a given application.
 
-To implement the pattern, declare an abstract base class that specifies a pure virtual `clone()` method. Any class that needs a "polymorphic constructor" capability derives itself from the abstract base class, and implements the clone() operation.
+To implement the pattern, declare an abstract base class that specifies a pure virtual `clone()` method. Any class that needs a “polymorphic constructor” capability derives itself from the abstract base class, and implements the `clone()` operation.
 
-The client, instead of writing code that invokes the "new" operator on a hard-coded class name, calls the `clone()` method on the prototype, calls a [factory method](/_glossary/FACTORY_PATTERN.md) with a parameter designating the particular concrete derived class desired, or invokes the `clone()` method through some mechanism provided by another design pattern.
+The client, instead of writing code that invokes the `new` operator on a hard-coded class name, calls the `clone()` method on the prototype, calls a [factory method](/_glossary/FACTORY_PATTERN.md) with a parameter designating the particular concrete derived class desired, or invokes the `clone()` method through some mechanism provided by another design pattern.
 
 ## Structure
 
@@ -35,36 +35,40 @@ This is the classical implementation of the Prototype pattern, but JavaScript ca
 
 ```js
 function CustomerPrototype(proto) {
-    this.proto = proto;
+  this.proto = proto;
  
-    this.clone = function () {
-        var customer = new Customer();
+  this.clone = function () {
+    var customer = new Customer();
  
-        customer.first = proto.first;
-        customer.last = proto.last;
-        customer.status = proto.status;
+    customer.first = proto.first;
+    customer.last = proto.last;
+    customer.status = proto.status;
  
-        return customer;
-    };
+    return customer;
+  };
 }
  
 function Customer(first, last, status) {
-    this.first = first;
-    this.last = last;
-    this.status = status;
+  this.first = first;
+  this.last = last;
+  this.status = status;
  
-    this.say = function () {
-        alert('name: ' + this.first + ' ' + this.last +
-              ', status: ' + this.status);
-    };
+  this.say = function () {
+    alert('name: '
+      + this.first
+      + ' '
+      + this.last
+      + ', status: '
+      + this.status
+    );
+  };
 }
  
 function run() {
-    var proto = new Customer('n/a', 'n/a', 'pending');
-    var prototype = new CustomerPrototype(proto);
- 
-    var customer = prototype.clone();
-    customer.say();
+  var proto = new Customer('n/a', 'n/a', 'pending');
+  var prototype = new CustomerPrototype(proto);
+  var customer = prototype.clone();
+  customer.say();
 }
 
 run();

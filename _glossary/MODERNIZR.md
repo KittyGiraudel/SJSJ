@@ -17,4 +17,4 @@ For instance, if the browser does not support *CSS gradients*, Modernizr will ad
 }
 ```
 
-Another example is if the user has disabled Javascript on the page, then Modernizr will inject a `no-js` style on the page. The design of the page can then be adapted based on the lack of JavaScript given how certain features are likely to be unavailable.
+Another example is if the user has disabled JavaScript on the page, then Modernizr will inject a `no-js` style on the page. The design of the page can then be adapted based on the lack of JavaScript given how certain features are likely to be unavailable.

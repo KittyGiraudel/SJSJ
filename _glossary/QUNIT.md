@@ -7,11 +7,11 @@ excerpt: a powerful, easy-to-use JavaScript unit testing framework
 
 [QUnit](https://qunitjs.com/) is a JavaScript unit testing framework. While heavily used by the jQuery Project for testing [jQuery](/_glossary/JQUERY.md), [jQuery UI](http://jqueryui.com/) and [jQuery Mobile](http://jquerymobile.com/), it is a generic framework to test any JavaScript code. It supports server-side (e.g. [node.js](/_glossary/NODEJS.md)) and client-side environments.
 
-QUnit's assertion methods follow the [CommonJS](/_glossary/COMMONJS.md) unit testing specification, which itself was influenced to some degree by QUnit.
+QUnit’s assertion methods follow the [CommonJS](/_glossary/COMMONJS.md) unit testing specification, which itself was influenced to some degree by QUnit.
 
 ## History
 
-QUnit was originally developed by John Resig as part of jQuery. In 2008 it was extracted from the jQuery unit test source code to form its own project and became known as "QUnit". This allowed others to start using it for writing their unit tests. While the initial version of QUnit used jQuery for interaction with the DOM, a rewrite in 2009 made QUnit completely standalone.
+QUnit was originally developed by John Resig as part of jQuery. In 2008 it was extracted from the jQuery unit test source code to form its own project and became known as “QUnit”. This allowed others to start using it for writing their unit tests. While the initial version of QUnit used jQuery for interaction with the DOM, a rewrite in 2009 made QUnit completely standalone.
 
 ## Usage
 

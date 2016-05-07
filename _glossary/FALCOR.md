@@ -62,17 +62,16 @@ Now we create an `index.js` file with the following contents:
 // index.js
 var falcorExpress = require('falcor-express');
 var Router = require('falcor-router');
-
 var express = require('express');
 var app = express();
 
 app.use('/model.json', falcorExpress.dataSourceRoute(function (req, res) {
-  // create a Virtual JSON resource with single key ("greeting")
+  // create a Virtual JSON resource with single key (“greeting”)
   return new Router([
     {
-      // match a request for the key "greeting"    
+      // match a request for the key “greeting”
       route: 'greeting',
-      // respond with a PathValue with the value of 'Hello World.'
+      // respond with a PathValue with the value of “Hello World”
       get: function () {
         return {
           path: ['greeting'],
@@ -112,7 +111,7 @@ Now create an index.html file with the following contents:
         source: new falcor.HttpDataSource('/model.json')
       });
 
-      // retrieve the "greeting" key from the root of the Virtual JSON resource
+      // retrieve the “greeting” key from the root of the Virtual JSON resource
       model
         .get('greeting')
         .then(function (response) {

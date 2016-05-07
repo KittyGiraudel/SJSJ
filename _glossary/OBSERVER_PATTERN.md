@@ -5,7 +5,7 @@ excerpt: a software design pattern in which an object, called the subject, maint
 
 # Observer Pattern
 
-The [observer pattern](https://en.wikipedia.org/wiki/Observer_pattern) is a software design pattern in which an object, called the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods. It is mainly used to implement distributed event handling systems. The Observer pattern is also a key part in the familiar model–view–controller (MVC) architectural pattern. The observer pattern is implemented in numerous programming libraries and systems, including almost all GUI toolkits.
+The [observer pattern](https://en.wikipedia.org/wiki/Observer_pattern) is a software design pattern in which an object, called the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods. It is mainly used to implement distributed event handling systems. The Observer pattern is also a key part in the familiar MVC architectural pattern. The observer pattern is implemented in numerous programming libraries and systems, including almost all GUI toolkits.
 
 The observer pattern can cause memory leaks, known as the [lapsed listener problem](https://en.wikipedia.org/wiki/Lapsed_listener_problem), because in basic implementation it requires both explicit registration and explicit deregistration, as in the dispose pattern, because the subject holds strong references to the observers, keeping them alive. This can be prevented by the subject holding weak references to the observers.
 
@@ -44,47 +44,49 @@ The `log` function is a helper which collects and displays results.
 
 ```js
 class Click {
-    constructor() {
-        this.handlers = []; // observers
-    }
+  constructor() {
+    this.handlers = []; // observers
+  }
 
-    subscribe(fn) {
-        this.handlers.push(fn);
-    }
+  subscribe(fn) {
+    this.handlers.push(fn);
+  }
 
-    unsubscribe(fn) {
-        this.handlers = this.handlers.filter(item => { return item !== fn ? item : null; });
-    }
+  unsubscribe(fn) {
+    this.handlers = this.handlers.filter(item => {
+      return item !== fn ? item : null;
+    });
+  }
 
-    fire(o, thisObj) {
-        let scope = thisObj || window;
+  fire(o, thisObj) {
+    let scope = thisObj || window;
         
-        this.handlers.forEach(item => { item.call(scope, o) });
-    }
+    this.handlers.forEach(item => { item.call(scope, o) });
+  }
 }
 
 // log helper 
 let log = (function() {
-    let log = '';
+  let log = '';
 
-    return {
-        add: msg => { log += msg + '\n'; },
-        show: () => { alert(log); log = ''; }
-    }
+  return {
+    add: msg => { log += msg + '\n'; },
+    show: () => { alert(log); log = ''; }
+  }
 })();
 
 function run() {
-    var click = new Click(),
-        clickHandler = item => { log.add('fired: ' + item); };
+  var click = new Click(),
+      clickHandler = item => { log.add('fired: ' + item); };
 
-    click.subscribe(clickHandler);
-    click.fire('event #1');
-    click.unsubscribe(clickHandler);
-    click.fire('event #2');
-    click.subscribe(clickHandler);
-    click.fire('event #3');
+  click.subscribe(clickHandler);
+  click.fire('event #1');
+  click.unsubscribe(clickHandler);
+  click.fire('event #2');
+  click.subscribe(clickHandler);
+  click.fire('event #3');
 
-    log.show();
+  log.show();
 }
 
 run();
