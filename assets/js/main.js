@@ -112,6 +112,15 @@
     'retina_detect': true
   }
 
+  function async(u, c) {
+    var d = document, t = 'script',
+        o = d.createElement(t),
+        s = d.getElementsByTagName(t)[0];
+    o.src = '//' + u;
+    if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+    s.parentNode.insertBefore(o, s);
+  }
+
   function init () {
     var container = document.getElementById('search-container')
     var form = document.getElementById('search-form')
@@ -125,8 +134,8 @@
       if (route) window.location.href = route
     })
 
-    setTimeout(function() {
-      window.particlesJS && window.particlesJS('particles-js', particlesOptions)
-    }, 500)
+    async('cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js', function () {
+      window.particlesJS('particles-js', particlesOptions)
+    })
   }
 }())
