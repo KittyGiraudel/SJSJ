@@ -125,6 +125,13 @@ pre {
   padding: 0 4px;
 }
 
+@media (max-width: 700px) {
+  .alphabet li {
+    line-height: 2;
+    padding: 0 8px;
+  }
+}
+
 .alphabet a {
   color: inherit;
 }
