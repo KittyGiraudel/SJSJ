@@ -21,15 +21,20 @@ a {
 
 a[href^="http"]::after {
   content: ' ↗';
-  text-decoration: none;
+  border-bottom: 0;
   display: inline-block;
   font-weight: bold;
   transform: scale(0.6);
 }
 
-a:hover,
-a:active {
-  text-decoration: underline;
+a:not([class]):hover,
+a:not([class]):active {
+  border-bottom: 1px solid;
+}
+
+abbr {
+  border-bottom: 1px dotted;
+  cursor: help;
 }
 
 section:not(:last-of-type) {

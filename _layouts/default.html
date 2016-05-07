@@ -12,7 +12,12 @@
       {% include alphabet.html %}
 
       <div class="box">
-        {{ content }}
+        {% capture content %}
+{% include abbr.html %}
+{{ content }}
+        {% endcapture %}
+
+        {{ content | strip | markdownify }}
       </div>
     </main>
 
