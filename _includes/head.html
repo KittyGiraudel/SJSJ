@@ -6,11 +6,10 @@
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.title }} — {{ page.excerpt | strip_html | strip_newlines }}{% else %}{{ site.description | markdownify | strip_html }}{% endif %}">
 
-  <style>
-  {% capture styles %}
-  {% include styles.css %}
-  {% endcapture %}
+  {% capture styles %}{% include styles.css %}{% endcapture %}
 
+  <style>
+  @charset "UTF-8";
   {{ styles | scssify }}
   </style>
 
