@@ -84,6 +84,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 * [ECMAScript](/_glossary/ECMASCRIPT.md): the standardized specification of the scripting language used by JavaScript.
 * [Electron](/_glossary/ELECTRON.md): a framework based on Node.js lets you write cross-platform desktop applications using JS, HTML and CSS.
 * [Ember](/_glossary/EMBER.md): an application framework based on the model-view-controller pattern.
+* [Enzyme](/_glossary/ENZYME.md): a JavaScript Testing utility for React developed by AirBnB that makes it easier to assert, manipulate, and traverse React components’ output.
 * [ESLint](/_glossary/ESLINT.md): a JavaScript code linter.
 * [Express](/_glossary/EXPRESS.md): a fast, un-opinionated, minimalist web framework for Node.js.
 * [Ext JS](/_glossary/EXTJS.md): a pure JavaScript application framework for building interactive cross platform web applications.
