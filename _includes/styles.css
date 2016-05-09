@@ -1,3 +1,7 @@
+/* -------------------------------------------------------------------------- *\
+ * Base
+ * -------------------------------------------------------------------------- */
+
 html { font-size: 100%; }
 
 * {
@@ -54,11 +58,15 @@ h1, .as-h1 {
 }
 
 pre {
-  background-color: #ebe7df;
+  background-color: #f8f8f8;
   border: 3px solid rgba(0, 0, 0, 0.1);
-  padding: 10px;
+  padding: 20px;
   overflow: auto;
 }
+
+/* -------------------------------------------------------------------------- *\
+ * Helpers
+ * -------------------------------------------------------------------------- */
 
 .container {
   max-width: 100%;
@@ -97,6 +105,10 @@ pre {
   padding: 0;
 }
 
+/* -------------------------------------------------------------------------- *\
+ * Index list
+ * -------------------------------------------------------------------------- */
+
 .index-list {
   margin: 10px;
   list-style: none;
@@ -117,6 +129,10 @@ pre {
   font-family: monospace;
   transform: translateY(-3px) scale(1.2);
 }
+
+/* -------------------------------------------------------------------------- *\
+ * Alphabet
+ * -------------------------------------------------------------------------- */
 
 .alphabet {
   list-style: none;
@@ -141,6 +157,10 @@ pre {
 .alphabet a {
   color: inherit;
 }
+
+/* -------------------------------------------------------------------------- *\
+ * Search form
+ * -------------------------------------------------------------------------- */
 
 .search {
   display: -webkit-box;
@@ -188,6 +208,10 @@ pre {
   to { transform: scale(1.15); }
 }
 
+/* -------------------------------------------------------------------------- *\
+ * Particles
+ * -------------------------------------------------------------------------- */
+
 .particles {
   position: fixed;
   top: 0;
@@ -196,6 +220,10 @@ pre {
   left: 0;
   z-index: -1;
 }
+
+/* -------------------------------------------------------------------------- *\
+ * Header
+ * -------------------------------------------------------------------------- */
 
 .header {
   margin-top: 40px;
@@ -218,9 +246,17 @@ pre {
   to { transform: translateY(-6px); }
 }
 
+/* -------------------------------------------------------------------------- *\
+ * Main
+ * -------------------------------------------------------------------------- */
+
 .main {
   margin-bottom: 30px;
 }
+
+/* -------------------------------------------------------------------------- *\
+ * Footer
+ * -------------------------------------------------------------------------- */
 
 .footer {
   font-size: 80%;
@@ -231,4 +267,218 @@ pre {
 .footer:hover,
 .footer:active {
   opacity: 1;
+}
+
+/* -------------------------------------------------------------------------- *\
+ * Code highlighting
+ * -------------------------------------------------------------------------- */
+
+.highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+.highlight .cm {
+  color: #999988;
+  font-style: italic;
+}
+.highlight .cp {
+  color: #999999;
+  font-weight: bold;
+}
+.highlight .c1 {
+  color: #999988;
+  font-style: italic;
+}
+.highlight .cs {
+  color: #999999;
+  font-weight: bold;
+  font-style: italic;
+}
+.highlight .c, .highlight .cd {
+  color: #999988;
+  font-style: italic;
+}
+.highlight .err {
+  color: #a61717;
+  background-color: #e3d2d2;
+}
+.highlight .gd {
+  color: #000000;
+  background-color: #ffdddd;
+}
+.highlight .ge {
+  color: #000000;
+  font-style: italic;
+}
+.highlight .gr {
+  color: #aa0000;
+}
+.highlight .gh {
+  color: #999999;
+}
+.highlight .gi {
+  color: #000000;
+  background-color: #ddffdd;
+}
+.highlight .go {
+  color: #888888;
+}
+.highlight .gp {
+  color: #555555;
+}
+.highlight .gs {
+  font-weight: bold;
+}
+.highlight .gu {
+  color: #aaaaaa;
+}
+.highlight .gt {
+  color: #aa0000;
+}
+.highlight .kc {
+  color: #000000;
+  font-weight: bold;
+}
+.highlight .kd {
+  color: #000000;
+  font-weight: bold;
+}
+.highlight .kn {
+  color: #000000;
+  font-weight: bold;
+}
+.highlight .kp {
+  color: #000000;
+  font-weight: bold;
+}
+.highlight .kr {
+  color: #000000;
+  font-weight: bold;
+}
+.highlight .kt {
+  color: #445588;
+  font-weight: bold;
+}
+.highlight .k, .highlight .kv {
+  color: #000000;
+  font-weight: bold;
+}
+.highlight .mf {
+  color: #009999;
+}
+.highlight .mh {
+  color: #009999;
+}
+.highlight .il {
+  color: #009999;
+}
+.highlight .mi {
+  color: #009999;
+}
+.highlight .mo {
+  color: #009999;
+}
+.highlight .m, .highlight .mb, .highlight .mx {
+  color: #009999;
+}
+.highlight .sb {
+  color: #d14;
+}
+.highlight .sc {
+  color: #d14;
+}
+.highlight .sd {
+  color: #d14;
+}
+.highlight .s2 {
+  color: #d14;
+}
+.highlight .se {
+  color: #d14;
+}
+.highlight .sh {
+  color: #d14;
+}
+.highlight .si {
+  color: #d14;
+}
+.highlight .sx {
+  color: #d14;
+}
+.highlight .sr {
+  color: #009926;
+}
+.highlight .s1 {
+  color: #d14;
+}
+.highlight .ss {
+  color: #990073;
+}
+.highlight .s {
+  color: #d14;
+}
+.highlight .na {
+  color: #008080;
+}
+.highlight .bp {
+  color: #999999;
+}
+.highlight .nb {
+  color: #0086B3;
+}
+.highlight .nc {
+  color: #445588;
+  font-weight: bold;
+}
+.highlight .no {
+  color: #008080;
+}
+.highlight .nd {
+  color: #3c5d5d;
+  font-weight: bold;
+}
+.highlight .ni {
+  color: #800080;
+}
+.highlight .ne {
+  color: #990000;
+  font-weight: bold;
+}
+.highlight .nf {
+  color: #990000;
+  font-weight: bold;
+}
+.highlight .nl {
+  color: #990000;
+  font-weight: bold;
+}
+.highlight .nn {
+  color: #555555;
+}
+.highlight .nt {
+  color: #000080;
+}
+.highlight .vc {
+  color: #008080;
+}
+.highlight .vg {
+  color: #008080;
+}
+.highlight .vi {
+  color: #008080;
+}
+.highlight .nv {
+  color: #008080;
+}
+.highlight .ow {
+  color: #000000;
+  font-weight: bold;
+}
+.highlight .o {
+  color: #000000;
+  font-weight: bold;
+}
+.highlight .w {
+  color: #bbbbbb;
+}
+.highlight {
+  background-color: #f8f8f8;
 }
