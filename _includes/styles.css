@@ -32,9 +32,10 @@ a:not([class]):active {
   border-bottom: 1px solid;
 }
 
-abbr {
+abbr[title] {
   border-bottom: 1px dotted;
   cursor: help;
+  text-decoration: none;
 }
 
 section:not(:last-of-type) {
