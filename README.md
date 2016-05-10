@@ -163,6 +163,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### P
 
+* [Passport.js](/_glossary/PASSPORTJS.md): a simple authentication middleware for Node.js
 * [PhantomJS](/_glossary/PHANTOMJS.md): a scripted, headless browser used for automating web page interaction.
 * [Polymer](/_glossary/POLYMER.md): Google’s library for creating Web Components.
 * [PostCSS](/_glossary/POSTCSS.md): a tool to transform CSS styles using JavaScript plugins; plugins include autoprefixer, future CSS transpiling, CSS linting and media queries.
