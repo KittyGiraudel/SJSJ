@@ -48,7 +48,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 * [AMD](/_glossary/AMD.md): a standard defining how to load JavaScript libraries or modules asynchronously.
 * [AngularJS](/_glossary/ANGULARJS.md): a structural framework for dynamic web apps.
 * [Apache Cordova](/_glossary/APACHECORDOVA.md) (formerly **PhoneGap**): a popular mobile application development framework originally created by Nitobi.
-* [Arity](/_glossary/ARITY.md): the number of arguments of a function.an
+* [Arity](/_glossary/ARITY.md): the number of arguments of a function.
 
 ### B
 
