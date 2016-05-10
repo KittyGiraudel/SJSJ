@@ -22,6 +22,7 @@ JSON: JavaScript Object Notation
 JSON-LD: JSON for Linked Data
 MVC: Model View Controller
 MVVM: Model View ViewModel
+OO: Object Oriented
 REST: Representational State Transfer
 RESTful: Representational State Transfer
 SVG: Scalable Vector Graphics
@@ -30,4 +31,5 @@ UI: User Interface
 UMD: Universal Module Definition
 URL: Uniform Resource Locator
 WebGL: Web Graphics Library
+XHR: XMLHttpRequest
 XML: Extensible Markup Language

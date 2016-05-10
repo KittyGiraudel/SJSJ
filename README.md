@@ -133,7 +133,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 ### L
 
 * [LocalForage](/_glossary/LOCALFORAGE.md): a fast and simple storage library for JavaScript.
-* [Lodash](/_glossary/LODASH.md): an utility toolkit to extend JavaScript primitive types.
+* [Lodash](/_glossary/LODASH.md): a utility toolkit to extend JavaScript primitive types.
 
 ### M
 
