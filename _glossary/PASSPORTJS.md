@@ -1,3 +1,8 @@
+---
+title: Passport.js
+excerpt: a simple authentication middleware
+---
+
 # Passport.js
 
 [Passport.js](http://passportjs.org/) is a simple authentication middleware for Node.js that is express compatible.
