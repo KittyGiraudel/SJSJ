@@ -186,9 +186,9 @@ pre {
   font: inherit;
   background-color: #eb5424;
   color: white;
-  display: inline-block;
+  display: flex;
   border: 0;
-  padding: 0 18px;
+  padding: 0 15px;
   cursor: pointer;
 }
 
@@ -206,6 +206,19 @@ pre {
 @keyframes pulse {
   from { transform: scale(1); }
   to { transform: scale(1.15); }
+}
+
+/* -------------------------------------------------------------------------- *\
+ * Icon
+ * -------------------------------------------------------------------------- */
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  color: inherit;
+  fill: currentColor;
+  vertical-align: middle;
 }
 
 /* -------------------------------------------------------------------------- *\
