@@ -183,6 +183,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 * [Redux](/_glossary/REDUX.md): a predictable state container for apps.
 * [Require.js](/_glossary/REQUIREJS.md): a browser based module loader using AMD.
 * [Revealing Module Pattern](/_glossary/REVEALING_MODULE_PATTERN.md): a design pattern conceptually based on the [Module Pattern](/_glossary/MODULE_PATTERN.md). The only difference is that the *revealing module pattern* was engineered as a way to ensure that all methods and variables are kept private until they are explicitly exposed.
+* [rnpm (React Native Package Manager)](/_glossary/RNPM.md): a package manager to ease React Native development
 * [RxJS](/_glossary/RXJS.md): a library for asynchronous programming using observable streams.
 
 ### S
