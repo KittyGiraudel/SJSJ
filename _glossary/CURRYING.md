@@ -33,3 +33,18 @@ add10(5) // => 15
 ```
 
 [Lodash](/_glossary/LODASH.md), [Wu](https://fitzgen.github.io/wu.js/#curryable) and [Ramda](/_glossary/RAMDA.md) are 3 of the many libraries that provide currying.
+
+## Currying with Javascript Libraries
+
+Most Javascript libraries don't stick to this pure definition of currying, and instead mix in a bit of partial application. What this means is that they allow you to call the curried functions with more than one argument at a time. As you give it arguments, it will continue returning new curried functions until you've given it all the arguments it expects, at which point it will apply them to the function. It's really auto-curried partial application.
+
+Thus, the following are equivalent:
+
+```js
+foo(1)(2)(3)(4)(5);
+foo(1, 2, 3, 4, 5);
+foo(1)(2, 3, 4, 5);
+foo(1, 2)(3)(4, 5);
+```
+
+It's "syntactic sugar" that most libraries use, and for them the end result is the same as when you call `foo(1)(2)(3)(4)(5)`.
