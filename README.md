@@ -12,6 +12,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 * A CLI tool for SJSJ by Hank Wang: https://github.com/hanksudo/SJSJ-cli
 * A Chrome extension for SJSJ by ismnoiet: https://github.com/ismnoiet/JSJargon
 * A [data crawler](#export-entries-as-json) for SJSJ by myself
+* An Alfred workflow for SJSJ by Youmoo: https://github.com/Youmoo/alfred-javascript-jargon
 
 ## Glossary
 
