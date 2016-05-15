@@ -6,7 +6,7 @@ const fs = require('fs-promise')
 const path = require('path')
 const marked = require('marked')
 
-const GLOSSARY_FOLDER = path.join(process.cwd(), 'glossary')
+const GLOSSARY_FOLDER = path.join(process.cwd(), '_glossary')
 const DESTINATION_FILE = process.argv[2] || 'data.json'
 
 const parse = content => ({
