@@ -65,7 +65,7 @@ class HardDrive {
 
 class ComputerFacade {
   constructor() {
-    this.processor = new Cput();
+    this.processor = new CPU();
     this.ram = new Memory();
     this.hd = new HardDrive();
   }
