@@ -17,15 +17,13 @@ The main idea is that a pure function respect the following properties:
 
 ```js
 // The following function is not Pure because different calls with same argument will not produce the same output :
-function impureAdd(input){ 
-    var output = input + Math.Random(); 
-    return output;
+function impureAdd (input) {
+    return input + Math.Random();
 }
 
 // A way to make a pure function of it is to extract the impredictable part and give this responsibility to the caller :
-function pureAdd(input, randomValue){
-    var output = input + randomValue;
-    return output; 
+function pureAdd (input, randomValue) {
+    return input + randomValue;
 }
 
 var randomAdd = pureAdd(5, Math.Random());
@@ -35,21 +33,24 @@ var randomAdd = pureAdd(5, Math.Random());
 
 ```js
 // The following function is not Pure because it has a side effect : it write in the environnement’s console
-function impureFunction(input){
+function impureFunction (input) {
     var output = computeHashValue(input);
-    console.log("computed output" : + output);
+    console.log('computed output:', output);
     return output;
 }
 
 // To make it pure, again, the caller has the responsibility to pass the desired side effects.
-function pureFunction(input, traceCallback){
+function pureFunction (input, traceCallback) {
     var output = computeHashValue(input);
-    if(traceCallback)
-        traceCallback("computed output" : + output);
+
+    if (traceCallback) {
+        traceCallback('computed output:', output);
+    }
+
     return output;
 }
 
-var output = pureFunction("some input",  s =>  console.log(s));
+var output = pureFunction('some input', (s) => console.log(s));
 ```
 
 
@@ -61,21 +62,21 @@ var applicationState = {
 }
 
 // The following function is not Pure because it relies on a global variable, an external state from the point of view of the function
-function impureValidation(inputScore){
+function impureValidation (inputScore) {
     return input < applicationState.businessTreshold;
 }
 
 // To make it pure, again, the caller has the responsibility to pass the needed state for the function to run
-function pureValidation(inputScore, threshold){
+function pureValidation (inputScore, threshold) {
     return input < threshold;
 }
 
 var output = pureFunction(70, applicationState.businessTreshold);
 ```
 
-
-----------
+---
 
 *Source:*
-- [Wikipedia Article](https://en.wikipedia.org/wiki/Pure_function)*. From Wikipedia, the free encyclopedia.*
-- [Eric Elliot on Pure Function](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976#.knhvq7k0z)*. Article from Medium’s JavaScript Scene top contributor Eric Elliott.*
+
+* [Wikipedia Article](https://en.wikipedia.org/wiki/Pure_function)
+* [Eric Elliot on Pure Function](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976#.knhvq7k0z)
