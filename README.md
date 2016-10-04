@@ -66,6 +66,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 * [Canvas](/_glossary/CANVAS.md): an HTML element for graphic applications in 2D or 3D.
 * [Chai](/_glossary/CHAI.md): an assertion library used with a JavaScript testing framework.
+* [Chakra](_glossary/CHAKRA.md): a JavaScript engine developed by Microsoft for its Edge browser which could also be used with Node.js instead of V8.
 * [Closure](/_glossary/CLOSURE.md): a way of referencing variables from a child function while retaining their value even if it changes in the parent function.
 * [Closure Compiler](/_glossary/CLOSURE_COMPILER.md): a JavaScript checker and optimizer.
 * [CoffeeScript](/_glossary/COFFEESCRIPT.md): a language that compiles into JavaScript.
