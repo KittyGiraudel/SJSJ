@@ -1,6 +1,6 @@
 ---
 title: Chakra
-excerpt: JavaScript engine developed by Microsoft for it's Edge browser. Can optionally be used with Node.js instead of V8.
+excerpt: a JavaScript engine developed by Microsoft for its Edge browser which could also be used with Node.js instead of V8.
 ---
 
 # Chakra
