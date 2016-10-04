@@ -172,7 +172,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 * [Promise](/_glossary/PROMISE.md): a proxy for a value not necessarily known immediately but that will eventually be resolved.
 * [Prototype.js](/_glossary/PROTOTYPEJS.md): a JavaScript framework that aims to ease development of dynamic web applications. It offers a familiar class-style OO framework, extensive Ajax support, higher-order programming constructs, and easy DOM manipulation.
 * [Prototype Pattern](/_glossary/PROTOTYPE_PATTERN.md): a creational design pattern in software development. It is used when the type of objects to create is determined by a prototypical instance, which is cloned to produce new objects.
-* [Pure Function](/_glossary/PURE_FUNCTION.md): a functionnal programming paradigm that states that a function cannot affect the state of its application.
+* [Pure Function](/_glossary/PURE_FUNCTION.md): a functional programming paradigm that states that a function cannot affect the state of its application.
 
 ### Q
 
