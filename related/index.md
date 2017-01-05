@@ -20,7 +20,7 @@ A bunch of smart people have built projects around Simplified JavaScript Jargon.
 
 [Hamza](https://github.com/ismnoiet) built [a Chrome extension](https://github.com/ismnoiet/JSJargon) to access entries from SJSJ from your browser.
 
-![Screenshot of the SJSJ Chrome extension](https://github.com/ismnoiet/JSJargon/raw/master/assets/img/screenshot.png)
+![Screenshot of the SJSJ Chrome extension](https://github.com/ismnoiet/JSJargon/raw/master/assets/img/screenshot1.png)
 
 ## SJSJ Alfred workflow
 
