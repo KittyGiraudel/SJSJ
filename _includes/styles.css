@@ -248,7 +248,6 @@ pre {
 
 .header {
   margin-top: 40px;
-  margin-bottom: 30px;
 }
 
 .header__link {
@@ -288,6 +287,15 @@ pre {
 .footer:hover,
 .footer:active {
   opacity: 1;
+}
+
+/* -------------------------------------------------------------------------- *\
+ * Particles toggle
+ * -------------------------------------------------------------------------- */
+.particles-toggle__label {
+  text-transform: uppercase;
+  font-size: 70%;
+  opacity: 0.7;
 }
 
 /* -------------------------------------------------------------------------- *\
@@ -503,3 +511,4 @@ pre {
 .highlight {
   background-color: #f8f8f8;
 }
+

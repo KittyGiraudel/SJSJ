@@ -135,6 +135,14 @@
     async('cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js', function () {
       window.particlesJS('particles-js', particlesOptions)
     })
+
+    const particlesToggle = document.querySelector('#particles-toggle')
+    particlesToggle.addEventListener('change', function(event) {
+      const enabled = event.target.checked
+      const n = enabled ? 80 : 0
+      pJSDom[0].pJS.particles.number.value = n
+      pJSDom[0].pJS.fn.particlesRefresh()
+    })
   }
 
   init()
