@@ -54,7 +54,7 @@
         'width': 1
       },
       'move': {
-        'enable': true,
+        'enable': !prefersReducedMotion(),
         'speed': 2,
         'direction': 'none',
         'random': false,
@@ -119,10 +119,22 @@
     s.parentNode.insertBefore(o, s);
   }
 
+  function prefersReducedMotion () {
+    return window.matchMedia && window.matchMedia('(prefers-reduced-motion)').matches
+  }
+
+  function toggleParticlesAnimation (running) {
+    if (window.pJSDom) {
+      window.pJSDom[0].pJS.particles.move.enable = running
+      window.pJSDom[0].pJS.fn.particlesRefresh()
+    }
+  }
+
   function init () {
     var container = document.getElementById('search-container')
     var form = document.getElementById('search-form')
     var field = document.getElementById('search-field')
+    var particlesToggle = document.getElementById('particles-toggle')
 
     container.style.display = 'block'
 
@@ -136,13 +148,11 @@
       window.particlesJS('particles-js', particlesOptions)
     })
 
-    const particlesToggle = document.querySelector('#particles-toggle')
-    particlesToggle.addEventListener('change', function(event) {
-      const enabled = event.target.checked
-      const n = enabled ? 80 : 0
-      pJSDom[0].pJS.particles.number.value = n
-      pJSDom[0].pJS.fn.particlesRefresh()
+    particlesToggle.addEventListener('change', function (event) {
+      toggleParticlesAnimation(event.target.checked)
     })
+
+    document.querySelector('#particles-toggle').checked = particlesOptions.particles.move.enable
   }
 
   init()
