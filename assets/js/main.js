@@ -152,7 +152,7 @@
       toggleParticlesAnimation(event.target.checked)
     })
 
-    document.querySelector('#particles-toggle').checked = particlesOptions.particles.move.enable
+    particlesToggle.checked = particlesOptions.particles.move.enable
   }
 
   init()
