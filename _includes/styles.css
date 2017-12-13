@@ -200,6 +200,7 @@ pre {
   border: 0;
   padding: 0 15px;
   cursor: pointer;
+  border-radius: 0;
 }
 
 .search__button span {
