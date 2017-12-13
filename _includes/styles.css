@@ -186,8 +186,10 @@ pre {
   border: 0;
 }
 
-.search__input:focus + .search__button span {
-  animation: pulse 1s infinite alternate;
+@media screen and (prefers-reduced-motion: no-preference) {
+  .search__input:focus + .search__button span {
+    animation: pulse 1s infinite alternate;
+  }
 }
 
 .search__button {
@@ -256,9 +258,14 @@ pre {
 
 .header__link img {
   border: 0;
-  animation: subtle-move 3s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
+}
+
+@media screen and (prefers-reduced-motion: no-preference) {
+  .header__link img {
+    animation: subtle-move 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
 }
 
 @keyframes subtle-move {
