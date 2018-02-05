@@ -4,9 +4,11 @@ An [Expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Ex
 
 ## Examples:
 
-`4 + 5` **(evaluates to the value 9)**
-`x = 6` **(evaluates to 6)**
-`"Home!"` **(evaluates to the String 'Home!')**
+`4 + 5` *(evaluates to the value 9)*
+
+`x = 6` *(evaluates to 6)*
+
+`"Home!"` *(evaluates to the String 'Home!')*
 
 ----------
 
