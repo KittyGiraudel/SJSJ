@@ -1,11 +1,11 @@
 ---
-title: PhantomJS
+title: Puppeteer 
 excerpt: a scripted, headless browser used for automating web page interaction
 ---
 
-# Puppeteer
+# Puppeteer 
 
-[Puppeteer](http://phantomjs.org/) is a Node library which provides a high-level API to control headless Chrome or Chromium over the DevTools Protocol. It can also be configured to use full (non-headless) Chrome or Chromium.
+[Puppeteer](https://github.com/GoogleChrome/puppeteer) is a Node library which provides a high-level API to control headless Chrome or Chromium over the DevTools Protocol. It can also be configured to use full (non-headless) Chrome or Chromium.
 
 ## Use Cases
 
