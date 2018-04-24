@@ -37,6 +37,7 @@ const puppeteer = require('puppeteer');
 
   await browser.close();
 })();
+```
 
 ## Why is the Chrome team building Puppeteer?
 
