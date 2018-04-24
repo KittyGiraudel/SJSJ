@@ -1,6 +1,6 @@
 ![Logo SJSJ](/assets/images/logo.png)
 
-*Simplified JavaScript Jargon* (short *SJSJ*) is a community-driven attempt at explaining the loads of buzzwords making the current JavaScript ecosystem in a few simple words. The idea is not to replace individual documentations, but to act as some kind of glossary that can be easily referenced.
+_Simplified JavaScript Jargon_ (short _SJSJ_) is a community-driven attempt at explaining the loads of buzzwords making the current JavaScript ecosystem in a few simple words. The idea is not to replace individual documentations, but to act as some kind of glossary that can be easily referenced.
 
 If you are willing to contribute, open a pull request to complete, update or fill in a section. Thank you for doing so!
 
@@ -119,6 +119,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 ### J
 
 * [Jasmine](/_glossary/JASMINE.md): a testing framework for BDD (Behaviour-Driven Development).
+* [Jest](/_glossary/JEST.md): a unit testing framework.
 * [jQuery](/_glossary/JQUERY.md): a fast, small, and feature-rich client-side library.
 * [JSCS](/_glossary/JSCS.md): a JavaScript code linter.
 * [JSHint](/_glossary/JSHINT.md): a JavaScript code linter.
@@ -172,6 +173,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 * [Promise](/_glossary/PROMISE.md): a proxy for a value not necessarily known immediately but that will eventually be resolved.
 * [Prototype.js](/_glossary/PROTOTYPEJS.md): a JavaScript framework that aims to ease development of dynamic web applications. It offers a familiar class-style OO framework, extensive Ajax support, higher-order programming constructs, and easy DOM manipulation.
 * [Prototype Pattern](/_glossary/PROTOTYPE_PATTERN.md): a creational design pattern in software development. It is used when the type of objects to create is determined by a prototypical instance, which is cloned to produce new objects.
+* [Puppeteer](/_glossary/PUPPETEER.md): a Node library providing a high-level API to control headless Chrome.
 * [Pure Function](/_glossary/PURE_FUNCTION.md): a function that always returns the same value for a given input, never modifies its inputs, and cannot obeserve or affect state in its application or the world.
 
 ### Q
@@ -185,7 +187,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 * [React](/_glossary/REACT.md): a library developed and used at Facebook for building user interfaces.
 * [Redux](/_glossary/REDUX.md): a predictable state container for apps.
 * [Require.js](/_glossary/REQUIREJS.md): a browser based module loader using AMD.
-* [Revealing Module Pattern](/_glossary/REVEALING_MODULE_PATTERN.md): a design pattern conceptually based on the [Module Pattern](/_glossary/MODULE_PATTERN.md). The only difference is that the *revealing module pattern* was engineered as a way to ensure that all methods and variables are kept private until they are explicitly exposed.
+* [Revealing Module Pattern](/_glossary/REVEALING_MODULE_PATTERN.md): a design pattern conceptually based on the [Module Pattern](/_glossary/MODULE_PATTERN.md). The only difference is that the _revealing module pattern_ was engineered as a way to ensure that all methods and variables are kept private until they are explicitly exposed.
 * [rnpm](/_glossary/RNPM.md): a package manager to ease [React Native](/_glossary/REACT.md#react-native) development by automatically linking native dependencies to your iOS/Android project.
 * [RxJS](/_glossary/RXJS.md): a library for asynchronous programming using observable streams.
 
