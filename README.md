@@ -77,6 +77,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### D
 
+* [date-fns](/_glossary/DATE-FNS.md): a JavaScript date utility library.
 * [D3.js](/_glossary/D3JS.md): a library for manipulating documents based on data.
 * [Design Patterns](/_glossary/DESIGN_PATTERNS.md): a general reusable solution to a commonly occurring problem within a given context in software design.
 * [DOM](/_glossary/DOM.md): a platform- and language-neutral interface that allow programs and scripts to dynamically access and update the content, structure and style of documents.
@@ -102,6 +103,7 @@ If you are willing to contribute, open a pull request to complete, update or fil
 
 ### G
 
+* [GraphQL](/_glossary/GRAPHQL.md): a query language for APIs and a runtime for fulfilling those queries with your existing data.
 * [Grunt](/_glossary/GRUNT.md): a task runner aiming at automating tedious and possibly complex tasks.
 * [Gulp](/_glossary/GULP.md): a task runner aiming at automating tedious and possibly complex tasks.
 
