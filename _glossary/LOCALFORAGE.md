@@ -170,7 +170,7 @@ If you’re using localForage in your own build system (e.g. browserify or webpa
 
 ### Framework Support
 
-If you use a framework listed, ther’s a localForage storage driver for the models in your framework so you can store data offline with localForage. We have drivers for the following frameworks:
+If you use a framework listed, there’s a localForage storage driver for the models in your framework so you can store data offline with localForage. We have drivers for the following frameworks:
 
 - [AngularJS](https://github.com/ocombe/angular-localForage)
 - [Backbone](https://github.com/mozilla/localForage-backbone)
