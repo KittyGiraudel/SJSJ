@@ -17,7 +17,7 @@ const parseFile = (file, content) => ({
   description: content.match(/^excerpt:\s*(.+)$/m)[1],
   markdown: getMarkdown(content),
   html: marked(getMarkdown(content)),
-  url: `https://github.com/HugoGiraudel/SJSJ/blob/master/_glossary/${file}`
+  url: `https://github.com/KittyGiraudel/SJSJ/blob/master/_glossary/${file}`
 })
 
 const readFile = (file) =>
@@ -33,7 +33,7 @@ const processFiles = (files) =>
   Promise.all(files.map(collect))
 
 const buildJSON = (entries) =>
-  JSON.stringify(entries, null, 2) 
+  JSON.stringify(entries, null, 2)
 
 const writeJSON = (data) =>
   fs.writeFile(DESTINATION_FILE, data)

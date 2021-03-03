@@ -33,7 +33,7 @@ Feel free to include images (hotlinked, or placed in `assets/images/`) and code 
 
 ## Abbreviations
 
-There are a lot of abbreviations repeated throughout the list of entries. To avoid cluttering the content with repeated acronym definitions, you can define them in [`_data/abbr.yml`](https://github.com/HugoGiraudel/SJSJ/blob/gh-pages/_data/abbr.yml). Jekyll will automatically convert them all in the content.
+There are a lot of abbreviations repeated throughout the list of entries. To avoid cluttering the content with repeated acronym definitions, you can define them in [`_data/abbr.yml`](https://github.com/KittyGiraudel/SJSJ/blob/gh-pages/_data/abbr.yml). Jekyll will automatically convert them all in the content.
 
 For instance, adding the `CLI` abbreviations would look like this:
 

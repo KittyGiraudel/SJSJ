@@ -30,7 +30,7 @@ A bunch of smart people have built projects around Simplified JavaScript Jargon.
 
 ## SJSJ data crawler
 
-The [GitHub repository](https://github.com/HugoGiraudel/SJSJ) contains a tiny Node.js script to export all entries as a JSON file.
+The [GitHub repository](https://github.com/KittyGiraudel/SJSJ) contains a tiny Node.js script to export all entries as a JSON file.
 
 To use it, clone the repository and run:
 
