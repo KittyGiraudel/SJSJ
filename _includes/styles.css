@@ -197,6 +197,7 @@ pre {
   background-color: #eb5424;
   color: white;
   display: flex;
+  align-items: center;
   border: 0;
   padding: 0 15px;
   cursor: pointer;
